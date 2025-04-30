@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fire Detection Advisory</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        #result { margin-top: 20px; }
+        img { max-width: 300px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h2>🔥 Fire Image Analyzer</h2>
+    <form id="upload-form">
+        <input type="file" id="image" accept="image/*" required>
+        <button type="submit">Analyze</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("upload-form").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const fileInput = document.getElementById("image");
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            const formData = new FormData();
+            formData.append("file", file);
+
+            document.getElementById("result").innerHTML = "⏳ Processing...";
+
+            const res = await fetch("/analyze", {
+                method: "POST",
+                body: formData
+            });
+
+            const data = await res.json();
+
+            if (res.ok) {
+                document.getElementById("result").innerHTML = `
+                    <p><strong>Caption:</strong> ${data.caption}</p>
+                    <p><strong>Advice:</strong> ${data.advice}</p>
+                    <p><strong>Device:</strong> ${data.device}</p>
+                    <p><strong>Time (BLIP):</strong> ${data.times.blip}s</p>
+                    <p><strong>Time (Phi2):</strong> ${data.times.phi}s</p>
+                    <img src="${URL.createObjectURL(file)}">
+                `;
+            } else {
+                document.getElementById("result").innerHTML = `<p style="color:red;">Error: ${data.error}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
