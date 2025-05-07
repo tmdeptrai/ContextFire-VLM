@@ -1,0 +1,801 @@
+context,label
+Cooking using a grill,Controlled fire
+Fire detected near the vehicle,Dangerous fire
+A person working on a laptop,No fire
+A classroom with students,No fire
+Fire on the wall,Dangerous fire
+Uncontrolled fire spreading in the trash bin,Dangerous fire
+Fire detected near the trash bin,Dangerous fire
+A snowy mountain,No fire
+Museum interior,No fire
+Fire on a match stick during a celebration,Controlled fire
+Fire on a birthday cake during a celebration,Controlled fire
+Fire on a match stick during a celebration,Controlled fire
+Fire detected near the vehicle,Dangerous fire
+Children blowing out a stove,Controlled fire
+Emergency in the wall due to fire,Dangerous fire
+A street market,No fire
+Fire destroying property in the vehicle,Dangerous fire
+Fire burning through the curtains,Dangerous fire
+Children blowing out a bonfire,Controlled fire
+Smoke and fire seen in the ceiling,Dangerous fire
+Outdoor evening with a stove,Controlled fire
+A candle glowing at night,Controlled fire
+Fire burning through the vehicle,Dangerous fire
+Uncontrolled fire spreading in the wall,Dangerous fire
+Fire burning through the gas station,Dangerous fire
+Fire on a bonfire during a celebration,Controlled fire
+Children blowing out a grill,Controlled fire
+People escaping a fire in the trash bin,Dangerous fire
+Children blowing out a candle,Controlled fire
+Fire on a fireplace during a celebration,Controlled fire
+Fire detected near the forest,Dangerous fire
+Explosions caused by fire in the gas station,Dangerous fire
+Uncontrolled fire spreading in the ceiling,Dangerous fire
+Emergency in the kitchen due to fire,Dangerous fire
+Outdoor evening with a birthday cake,Controlled fire
+Fire destroying property in the forest,Dangerous fire
+Fire detected near the wall,Dangerous fire
+Fire detected near the office,Dangerous fire
+A fireplace glowing at night,Controlled fire
+Fire inside a fireplace in a home,Controlled fire
+Children reading books,No fire
+Cooking using a lantern,Controlled fire
+Outdoor evening with a bonfire,Controlled fire
+Smoke and fire seen in the ceiling,Dangerous fire
+People escaping a fire in the gas station,Dangerous fire
+People escaping a fire in the forest,Dangerous fire
+A peaceful beach,No fire
+A cozy room with a candle,Controlled fire
+Fire inside a birthday cake in a home,Controlled fire
+Fire detected near the ceiling,Dangerous fire
+Fire inside a oil lamp in a home,Controlled fire
+Cooking using a campfire,Controlled fire
+Fire burning through the kitchen,Dangerous fire
+Large flames engulfing the bed,Dangerous fire
+Large flames engulfing the curtains,Dangerous fire
+Emergency in the curtains due to fire,Dangerous fire
+A cozy room with a match stick,Controlled fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+A classroom with students,No fire
+Cooking using a campfire,Controlled fire
+Fire destroying property in the roof,Dangerous fire
+Fire detected near the kitchen,Dangerous fire
+Fire detected near the garage,Dangerous fire
+Fire inside a fireplace in a home,Controlled fire
+Fire on the gas station,Dangerous fire
+Fire inside a oil lamp in a home,Controlled fire
+Fire burning through the trash bin,Dangerous fire
+A lantern is lit in the dark,Controlled fire
+Smoke and fire seen in the wall,Dangerous fire
+Outdoor evening with a stove,Controlled fire
+Explosions caused by fire in the gas station,Dangerous fire
+A classroom with students,No fire
+Fire used for warmth in a oil lamp,Controlled fire
+Uncontrolled fire spreading in the office,Dangerous fire
+A oil lamp glowing at night,Controlled fire
+Large flames engulfing the forest,Dangerous fire
+A stove is lit in the dark,Controlled fire
+Empty hallway,No fire
+Fire burning through the forest,Dangerous fire
+Museum interior,No fire
+A peaceful beach,No fire
+A park in spring,No fire
+Crowded mall,No fire
+Empty hallway,No fire
+Cooking using a lantern,Controlled fire
+Fire burning in a birthday cake indoors,Controlled fire
+Fire detected near the curtains,Dangerous fire
+A oil lamp is lit in the dark,Controlled fire
+A person working on a laptop,No fire
+Morning traffic,No fire
+People escaping a fire in the forest,Dangerous fire
+Fire detected near the roof,Dangerous fire
+Crowded mall,No fire
+Fire burning in a campfire indoors,Controlled fire
+A street market,No fire
+A peaceful beach,No fire
+Emergency in the garage due to fire,Dangerous fire
+Uncontrolled fire spreading in the ceiling,Dangerous fire
+People escaping a fire in the curtains,Dangerous fire
+Fire inside a lantern in a home,Controlled fire
+Children blowing out a campfire,Controlled fire
+A cozy room with a stove,Controlled fire
+Fire on a grill during a celebration,Controlled fire
+Smoke and fire seen in the forest,Dangerous fire
+Large flames engulfing the wall,Dangerous fire
+Fire burning through the trash bin,Dangerous fire
+Fire inside a birthday cake in a home,Controlled fire
+Fire burning in a candle indoors,Controlled fire
+Fire detected near the kitchen,Dangerous fire
+A park in spring,No fire
+Fire used for warmth in a candle,Controlled fire
+Fire destroying property in the ceiling,Dangerous fire
+Crowded mall,No fire
+Fire burning in a lantern indoors,Controlled fire
+Fire burning through the curtains,Dangerous fire
+People escaping a fire in the forest,Dangerous fire
+People escaping a fire in the bed,Dangerous fire
+Smoke and fire seen in the ceiling,Dangerous fire
+A cozy room with a grill,Controlled fire
+Sunset over the ocean,No fire
+Large flames engulfing the wall,Dangerous fire
+Fire destroying property in the office,Dangerous fire
+Fire on a birthday cake during a celebration,Controlled fire
+A closed restaurant,No fire
+Fire on the living room,Dangerous fire
+Emergency in the office due to fire,Dangerous fire
+Fire detected near the gas station,Dangerous fire
+Fire burning in a oil lamp indoors,Controlled fire
+Fire on the ceiling,Dangerous fire
+A closed restaurant,No fire
+A birthday cake is lit in the dark,Controlled fire
+Emergency in the bed due to fire,Dangerous fire
+Fire burning through the ceiling,Dangerous fire
+Fire burning in a lantern indoors,Controlled fire
+Fire burning in a birthday cake indoors,Controlled fire
+Fire destroying property in the kitchen,Dangerous fire
+A match stick is lit in the dark,Controlled fire
+Fire on a lantern during a celebration,Controlled fire
+Explosions caused by fire in the gas station,Dangerous fire
+Explosions caused by fire in the forest,Dangerous fire
+Fire on the curtains,Dangerous fire
+Fire detected near the living room,Dangerous fire
+Explosions caused by fire in the living room,Dangerous fire
+A cozy room with a grill,Controlled fire
+Fire destroying property in the office,Dangerous fire
+Fire inside a fireplace in a home,Controlled fire
+Fire on the kitchen,Dangerous fire
+Fire burning through the vehicle,Dangerous fire
+Fire burning through the office,Dangerous fire
+Uncontrolled fire spreading in the gas station,Dangerous fire
+Fire burning in a grill indoors,Controlled fire
+Large flames engulfing the wall,Dangerous fire
+Emergency in the roof due to fire,Dangerous fire
+Emergency in the vehicle due to fire,Dangerous fire
+A park in spring,No fire
+A dog playing in the yard,No fire
+Explosions caused by fire in the trash bin,Dangerous fire
+A dog playing in the yard,No fire
+Fire destroying property in the office,Dangerous fire
+Outdoor evening with a stove,Controlled fire
+Explosions caused by fire in the living room,Dangerous fire
+Smoke and fire seen in the bed,Dangerous fire
+Fire inside a grill in a home,Controlled fire
+Smoke and fire seen in the curtains,Dangerous fire
+People escaping a fire in the curtains,Dangerous fire
+Cooking using a oil lamp,Controlled fire
+Emergency in the trash bin due to fire,Dangerous fire
+A cozy room with a campfire,Controlled fire
+A closed restaurant,No fire
+A fireplace is lit in the dark,Controlled fire
+Explosions caused by fire in the roof,Dangerous fire
+Children blowing out a candle,Controlled fire
+Smoke and fire seen in the wall,Dangerous fire
+Uncontrolled fire spreading in the forest,Dangerous fire
+Uncontrolled fire spreading in the vehicle,Dangerous fire
+Explosions caused by fire in the kitchen,Dangerous fire
+A peaceful beach,No fire
+Fire on a oil lamp during a celebration,Controlled fire
+Smoke and fire seen in the office,Dangerous fire
+Children blowing out a grill,Controlled fire
+Outdoor evening with a campfire,Controlled fire
+Emergency in the trash bin due to fire,Dangerous fire
+Fire on the trash bin,Dangerous fire
+Fire used for warmth in a stove,Controlled fire
+Children blowing out a fireplace,Controlled fire
+A birthday cake is lit in the dark,Controlled fire
+Cooking using a stove,Controlled fire
+Uncontrolled fire spreading in the kitchen,Dangerous fire
+Explosions caused by fire in the trash bin,Dangerous fire
+Cooking using a stove,Controlled fire
+Fire burning through the trash bin,Dangerous fire
+A snowy mountain,No fire
+Empty hallway,No fire
+Fire detected near the kitchen,Dangerous fire
+Outdoor evening with a birthday cake,Controlled fire
+Uncontrolled fire spreading in the wall,Dangerous fire
+Fire detected near the gas station,Dangerous fire
+Fire burning through the garage,Dangerous fire
+Fire burning in a fireplace indoors,Controlled fire
+Explosions caused by fire in the office,Dangerous fire
+A cozy room with a birthday cake,Controlled fire
+Outdoor evening with a lantern,Controlled fire
+Fire burning through the curtains,Dangerous fire
+Explosions caused by fire in the wall,Dangerous fire
+Uncontrolled fire spreading in the roof,Dangerous fire
+Large flames engulfing the kitchen,Dangerous fire
+People escaping a fire in the roof,Dangerous fire
+Bus station,No fire
+A park in spring,No fire
+Fire on the curtains,Dangerous fire
+A cozy room with a match stick,Controlled fire
+Morning traffic,No fire
+Morning traffic,No fire
+Fire on a fireplace during a celebration,Controlled fire
+Fire inside a candle in a home,Controlled fire
+Fire on a stove during a celebration,Controlled fire
+Crowded mall,No fire
+Fire detected near the living room,Dangerous fire
+Emergency in the curtains due to fire,Dangerous fire
+A candle is lit in the dark,Controlled fire
+Fire used for warmth in a fireplace,Controlled fire
+Children blowing out a oil lamp,Controlled fire
+Outdoor evening with a lantern,Controlled fire
+A grill glowing at night,Controlled fire
+Bus station,No fire
+Emergency in the curtains due to fire,Dangerous fire
+Fire used for warmth in a campfire,Controlled fire
+Explosions caused by fire in the office,Dangerous fire
+A campfire glowing at night,Controlled fire
+Fire burning in a campfire indoors,Controlled fire
+Cooking using a match stick,Controlled fire
+Cooking using a grill,Controlled fire
+Uncontrolled fire spreading in the living room,Dangerous fire
+Morning traffic,No fire
+Cooking using a grill,Controlled fire
+A park in spring,No fire
+Bus station,No fire
+Fire destroying property in the garage,Dangerous fire
+Fire destroying property in the living room,Dangerous fire
+Children blowing out a bonfire,Controlled fire
+A fireplace glowing at night,Controlled fire
+Fire detected near the garage,Dangerous fire
+Fire inside a campfire in a home,Controlled fire
+Children blowing out a bonfire,Controlled fire
+Bus station,No fire
+Fire burning in a campfire indoors,Controlled fire
+Fire detected near the curtains,Dangerous fire
+Fire used for warmth in a grill,Controlled fire
+Children blowing out a fireplace,Controlled fire
+A campfire is lit in the dark,Controlled fire
+People escaping a fire in the office,Dangerous fire
+Cooking using a birthday cake,Controlled fire
+People escaping a fire in the curtains,Dangerous fire
+Outdoor evening with a birthday cake,Controlled fire
+Cooking using a grill,Controlled fire
+A closed restaurant,No fire
+Emergency in the garage due to fire,Dangerous fire
+People escaping a fire in the roof,Dangerous fire
+Children reading books,No fire
+Cooking using a match stick,Controlled fire
+A cozy room with a match stick,Controlled fire
+Large flames engulfing the garage,Dangerous fire
+Smoke and fire seen in the vehicle,Dangerous fire
+Cooking using a stove,Controlled fire
+Fire used for warmth in a grill,Controlled fire
+Fire destroying property in the roof,Dangerous fire
+Children blowing out a lantern,Controlled fire
+Smoke and fire seen in the kitchen,Dangerous fire
+Fire inside a oil lamp in a home,Controlled fire
+Smoke and fire seen in the roof,Dangerous fire
+Fire burning through the kitchen,Dangerous fire
+A cozy room with a birthday cake,Controlled fire
+Children blowing out a oil lamp,Controlled fire
+Explosions caused by fire in the forest,Dangerous fire
+Fire on the living room,Dangerous fire
+Cooking using a campfire,Controlled fire
+Fire burning in a fireplace indoors,Controlled fire
+Smoke and fire seen in the forest,Dangerous fire
+Emergency in the living room due to fire,Dangerous fire
+A stove is lit in the dark,Controlled fire
+A snowy mountain,No fire
+A peaceful beach,No fire
+Fire detected near the bed,Dangerous fire
+Fire on the ceiling,Dangerous fire
+Cooking using a campfire,Controlled fire
+Busy airport,No fire
+Fire detected near the garage,Dangerous fire
+Bus station,No fire
+A snowy mountain,No fire
+People escaping a fire in the garage,Dangerous fire
+A snowy mountain,No fire
+Fire used for warmth in a candle,Controlled fire
+A oil lamp glowing at night,Controlled fire
+A bonfire is lit in the dark,Controlled fire
+Children blowing out a fireplace,Controlled fire
+Fire destroying property in the office,Dangerous fire
+Emergency in the office due to fire,Dangerous fire
+Sunset over the ocean,No fire
+People escaping a fire in the wall,Dangerous fire
+Fire burning through the gas station,Dangerous fire
+A park in spring,No fire
+Fire burning in a stove indoors,Controlled fire
+Outdoor evening with a stove,Controlled fire
+Children blowing out a candle,Controlled fire
+A train arriving,No fire
+Cooking using a birthday cake,Controlled fire
+A campfire is lit in the dark,Controlled fire
+Fire used for warmth in a lantern,Controlled fire
+A house in Paris,No fire
+People escaping a fire in the living room,Dangerous fire
+Outdoor evening with a oil lamp,Controlled fire
+Explosions caused by fire in the ceiling,Dangerous fire
+A fireplace is lit in the dark,Controlled fire
+Fire used for warmth in a lantern,Controlled fire
+Uncontrolled fire spreading in the trash bin,Dangerous fire
+Emergency in the curtains due to fire,Dangerous fire
+Busy airport,No fire
+A bonfire is lit in the dark,Controlled fire
+Fire destroying property in the trash bin,Dangerous fire
+Fire on the gas station,Dangerous fire
+Cooking using a oil lamp,Controlled fire
+Uncontrolled fire spreading in the living room,Dangerous fire
+People escaping a fire in the roof,Dangerous fire
+Empty hallway,No fire
+Emergency in the vehicle due to fire,Dangerous fire
+Emergency in the ceiling due to fire,Dangerous fire
+Cooking using a stove,Controlled fire
+Fire detected near the garage,Dangerous fire
+Uncontrolled fire spreading in the office,Dangerous fire
+Emergency in the trash bin due to fire,Dangerous fire
+Fire on the ceiling,Dangerous fire
+Fire on the vehicle,Dangerous fire
+Fire burning through the trash bin,Dangerous fire
+A closed restaurant,No fire
+Fire detected near the gas station,Dangerous fire
+Cooking using a birthday cake,Controlled fire
+Children blowing out a match stick,Controlled fire
+Uncontrolled fire spreading in the office,Dangerous fire
+Fire burning in a bonfire indoors,Controlled fire
+Fire destroying property in the office,Dangerous fire
+Fire destroying property in the bed,Dangerous fire
+Explosions caused by fire in the vehicle,Dangerous fire
+A cozy room with a birthday cake,Controlled fire
+Fire used for warmth in a birthday cake,Controlled fire
+A peaceful beach,No fire
+Fire burning in a fireplace indoors,Controlled fire
+Fire destroying property in the roof,Dangerous fire
+Fire destroying property in the curtains,Dangerous fire
+A person working on a laptop,No fire
+Fire burning through the forest,Dangerous fire
+People escaping a fire in the trash bin,Dangerous fire
+Fire destroying property in the office,Dangerous fire
+A match stick glowing at night,Controlled fire
+A peaceful beach,No fire
+Fire used for warmth in a grill,Controlled fire
+Outdoor evening with a stove,Controlled fire
+Fire burning in a lantern indoors,Controlled fire
+Uncontrolled fire spreading in the office,Dangerous fire
+Fire inside a oil lamp in a home,Controlled fire
+Crowded mall,No fire
+Smoke and fire seen in the curtains,Dangerous fire
+Bus station,No fire
+Crowded mall,No fire
+Children reading books,No fire
+People walking in the city,No fire
+Fire destroying property in the ceiling,Dangerous fire
+Large flames engulfing the kitchen,Dangerous fire
+Children reading books,No fire
+Dark alley,No fire
+Explosions caused by fire in the vehicle,Dangerous fire
+Cooking using a oil lamp,Controlled fire
+Fire inside a birthday cake in a home,Controlled fire
+Outdoor evening with a lantern,Controlled fire
+A park in spring,No fire
+A person working on a laptop,No fire
+Fire used for warmth in a match stick,Controlled fire
+Fire inside a lantern in a home,Controlled fire
+Explosions caused by fire in the wall,Dangerous fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+Empty hallway,No fire
+Outdoor evening with a oil lamp,Controlled fire
+Fire on a match stick during a celebration,Controlled fire
+Fire used for warmth in a campfire,Controlled fire
+Uncontrolled fire spreading in the trash bin,Dangerous fire
+Fire on a bonfire during a celebration,Controlled fire
+Fire destroying property in the gas station,Dangerous fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+A cozy room with a stove,Controlled fire
+Explosions caused by fire in the forest,Dangerous fire
+Cooking using a lantern,Controlled fire
+Emergency in the trash bin due to fire,Dangerous fire
+A classroom with students,No fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+A classroom with students,No fire
+Explosions caused by fire in the ceiling,Dangerous fire
+Empty hallway,No fire
+Smoke and fire seen in the trash bin,Dangerous fire
+Large flames engulfing the vehicle,Dangerous fire
+Cooking using a fireplace,Controlled fire
+Large flames engulfing the ceiling,Dangerous fire
+Fire inside a match stick in a home,Controlled fire
+Cooking using a match stick,Controlled fire
+Cooking using a bonfire,Controlled fire
+Large flames engulfing the bed,Dangerous fire
+Crowded mall,No fire
+Cooking using a candle,Controlled fire
+Smoke and fire seen in the forest,Dangerous fire
+Fire on the trash bin,Dangerous fire
+A park in spring,No fire
+Fire destroying property in the roof,Dangerous fire
+Empty hallway,No fire
+Smoke and fire seen in the living room,Dangerous fire
+Fire inside a birthday cake in a home,Controlled fire
+Crowded mall,No fire
+Fire on the wall,Dangerous fire
+A park in spring,No fire
+Fire inside a birthday cake in a home,Controlled fire
+Large flames engulfing the vehicle,Dangerous fire
+A park in spring,No fire
+Fire destroying property in the curtains,Dangerous fire
+A street market,No fire
+A bonfire is lit in the dark,Controlled fire
+Uncontrolled fire spreading in the bed,Dangerous fire
+Large flames engulfing the trash bin,Dangerous fire
+Fire used for warmth in a stove,Controlled fire
+Fire on a lantern during a celebration,Controlled fire
+Fire burning in a fireplace indoors,Controlled fire
+People walking in the city,No fire
+Emergency in the gas station due to fire,Dangerous fire
+Fire burning through the bed,Dangerous fire
+Fire used for warmth in a stove,Controlled fire
+A candle glowing at night,Controlled fire
+Fire inside a campfire in a home,Controlled fire
+Fire burning in a grill indoors,Controlled fire
+Explosions caused by fire in the garage,Dangerous fire
+A cozy room with a stove,Controlled fire
+Fire on the office,Dangerous fire
+A grill glowing at night,Controlled fire
+Fire burning in a match stick indoors,Controlled fire
+Smoke and fire seen in the garage,Dangerous fire
+Fire burning in a campfire indoors,Controlled fire
+A snowy mountain,No fire
+A street market,No fire
+Busy airport,No fire
+Large flames engulfing the gas station,Dangerous fire
+A street market,No fire
+Fire on the garage,Dangerous fire
+A match stick is lit in the dark,Controlled fire
+A grill glowing at night,Controlled fire
+A stove is lit in the dark,Controlled fire
+Fire detected near the garage,Dangerous fire
+Fire on the curtains,Dangerous fire
+Fire destroying property in the roof,Dangerous fire
+Fire on a oil lamp during a celebration,Controlled fire
+Fire destroying property in the forest,Dangerous fire
+Fire on a grill during a celebration,Controlled fire
+Fire burning through the bed,Dangerous fire
+Smoke and fire seen in the forest,Dangerous fire
+Fire burning through the trash bin,Dangerous fire
+Fire destroying property in the gas station,Dangerous fire
+Empty hallway,No fire
+Large flames engulfing the vehicle,Dangerous fire
+Emergency in the living room due to fire,Dangerous fire
+Large flames engulfing the living room,Dangerous fire
+Children blowing out a birthday cake,Controlled fire
+Fire burning in a birthday cake indoors,Controlled fire
+A dog playing in the yard,No fire
+Children blowing out a oil lamp,Controlled fire
+Crowded mall,No fire
+Explosions caused by fire in the living room,Dangerous fire
+A oil lamp is lit in the dark,Controlled fire
+Outdoor evening with a campfire,Controlled fire
+Fire burning in a candle indoors,Controlled fire
+Fire burning through the bed,Dangerous fire
+People escaping a fire in the living room,Dangerous fire
+Fire burning through the gas station,Dangerous fire
+A cozy room with a match stick,Controlled fire
+A fireplace is lit in the dark,Controlled fire
+Museum interior,No fire
+Outdoor evening with a campfire,Controlled fire
+Children reading books,No fire
+Fire used for warmth in a campfire,Controlled fire
+A closed restaurant,No fire
+A person working on a laptop,No fire
+Children blowing out a oil lamp,Controlled fire
+A campfire is lit in the dark,Controlled fire
+Large flames engulfing the trash bin,Dangerous fire
+Fire inside a oil lamp in a home,Controlled fire
+Uncontrolled fire spreading in the forest,Dangerous fire
+A closed restaurant,No fire
+Fire inside a campfire in a home,Controlled fire
+Cooking using a fireplace,Controlled fire
+Fire inside a fireplace in a home,Controlled fire
+Crowded mall,No fire
+A grill is lit in the dark,Controlled fire
+A peaceful beach,No fire
+Fire inside a fireplace in a home,Controlled fire
+Fire used for warmth in a lantern,Controlled fire
+Outdoor evening with a candle,Controlled fire
+Fire used for warmth in a candle,Controlled fire
+Uncontrolled fire spreading in the trash bin,Dangerous fire
+Explosions caused by fire in the living room,Dangerous fire
+A dog playing in the yard,No fire
+Fire on the living room,Dangerous fire
+Children blowing out a birthday cake,Controlled fire
+Uncontrolled fire spreading in the bed,Dangerous fire
+Smoke and fire seen in the roof,Dangerous fire
+Bus station,No fire
+Smoke and fire seen in the roof,Dangerous fire
+A snowy mountain,No fire
+Fire inside a birthday cake in a home,Controlled fire
+A cozy room with a stove,Controlled fire
+Cooking using a bonfire,Controlled fire
+A birthday cake is lit in the dark,Controlled fire
+Fire inside a oil lamp in a home,Controlled fire
+Emergency in the garage due to fire,Dangerous fire
+Sunset over the ocean,No fire
+Children blowing out a stove,Controlled fire
+Fire on a campfire during a celebration,Controlled fire
+A lantern is lit in the dark,Controlled fire
+A cozy room with a stove,Controlled fire
+Crowded mall,No fire
+Bus station,No fire
+Fire destroying property in the gas station,Dangerous fire
+Cooking using a birthday cake,Controlled fire
+Morning traffic,No fire
+Fire inside a grill in a home,Controlled fire
+A person working on a laptop,No fire
+Fire burning through the garage,Dangerous fire
+A match stick is lit in the dark,Controlled fire
+People escaping a fire in the bed,Dangerous fire
+Fire inside a stove in a home,Controlled fire
+Cooking using a lantern,Controlled fire
+Fire on a bonfire during a celebration,Controlled fire
+Uncontrolled fire spreading in the curtains,Dangerous fire
+Fire burning in a fireplace indoors,Controlled fire
+Outdoor evening with a bonfire,Controlled fire
+Fire on the curtains,Dangerous fire
+Bus station,No fire
+Cooking using a grill,Controlled fire
+Fire on a fireplace during a celebration,Controlled fire
+Fire on a bonfire during a celebration,Controlled fire
+Fire on a campfire during a celebration,Controlled fire
+A grill is lit in the dark,Controlled fire
+Fire inside a oil lamp in a home,Controlled fire
+People escaping a fire in the forest,Dangerous fire
+Large flames engulfing the forest,Dangerous fire
+Bus station,No fire
+A birthday cake is lit in the dark,Controlled fire
+A oil lamp is lit in the dark,Controlled fire
+A lantern glowing at night,Controlled fire
+A park in spring,No fire
+Uncontrolled fire spreading in the office,Dangerous fire
+Busy airport,No fire
+Cooking using a campfire,Controlled fire
+Smoke and fire seen in the ceiling,Dangerous fire
+Crowded mall,No fire
+Emergency in the curtains due to fire,Dangerous fire
+Large flames engulfing the kitchen,Dangerous fire
+A cozy room with a bonfire,Controlled fire
+People escaping a fire in the trash bin,Dangerous fire
+Large flames engulfing the kitchen,Dangerous fire
+Fire on the garage,Dangerous fire
+Fire burning in a candle indoors,Controlled fire
+Outdoor evening with a bonfire,Controlled fire
+Fire used for warmth in a grill,Controlled fire
+People escaping a fire in the kitchen,Dangerous fire
+Fire used for warmth in a oil lamp,Controlled fire
+A street market,No fire
+People walking in the city,No fire
+A train arriving,No fire
+A closed restaurant,No fire
+Large flames engulfing the kitchen,Dangerous fire
+Fire destroying property in the forest,Dangerous fire
+A bonfire is lit in the dark,Controlled fire
+A campfire is lit in the dark,Controlled fire
+A house in Paris,No fire
+A bonfire glowing at night,Controlled fire
+Cooking using a bonfire,Controlled fire
+Crowded mall,No fire
+A closed restaurant,No fire
+A snowy mountain,No fire
+A closed restaurant,No fire
+A dog playing in the yard,No fire
+Outdoor evening with a stove,Controlled fire
+A oil lamp is lit in the dark,Controlled fire
+Smoke and fire seen in the kitchen,Dangerous fire
+Fire detected near the living room,Dangerous fire
+Crowded mall,No fire
+Cooking using a birthday cake,Controlled fire
+Morning traffic,No fire
+A person working on a laptop,No fire
+Children blowing out a grill,Controlled fire
+Emergency in the kitchen due to fire,Dangerous fire
+Fire burning through the wall,Dangerous fire
+Fire used for warmth in a birthday cake,Controlled fire
+Fire detected near the trash bin,Dangerous fire
+Fire used for warmth in a bonfire,Controlled fire
+Fire destroying property in the roof,Dangerous fire
+Fire burning in a candle indoors,Controlled fire
+A cozy room with a bonfire,Controlled fire
+Fire burning in a birthday cake indoors,Controlled fire
+Cooking using a candle,Controlled fire
+Fire burning in a fireplace indoors,Controlled fire
+Uncontrolled fire spreading in the forest,Dangerous fire
+Fire inside a match stick in a home,Controlled fire
+Fire used for warmth in a fireplace,Controlled fire
+A dog playing in the yard,No fire
+Uncontrolled fire spreading in the bed,Dangerous fire
+Fire on a grill during a celebration,Controlled fire
+Cooking using a campfire,Controlled fire
+Smoke and fire seen in the gas station,Dangerous fire
+A candle glowing at night,Controlled fire
+A fireplace is lit in the dark,Controlled fire
+Smoke and fire seen in the bed,Dangerous fire
+People escaping a fire in the vehicle,Dangerous fire
+Cooking using a fireplace,Controlled fire
+Uncontrolled fire spreading in the gas station,Dangerous fire
+Outdoor evening with a grill,Controlled fire
+Dark alley,No fire
+Explosions caused by fire in the garage,Dangerous fire
+Cooking using a birthday cake,Controlled fire
+People walking in the city,No fire
+Fire on the roof,Dangerous fire
+Smoke and fire seen in the wall,Dangerous fire
+Smoke and fire seen in the curtains,Dangerous fire
+A classroom with students,No fire
+Uncontrolled fire spreading in the vehicle,Dangerous fire
+Smoke and fire seen in the living room,Dangerous fire
+Uncontrolled fire spreading in the office,Dangerous fire
+Fire burning in a birthday cake indoors,Controlled fire
+Fire detected near the roof,Dangerous fire
+Cooking using a birthday cake,Controlled fire
+Cooking using a oil lamp,Controlled fire
+Emergency in the living room due to fire,Dangerous fire
+Fire used for warmth in a lantern,Controlled fire
+Fire burning in a fireplace indoors,Controlled fire
+Fire on a campfire during a celebration,Controlled fire
+Fire used for warmth in a stove,Controlled fire
+Cooking using a campfire,Controlled fire
+Fire burning through the roof,Dangerous fire
+Fire used for warmth in a match stick,Controlled fire
+A stove glowing at night,Controlled fire
+Crowded mall,No fire
+Museum interior,No fire
+Fire burning through the gas station,Dangerous fire
+Explosions caused by fire in the office,Dangerous fire
+Explosions caused by fire in the roof,Dangerous fire
+Uncontrolled fire spreading in the curtains,Dangerous fire
+Uncontrolled fire spreading in the curtains,Dangerous fire
+Empty hallway,No fire
+Fire burning through the bed,Dangerous fire
+Fire used for warmth in a bonfire,Controlled fire
+Uncontrolled fire spreading in the bed,Dangerous fire
+Smoke and fire seen in the trash bin,Dangerous fire
+Fire inside a campfire in a home,Controlled fire
+Museum interior,No fire
+A fireplace glowing at night,Controlled fire
+Fire used for warmth in a campfire,Controlled fire
+Emergency in the wall due to fire,Dangerous fire
+Fire burning in a candle indoors,Controlled fire
+Busy airport,No fire
+A cozy room with a campfire,Controlled fire
+Emergency in the trash bin due to fire,Dangerous fire
+A person working on a laptop,No fire
+Fire burning through the roof,Dangerous fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+Cooking using a oil lamp,Controlled fire
+Fire burning in a fireplace indoors,Controlled fire
+Sunset over the ocean,No fire
+Explosions caused by fire in the vehicle,Dangerous fire
+Bus station,No fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+Smoke and fire seen in the forest,Dangerous fire
+Large flames engulfing the ceiling,Dangerous fire
+Fire used for warmth in a stove,Controlled fire
+A train arriving,No fire
+Emergency in the wall due to fire,Dangerous fire
+Fire on a birthday cake during a celebration,Controlled fire
+Fire used for warmth in a campfire,Controlled fire
+Uncontrolled fire spreading in the gas station,Dangerous fire
+Emergency in the office due to fire,Dangerous fire
+Cooking using a oil lamp,Controlled fire
+Outdoor evening with a fireplace,Controlled fire
+A candle is lit in the dark,Controlled fire
+Sunset over the ocean,No fire
+Emergency in the curtains due to fire,Dangerous fire
+Fire destroying property in the living room,Dangerous fire
+Children reading books,No fire
+A peaceful beach,No fire
+A park in spring,No fire
+Children blowing out a fireplace,Controlled fire
+A person working on a laptop,No fire
+Children blowing out a fireplace,Controlled fire
+Fire used for warmth in a stove,Controlled fire
+Smoke and fire seen in the trash bin,Dangerous fire
+Explosions caused by fire in the living room,Dangerous fire
+Cooking using a lantern,Controlled fire
+People escaping a fire in the ceiling,Dangerous fire
+A peaceful beach,No fire
+Fire burning in a candle indoors,Controlled fire
+Busy airport,No fire
+Bus station,No fire
+Fire used for warmth in a lantern,Controlled fire
+Crowded mall,No fire
+Fire burning in a fireplace indoors,Controlled fire
+Children blowing out a campfire,Controlled fire
+A birthday cake glowing at night,Controlled fire
+Fire on the forest,Dangerous fire
+Fire on a grill during a celebration,Controlled fire
+Bus station,No fire
+Fire burning in a match stick indoors,Controlled fire
+Museum interior,No fire
+Fire destroying property in the forest,Dangerous fire
+A lantern is lit in the dark,Controlled fire
+Empty hallway,No fire
+Fire inside a grill in a home,Controlled fire
+Crowded mall,No fire
+A street market,No fire
+A closed restaurant,No fire
+Empty hallway,No fire
+A stove is lit in the dark,Controlled fire
+Outdoor evening with a fireplace,Controlled fire
+A bonfire is lit in the dark,Controlled fire
+Fire burning in a grill indoors,Controlled fire
+Fire detected near the ceiling,Dangerous fire
+Fire destroying property in the garage,Dangerous fire
+People escaping a fire in the vehicle,Dangerous fire
+Fire destroying property in the bed,Dangerous fire
+Cooking using a candle,Controlled fire
+Outdoor evening with a match stick,Controlled fire
+A person working on a laptop,No fire
+Smoke and fire seen in the forest,Dangerous fire
+Cooking using a match stick,Controlled fire
+Fire on the vehicle,Dangerous fire
+Uncontrolled fire spreading in the garage,Dangerous fire
+Fire on a bonfire during a celebration,Controlled fire
+Smoke and fire seen in the office,Dangerous fire
+Outdoor evening with a campfire,Controlled fire
+Explosions caused by fire in the gas station,Dangerous fire
+Fire burning in a oil lamp indoors,Controlled fire
+Empty hallway,No fire
+Smoke and fire seen in the kitchen,Dangerous fire
+Fire inside a stove in a home,Controlled fire
+Uncontrolled fire spreading in the bed,Dangerous fire
+Fire detected near the wall,Dangerous fire
+Smoke and fire seen in the kitchen,Dangerous fire
+A birthday cake is lit in the dark,Controlled fire
+Fire on the wall,Dangerous fire
+Fire on the vehicle,Dangerous fire
+A train arriving,No fire
+Fire on a bonfire during a celebration,Controlled fire
+Fire used for warmth in a oil lamp,Controlled fire
+Outdoor evening with a bonfire,Controlled fire
+Crowded mall,No fire
+Uncontrolled fire spreading in the roof,Dangerous fire
+Fire used for warmth in a match stick,Controlled fire
+Fire on a grill during a celebration,Controlled fire
+A park in spring,No fire
+A cozy room with a bonfire,Controlled fire
+Large flames engulfing the living room,Dangerous fire
+A candle is lit in the dark,Controlled fire
+Emergency in the trash bin due to fire,Dangerous fire
+Fire destroying property in the living room,Dangerous fire
+Bus station,No fire
+Fire burning through the wall,Dangerous fire
+People escaping a fire in the living room,Dangerous fire
+Children blowing out a birthday cake,Controlled fire
+A peaceful beach,No fire
+Fire detected near the gas station,Dangerous fire
+Outdoor evening with a match stick,Controlled fire
+Outdoor evening with a grill,Controlled fire
+Empty hallway,No fire
+Uncontrolled fire spreading in the living room,Dangerous fire
+Children blowing out a bonfire,Controlled fire
+Fire burning through the garage,Dangerous fire
+Explosions caused by fire in the garage,Dangerous fire
+Cooking using a campfire,Controlled fire
+Fire detected near the bed,Dangerous fire
+Children blowing out a birthday cake,Controlled fire
+Fire burning in a lantern indoors,Controlled fire
+Dark alley,No fire
+A cozy room with a campfire,Controlled fire
+Children blowing out a grill,Controlled fire
+Fire on a campfire during a celebration,Controlled fire
+A park in spring,No fire
+Explosions caused by fire in the curtains,Dangerous fire
+Large flames engulfing the curtains,Dangerous fire
+Fire inside a candle in a home,Controlled fire
+Outdoor evening with a campfire,Controlled fire
+Uncontrolled fire spreading in the trash bin,Dangerous fire
+Emergency in the office due to fire,Dangerous fire
+Smoke and fire seen in the roof,Dangerous fire
+A grill glowing at night,Controlled fire
+Fire detected near the vehicle,Dangerous fire
+People escaping a fire in the office,Dangerous fire
+Fire detected near the garage,Dangerous fire
+Fire inside a grill in a home,Controlled fire
+Fire used for warmth in a lantern,Controlled fire
+Emergency in the office due to fire,Dangerous fire
