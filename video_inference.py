@@ -1,72 +1,48 @@
 import cv2
 import time
 import torch
-import torch.nn.functional as F
-from collections import deque
 from PIL import Image
 from transformers import (
-    Blip2Processor,
-    Blip2ForConditionalGeneration,
-    AutoTokenizer,
-    AutoModelForCausalLM,
+    BlipProcessor,
+    BlipForConditionalGeneration,
+    pipeline
 )
 
 # ── 1) Setup ───────────────────────────────────────────────────────────────
 device    = "cuda" if torch.cuda.is_available() else "cpu"
-cache_dir = "./models/blip2"
+cache_dir = "./models/blip"
 
-processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b", cache_dir=cache_dir)
-blip2      = Blip2ForConditionalGeneration.from_pretrained(
-    "Salesforce/blip2-opt-2.7b",
-    load_in_8bit=True, device_map="auto", cache_dir=cache_dir
+# BLIP (faster than BLIP‑2)
+processor = BlipProcessor.from_pretrained(
+    "Salesforce/blip-image-captioning-base",
+    cache_dir=cache_dir
+)
+blip = BlipForConditionalGeneration.from_pretrained(
+    "Salesforce/blip-image-captioning-base",
+    device_map="auto",
+    cache_dir=cache_dir
 )
 
-tokenizer_phi = AutoTokenizer.from_pretrained("microsoft/phi-1_5")
-model_phi     = AutoModelForCausalLM.from_pretrained(
-    "microsoft/phi-1_5", torch_dtype=torch.float16, device_map="auto"
+# Classification pipeline (using your saved 3‑label model)
+clf = pipeline(
+    "text-classification",
+    model="fire-risk-classifier",
+    tokenizer="fire-risk-classifier",
+    device=0 if device == "cuda" else -1,
+    top_k=None      # return scores for all labels
 )
-# ensure pad_token
-if tokenizer_phi.pad_token is None:
-    tokenizer_phi.pad_token = tokenizer_phi.eos_token
-    model_phi.config.pad_token_id = tokenizer_phi.eos_token_id
 
 # ── 2) Helpers ─────────────────────────────────────────────────────────────
 
-def generate_caption(img_pil: Image.Image) -> str:
-    batch   = processor(images=img_pil, return_tensors="pt").to(device)
-    out_ids = blip2.generate(**batch, max_new_tokens=30)
+def generate_caption(img: Image.Image) -> str:
+    batch   = processor(images=img, return_tensors="pt").to(device)
+    out_ids = blip.generate(**batch, max_new_tokens=30)
     return processor.decode(out_ids[0], skip_special_tokens=True).strip()
 
-def sequence_decision_with_probs(captions: list[str]):
-    # build a prompt listing all captions
-    prompt = (
-        "You are a fire safety advisor. Decide if the fire situation is dangerous.\n"
-        "Rule: if the fire is on any object other than a candle, oil lamp, or match stick, answer Yes; otherwise answer No.\n\n"
-    )
-    for i, cap in enumerate(captions, 1):
-        prompt += f"Frame {i}: \"{cap}\"\n"
-    prompt += (
-        "\nQuestion: Based on these frames, is the fire SPREADING? "
-        "Answer with Yes or No.\nAnswer:"
-    )
-
-    toks = tokenizer_phi(prompt, return_tensors="pt", padding=True).to(device)
-    with torch.no_grad():
-        logits = model_phi(input_ids=toks.input_ids, attention_mask=toks.attention_mask).logits
-    next_logits = logits[0, -1, :]
-
-    yes_id = tokenizer_phi.encode(" Yes", add_special_tokens=False)[0]
-    no_id  = tokenizer_phi.encode(" No",  add_special_tokens=False)[0]
-    probs  = F.softmax(next_logits[[yes_id, no_id]], dim=0)
-    p_yes, p_no = probs.tolist()
-    label = "Yes" if p_yes > p_no else "No"
-    return label, p_yes, p_no
-
-# ── 3) VIDEO PROCESSING w/ last sampled caption overlay ─────────────────────
-input_path   = "video1.mp4"
-output_path  = "output_video1.mp4"
-sample_rate  = 15
-window_size  = 10
+# ── 3) Video processing ────────────────────────────────────────────────────
+input_path    = "video1.mp4"
+output_path   = "output_video1.mp4"
+sample_rate   = 15
 
 cap    = cv2.VideoCapture(input_path)
 fps    = cap.get(cv2.CAP_PROP_FPS)
@@ -74,59 +50,70 @@ W      = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 H      = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 writer = cv2.VideoWriter(output_path, cv2.VideoWriter_fourcc(*"mp4v"), fps, (W, H))
 
-buffer      = deque(maxlen=window_size)
-frame_idx   = 0
-last_lbl    = "No"
-last_py     = 0.0
-last_pn     = 1.0
+frame_idx          = 0
+last_caption       = ""
+last_blip_time     = 0.0
+last_clf_label     = ""
+last_clf_time      = 0.0
+last_scores        = {}
 
 while True:
     ret, frame = cap.read()
     if not ret:
         break
 
-    # every Nth frame, update buffer and decision
+    # 1) For each sampled frame, generate caption & classification
     if frame_idx % sample_rate == 0:
-        pil      = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
-        cap_txt  = generate_caption(pil)
-        buffer.append(cap_txt)
+        pil = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
 
-        if len(buffer) == window_size:
-            last_lbl, last_py, last_pn = sequence_decision_with_probs(list(buffer))
+        # BLIP caption timing
+        t0 = time.time()
+        last_caption = generate_caption(pil)
+        last_blip_time = time.time() - t0
 
-    # what to show
-    last_caption = buffer[-1] if buffer else ""
-    line1 = f"Caption: {last_caption}"
-    line2 = f"Fire spreading? {last_lbl}  (Yes: {last_py:.2f}, No: {last_pn:.2f})"
+        # Classification timing
+        t1 = time.time()
+        scores = clf(last_caption)[0]  # list of dicts
+        last_clf_time = time.time() - t1
 
-    # text settings
-    font      = cv2.FONT_HERSHEY_SIMPLEX
-    scale     = 0.6
-    thickness = 1
-    margin    = 5
+        # pick top label & collect all scores
+        last_clf_label = max(scores, key=lambda x: x["score"])["label"]
+        last_scores = {item["label"]: item["score"] for item in scores}
 
-    # measure both lines
-    (w1, h1), _ = cv2.getTextSize(line1, font, scale, thickness)
-    (w2, h2), _ = cv2.getTextSize(line2, font, scale, thickness)
-    box_h       = h1 + h2 + margin * 3
-    box_w       = max(w1, w2) + margin * 2
+    # 2) Annotate current frame
+    line1 = f"Frame: {frame_idx}"
+    line2 = f"Caption: {last_caption}"
+    line3 = f"BLIP time: {last_blip_time:.2f}s"
+    line4 = f"Label: {last_clf_label}"
+    probs_str = ", ".join(f"{lbl}:{score:.2f}" for lbl, score in last_scores.items())
+    line5 = f"Scores: {probs_str}"
+    line6 = f"Clf time: {last_clf_time:.2f}s"
 
-    # draw white background
+    # Calculate box size
+    font, scale, thickness, margin = cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1, 5
+    texts = [line1, line2, line3, line4, line5, line6]
+    sizes = [cv2.getTextSize(txt, font, scale, thickness)[0] for txt in texts]
+    box_h = sum(h for _, h in sizes) + margin * (len(texts) + 1)
+    box_w = max(w for w, _ in sizes) + margin * 2
+
+    # Draw background and text
     cv2.rectangle(frame, (0, 0), (box_w, box_h), (255, 255, 255), -1)
+    y = margin
+    for txt in texts:
+        y += cv2.getTextSize(txt, font, scale, thickness)[0][1]
+        cv2.putText(frame, txt, (margin, y), font, scale, (0, 0, 0), thickness)
+        y += margin
 
-    # draw line1
-    y1 = margin + h1
-    cv2.putText(frame, line1, (margin, y1), font, scale, (0, 0, 0), thickness)
+    # Show processed frame in a window
+    cv2.imshow("Processing", frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
 
-    # draw line2
-    y2 = y1 + margin + h2
-    cv2.putText(frame, line2, (margin, y2), font, scale, (0, 0, 0), thickness)
-
-    # write frame
+    # Write frame to output video
     writer.write(frame)
     frame_idx += 1
 
 cap.release()
 writer.release()
+cv2.destroyAllWindows()
 print(f"✅ Done! Saved annotated video to {output_path}")
-
