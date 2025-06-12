@@ -1,6 +1,10 @@
 pandas
 Pillow
 transformers
+hf_xet
 accelerate
 num2words
-torch==2.5.1+cu121
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu121
