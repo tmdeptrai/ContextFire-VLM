@@ -1,4 +1,3 @@
-# fire-alert-agent
-cool project suggested by Dr. Doan Nhat Quang 
+# Who's that distinguish gentleman on the other side of the mirror?
 
-Image == BLIP ==> Image description == Phi2 ==> Advices / Actions to be taken
+Ah, it's me, master Tran Minh Duong, of course

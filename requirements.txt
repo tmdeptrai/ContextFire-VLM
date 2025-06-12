@@ -1,3 +1,6 @@
+pandas
 Pillow
-torch
 transformers
+accelerate
+num2words
+torch==2.5.1+cu121
