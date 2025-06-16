@@ -35,7 +35,7 @@ def process_image(image_path):
             "Do the following tasks:\n"
             "1: Summarize what you see in the image. Describe the environment, key objects, people, and any signs of fire or smoke.\n"
             "2: Based on your summary, classify the fire situation: "
-            "no fire(e.g., fire alarm, fire distinguisher,..), controlled fire (e.g., fireplace emitting, campfire, cooking, candles, match stick, lighter..) or a dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, couch on fire, bed sheet on fire, spreading fire on furniture..)?\n"
+            "no fire(e.g., fire alarm, fire distinguisher, fireplace with no fire..), controlled fire (e.g., fireplace contains fire, campfire, cooking, candles, match stick, lighter..) or a dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, couch on fire, bed sheet on fire, spreading fire on furniture..)?\n"
             "Return only this JSON format:\n"
             "{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
         )
@@ -61,7 +61,6 @@ def process_image(image_path):
         result = json.loads(json_str)
         label = result['label']
         caption = result['caption']
-        print("Label:", result['label'])
 
         # Calculate inference time
         inference_time = time.time() - start_time
@@ -80,14 +79,13 @@ ground_truth = []
 
 for idx, row in df.iterrows():
     img_path = os.path.join('./',row['image_path'])
-    print(img_path)
     if os.path.exists(img_path):
-        print(f"Processing {img_path}...")
         pred, caption, inf_time = process_image(img_path)
         predictions.append(pred)
         captions.append(caption)
         inference_times.append(inf_time)
         ground_truth.append(row['label'])
+        print(f"Processed {img_path}, label: {pred}")
         if idx % 10 == 0:
             print(f"Processed {idx} images... Average inference time so far: {np.mean(inference_times):.3f}s")
 
@@ -116,19 +114,19 @@ print(f"Max: {np.max(inference_times):.3f}s")
 labels = sorted(list(set(ground_truth)))
 cm = confusion_matrix(ground_truth, predictions, labels=labels)
 
-plt.figure(figsize=(10, 8))
-sns.heatmap(
-    cm,
-    annot=True,
-    fmt='d',
-    cmap='Blues',
-    xticklabels=labels,
-    yticklabels=labels
-)
-plt.title('Confusion Matrix')
-plt.xlabel('Predicted')
-plt.ylabel('True')
-plt.show()
+# plt.figure(figsize=(10, 8))
+# sns.heatmap(
+#     cm,
+#     annot=True,
+#     fmt='d',
+#     cmap='Blues',
+#     xticklabels=labels,
+#     yticklabels=labels
+# )
+# plt.title('Confusion Matrix')
+# plt.xlabel('Predicted')
+# plt.ylabel('True')
+# plt.show()
 
 # Save results to CSV
 results_df = pd.DataFrame({
@@ -140,13 +138,13 @@ results_df = pd.DataFrame({
     'correct': [t == p for t, p in zip(ground_truth, predictions)]
 })
 
-results_df.to_csv('qwen2_vl_2B_results.csv', index=False)
-print("Results saved to qwen_vl_2B_results.csv")
+results_df.to_csv('gemma-3-4b-it.csv', index=False)
+print("Results saved to gemma-3-4b-it.csv")
 
-# Display inference time distribution
-plt.figure(figsize=(10, 6))
-plt.hist(inference_times, bins=30)
-plt.title('Distribution of Inference Times')
-plt.xlabel('Time (seconds)')
-plt.ylabel('Frequency')
-plt.show()
+# # Display inference time distribution
+# plt.figure(figsize=(10, 6))
+# plt.hist(inference_times, bins=30)
+# plt.title('Distribution of Inference Times')
+# plt.xlabel('Time (seconds)')
+# plt.ylabel('Frequency')
+# plt.show()
