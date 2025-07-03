@@ -2,4 +2,5 @@
 model_survey/gemma-3-4b-it-Q4_K_M.gguf
 model_survey/mmproj-model-f16.gguf
 wandb
-qwen2-7b-instruct-trl-sft-serious-this-time
+model_weights
+qwen2-7b-instruct-trl-sft-NEW
