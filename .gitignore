@@ -4,3 +4,5 @@ model_survey/mmproj-model-f16.gguf
 wandb
 model_weights
 qwen2-7b-instruct-trl-sft-NEW
+SYN_FIRE
+FIRENET
