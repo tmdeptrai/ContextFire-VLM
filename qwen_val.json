@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "val_1",
+    "image": "val_1.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a cozy living room at night with a lit fireplace, starry sky visible through the windows, and various decorative items such as books, a lamp, and potted plants.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_2",
+    "image": "val_2.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A person holding a lit candle in a dimly lit room with a vintage television displaying a green screen in the background. The person has dreadlocks and is wearing glasses.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_4",
+    "image": "val_4.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows an aerial view of an industrial area with various structures, including tanks and pipes. There is visible steam or smoke coming from some of the tanks, indicating possible industrial activity or maintenance work.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_5",
+    "image": "val_5.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a scene with a table emitting a large amount of white smoke or vapor. There is a red fire extinguisher nearby, and a green pole with some white substance on it. The setting appears to be outdoors at night, with a building and some furniture in the background.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_6",
+    "image": "val_6.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dimly lit room with a table in the center. On the table, there is a small object emitting smoke. The room has a window with curtains, and there is a light source illuminating part of the room.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_7",
+    "image": "val_7.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a television set on a wooden stand. There is a decorative screen behind the TV and a table with various items including a bottle, a basket of fruits, and a bowl. A red tassel decoration hangs on the wall to the right. The room has large windows allowing natural light to enter.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_8",
+    "image": "val_8.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a television on a stand, a table with various items including a red bottle, a bowl of fruit, and a small plant. There is a glass door leading outside, and a decorative item hanging on the wall. The floor is tiled, and there is a chair in front of the TV.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_9",
+    "image": "val_9.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a rural landscape with dry grass and trees displaying autumn colors. A person is walking along a path in the distance, and there are no visible signs of fire or smoke.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_10",
+    "image": "val_10.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A large container filled with water is being submerged into a pool of water, with a person standing inside it. The container has electronic components inside, and there is a tarp covering the area around the pool.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_11",
+    "image": "val_11.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a bedroom with pink walls, a bookshelf filled with books, a teddy bear, and a framed picture. A bed with a checkered blanket is on fire, with flames visible on the right side.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_12",
+    "image": "val_12.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"Two people sitting around a small, glowing fire pit in front of a modern, illuminated A-frame cabin at night. The cabin is surrounded by snow-covered ground and trees, creating a cozy winter scene.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_13",
+    "image": "val_13.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A gloved hand holding a red button next to a device with a yellow indicator light, possibly an electrical switch or circuit breaker.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_14",
+    "image": "val_14.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dollhouse situated in a forested area near a river. The dollhouse has multiple rooms, including a bedroom with a bed, a living room with furniture, and a kitchen area. The dollhouse appears to be in good condition without any visible signs of fire or smoke.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_15",
+    "image": "val_15.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dimly lit room with a small table against a wall. On the table, there is a lit candle emitting smoke, a plant, and some other small items. A chair is positioned next to the table, and there is a shadow of a plant on the wall.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_16",
+    "image": "val_16.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a serene winter scene with a snow-covered cabin nestled among trees in a mountainous area. The sky is filled with falling snowflakes, and the cabin has a chimney emitting a small plume of smoke, indicating that it is warm inside.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_17",
+    "image": "val_17.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"Two dolls wearing plaid shirts and jeans are standing next to each other, holding lit matches. The background shows a wooden floor and a textured wall.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_18",
+    "image": "val_18.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a snowy landscape with trees covered in snow. In the background, there is a building with a chimney emitting a yellowish smoke, suggesting the presence of a fire inside.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_19",
+    "image": "val_19.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a serene outdoor setting at sunset with a campfire burning in the center. There are two chairs around the fire, a blanket spread out, and a plate of food including cheese, grapes, and bread. A lantern is placed next to one of the chairs, and the sky is painted with hues of orange, pink, and purple.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_20",
+    "image": "val_20.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a snowy winter scene with a wooden cabin covered in snow. The sky is bright, possibly indicating sunrise or sunset, and there are trees in the background. Snowflakes are falling gently, creating a serene atmosphere.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_21",
+    "image": "val_21.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a cozy fireplace scene with stockings hanging above it. The fireplace is lit with a warm, flickering flame, surrounded by Christmas decorations such as lights and garlands. Presents are placed around the base of the fireplace.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_22",
+    "image": "val_22.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dimly lit room with a table in the center. On the table, there is a small object emitting smoke. A bright light source is shining from the right side of the image, casting a beam of light.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_23",
+    "image": "val_23.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a kitchen setting with a person standing near a counter. There is a visible flame or heat source on the right side of the image, which appears to be a grill or fryer. The person seems to be interacting with something on the counter.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_24",
+    "image": "val_24.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A couple is sitting outside a triangular house at night, surrounded by snow. They are holding cups and wrapped in blankets. A small fire pit with a flame is in front of them, and there is a decorated Christmas tree nearby.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_25",
+    "image": "val_25.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a person's hands reaching towards a pile of sticks arranged in a circular pattern, with smoke rising from the center, indicating a controlled fire.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_26",
+    "image": "val_26.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a corner of a room with a white wall and a dark-colored shelf against it. On the shelf, there is a small object that appears to be emitting a bright light, possibly a flashlight or a small lamp. Below the shelf, there are white cabinets with black handles.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_27",
+    "image": "val_27.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a wicker basket containing a wooden incense burner with smoke rising from it. The basket is placed on a wooden floor.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_28",
+    "image": "val_28.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a serene winter scene with a snow-covered forest and a small cabin near a frozen lake. The trees are blanketed in snow, and the sky is clear.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_29",
+    "image": "val_29.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a room with white walls and tiled floors. There is a desk with a chair, a computer setup, and some boxes on the floor. A door is open, revealing another room with similar furnishings. No signs of fire or smoke are visible.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_30",
+    "image": "val_30.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a kitchen counter with various items including a blender, a jar, a scale, and a laptop. The blender has a yellow liquid inside, and there are fruits and vegetables around it. A fire is burning in the background.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_31",
+    "image": "val_31.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a serene nighttime camping scene by a lake. A tent is illuminated from within, surrounded by trees, and a small campfire is lit nearby. A boat is anchored in the calm water, and the sky is dark with stars visible.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_32",
+    "image": "val_32.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A mattress is on fire outdoors, with flames visible on the surface. The mattress is placed on a patch of dirt surrounded by grass and fallen leaves.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_33",
+    "image": "val_33.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a person interacting with a washing machine in a laundromat. The person appears to be adjusting or checking something inside the machine. The environment is a public laundry facility with multiple washing machines lined up.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_34",
+    "image": "val_34.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a serene winter landscape with snow-covered trees and a small house. The sky is clear with some clouds, and there is a chimney emitting white smoke, indicating that the house is warm.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_35",
+    "image": "val_35.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dark room with a small flame visible on the left side, possibly from a fireplace or similar source. The rest of the room is very dark.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_36",
+    "image": "val_36.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A person wearing gloves is sitting next to a blue portable stove with a pot on it, which has a flame coming out of it. The background shows a window and some household items.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_37",
+    "image": "val_37.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A person is walking away from a burning barrel in a dark, industrial setting with smoke rising from the fire.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_38",
+    "image": "val_38.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a room with a concrete floor and walls. On the left side, there is a white air conditioning unit on the floor, which is on fire. The flames are visible, and there is some smoke rising from the unit. The right side of the image shows the same room without the fire.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_39",
+    "image": "val_39.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a white mask with a lit candle inside, placed on a snowy ground surrounded by dry leaves and twigs. The mask appears to be partially buried in the snow.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_40",
+    "image": "val_40.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A mattress is on fire outdoors, with flames visible at the center of the mattress. The mattress is placed on a patch of dirt surrounded by grass and fallen leaves.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_41",
+    "image": "val_41.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A metal box with a digital display is emitting smoke from its top, indicating a possible malfunction or overheating.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_42",
+    "image": "val_42.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small white object with a gray base, possibly a birdhouse, placed on a snowy surface surrounded by scattered leaves and twigs. The object has a small orange flame emerging from a hole in its top.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_43",
+    "image": "val_43.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a controlled fire inside a fireplace, with flames burning wood and a person's hand holding a piece of wood over the fire. The background is slightly blurred, indicating movement.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_44",
+    "image": "val_44.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A person is sitting on the floor holding a blue object, possibly a rope or cable. In front of them is a wooden table with various items including a camera, a small device with wires, and some cables. The room has a bed with a blue blanket and a window showing greenery outside.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_45",
+    "image": "val_45.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small, white, wick-like object emitting thin, wispy smoke against a dark background. The object appears to be resting on a flat surface.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_46",
+    "image": "val_46.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a nighttime view of an industrial area with numerous illuminated buildings and structures. A tall structure on the right side has a bright flame at its top, indicating a controlled fire.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_47",
+    "image": "val_47.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a child's bedroom with light blue walls, a white crib with a canopy, a white dresser, a blue armchair, and various toys and items scattered around. A small fire is burning on the floor near a white rug.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_48",
+    "image": "val_48.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a pile of cardboard boxes outdoors, with some boxes open and others closed. One box is labeled 'LARGE' and has a blue label with measurements. There is a white electronic device with wires attached to it, and the ground appears to be dry dirt with some grass and leaves scattered around.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_49",
+    "image": "val_49.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A person is holding a device that emits a cloud of smoke or vapor, possibly used for signaling or marking purposes. The setting appears to be an outdoor area with a green fence and some scattered leaves on the ground.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_50",
+    "image": "val_50.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a television displaying a show, a clock on the wall, a window with curtains, and a sofa with pillows. There is a small fire burning on the floor near the window, but it appears to be contained and not spreading.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_51",
+    "image": "val_51.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a room with a white dresser, a desk with a laptop, and a baby stroller. A person is standing near the center of the room, emitting a large amount of smoke or steam. The floor has a patterned rug, and there is a timestamp at the bottom indicating the date and time.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_52",
+    "image": "val_52.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a miniature house model with a balcony filled with matches arranged in a pattern resembling a fire. The matches are lit, creating a flame that appears to be burning from the inside of the house.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_53",
+    "image": "val_53.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a fireplace that has a visible flame. The room has a television, a dining table with chairs, and various items on the table such as a bottle, a bowl, and a fan. There is also a decorative item hanging on the wall.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_54",
+    "image": "val_54.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a laundry room with several washing machines. The machines appear to be operational, and there are no visible signs of fire or smoke. The area looks clean and well-maintained.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_55",
+    "image": "val_55.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small, black box emitting a thin, blueish-white cloud of smoke, suggesting it might be a device used for incense or aromatherapy. The box is placed on a woven surface, possibly a basket or tray, and there is a blurred background that includes a window with light streaming through.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_56",
+    "image": "val_56.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a serene night scene with a lit tent surrounded by trees under a starry sky. A campfire is visible next to the tent, emitting a warm glow.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_57",
+    "image": "val_57.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a white candle with a small flame burning at the top, emitting a small amount of smoke. The background is dark and out of focus.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_58",
+    "image": "val_58.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a white air conditioning unit placed on a black tarp on the ground. The unit is emitting flames and smoke, indicating a fire.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_59",
+    "image": "val_59.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a snowy winter scene with a wooden cabin covered in snow. The sky is bright and yellow, suggesting either sunrise or sunset. Snowflakes are falling gently from the sky.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_60",
+    "image": "val_60.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a couch, a table with various items including a box of tea, and a kitchen area in the background. The lighting is bright, and there is a person standing near the kitchen counter. The floor appears to be carpeted.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_61",
+    "image": "val_61.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a television set on a stand, a table with various items including a red kettle, a candle, and some food, and a chair next to the table. The room has a tiled floor and a large window with frosted glass.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_62",
+    "image": "val_62.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a memorial with a eternal flame burning at the center. Surrounding the flame are three red flowers placed on the ground.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_63",
+    "image": "val_63.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a serene outdoor scene at sunset with trees and a campfire burning in the foreground. The sky is painted with hues of pink and orange, and there is a red plastic bag on the ground to the right.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_64",
+    "image": "val_64.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a cozy Christmas scene with a lit fireplace, a decorated Christmas tree, and presents underneath. The room is warmly lit, creating a festive atmosphere.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_65",
+    "image": "val_65.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a beige air conditioning unit mounted on a white wall. There is a power cord plugged into a wall socket next to the unit.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_66",
+    "image": "val_66.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a dimly lit room with a fireplace emitting a warm glow. The walls appear worn and have some discoloration, and there is a wooden dresser with drawers in the foreground.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_67",
+    "image": "val_67.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A computer monitor displaying a red error message about a connection issue, with a hand holding a lit candle in front of it, creating a flame that is not connected to the monitor.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_68",
+    "image": "val_68.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a table covered with a red cloth. On the table, there is a red thermos, a candle, and some fruits. A lamp is placed next to the table, and there is a picture hanging on the wall above it. The room has a window with curtains, and there is a doorway leading to another room where a kitchen area is visible.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_69",
+    "image": "val_69.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a controlled fire burning inside a cardboard box structure outdoors. The flames are contained within the box, and there is no visible spread of fire to other materials.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_70",
+    "image": "val_70.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"An open cardboard box with a flame inside, emitting smoke. The box is placed outdoors on a grassy area.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_71",
+    "image": "val_71.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a nighttime camping scene in a forested area with three tents illuminated by lights. One tent is green, another is orange, and the third has a visible fire burning inside, emitting flames and smoke.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_72",
+    "image": "val_72.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dimly lit room with a white wall. On a small table next to the wall, there is a lit candle emitting a warm glow, a potted plant, and some other small items. A chair is positioned against the wall, and there is a red bucket on the floor near the table. The overall atmosphere is calm and quiet.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_73",
+    "image": "val_73.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a computer case with its side panel removed, revealing internal components. A significant amount of fire is visible inside the case, with flames burning through the open door. The background appears to be an outdoor setting with green grass and trees.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_74",
+    "image": "val_74.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a memorial with a eternal flame burning at the base. There are two uniformed individuals standing guard nearby, and the ground is covered with snow. The scene appears to be outdoors in front of a building.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_75",
+    "image": "val_75.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a tall building at night with a bright flame or light source on top, possibly a decorative feature or a fire pit. The building has illuminated windows and a modern design.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_76",
+    "image": "val_76.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a controlled fire burning in a stone structure surrounded by dry leaves and grass. The fire is contained within the stone structure, with visible flames and smoke rising from it.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_77",
+    "image": "val_77.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small flame burning on the ground, emitting smoke. The flame is contained and there are no signs of danger or spread.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_78",
+    "image": "val_78.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a memorial with a eternal flame at its center, surrounded by red bricks and covered by a large gray cloth. Two guards stand at attention on either side of the memorial.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_79",
+    "image": "val_79.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a flame burning atop a metallic structure, with a flag waving in the background under a cloudy sky.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_80",
+    "image": "val_80.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dimly lit room with a closed door adorned with a red decoration. To the right, there is a shelf with various items including bananas, a bottle, and a container. A small red light is visible on the floor, possibly indicating a candle or a small fire source.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_81",
+    "image": "val_81.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a snowy landscape with trees covered in snow. In the background, there is a house with a chimney emitting a yellowish smoke or flame, suggesting a controlled fire.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_82",
+    "image": "val_82.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a cozy indoor setting with a table lamp, a book open to a page, a diffuser, and a small plant. The lamp has a warm glow, and there is a faint mist rising from the diffuser, suggesting a humidifier or essential oil diffuser. The overall atmosphere is calm and serene.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_83",
+    "image": "val_83.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a fire burning inside a metal container surrounded by snow and dry leaves. The fire is contained within the container, with visible flames and smoke rising from it.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_84",
+    "image": "val_84.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image depicts a cozy Christmas scene with a decorated Christmas tree on the left, a lit fireplace in the center, and a stone fireplace mantle adorned with stockings and garlands. The room has warm lighting and festive decorations.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_85",
+    "image": "val_85.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a person sitting next to a fire pit with a lit candle inside. The fire is contained within the pit, and there are no signs of danger or spread.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_86",
+    "image": "val_86.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a close-up of a fire pit with flames burning brightly on a bed of dark-colored rocks. The background is dark, suggesting it might be nighttime or in a dimly lit area.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_87",
+    "image": "val_87.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a fire pit with a white object burning inside, surrounded by snow and dry leaves. The fire appears to be contained and managed.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_89",
+    "image": "val_89.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small fire burning on a stone path surrounded by greenery and rocks. Smoke is rising from the fire, indicating that it is active.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_90",
+    "image": "val_90.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a living room with a television set on a stand, a coffee table with various items including a basket of fruits, a red thermos, and a candle. There is a window with a view of a balcony, and the room appears to be well-lit.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_91",
+    "image": "val_91.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a white plastic object with a circular hole on top, partially covered in snow, surrounded by small branches and leaves on a snowy ground. There are no visible signs of fire or smoke.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_92",
+    "image": "val_92.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows an aerial view of an industrial area with multiple buildings. The central building has a large roof with several cylindrical structures emitting white smoke, indicating possible industrial activity. The surrounding area includes greenery and other industrial structures.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_93",
+    "image": "val_93.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"A mannequin wearing a striped shirt and gloves is holding a sparkler next to an air conditioning unit. The sparkler is emitting sparks, and there is a stack of newspapers on the ground nearby.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_94",
+    "image": "val_94.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows an aerial view of an industrial facility with large fans and pipes. There is a significant amount of white smoke or steam rising from the facility, indicating some form of activity or process.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_95",
+    "image": "val_95.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a small fire pit with remnants of burning material, including charred wood and ash. Smoke is rising from the fire pit, indicating that it is still active.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_96",
+    "image": "val_96.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows two clear glasses placed upside down on a flat surface. A lit candle is balanced on top of each glass, with flames burning brightly. In the background, there is a colorful object that resembles a toy or a piece of art, and a small figurine to the right.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_97",
+    "image": "val_97.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a dollhouse with a pink staircase leading to a room with a fireplace. The fireplace is on fire, emitting flames and smoke. A doll is sitting on a chair next to the fireplace, and there is a television displaying a dancing scene in the background.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_98",
+    "image": "val_98.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows an aerial view of a large industrial facility surrounded by a river and forested areas. There are two tall chimneys emitting white smoke, indicating the presence of a power plant or similar facility. The area appears to be well-maintained and operational.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_99",
+    "image": "val_99.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a rooftop scene where two individuals are standing near a balcony railing. There is a visible fire burning on the ground below, emitting thick smoke that rises into the air. The area appears to be part of a residential building, with other buildings and trees visible in the background.\", \"label\": \"dangerous fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_100",
+    "image": "val_100.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows an air conditioning unit mounted on a wall, with a power cord plugged into an electrical outlet. The unit appears to be off.\", \"label\": \"no fire\"}\n```"
+      }
+    ]
+  },
+  {
+    "id": "val_101",
+    "image": "val_101.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this situation in the image, look for signs of fire and smoke and classify whether the situation is:\n- no fire (e.g., fire alarm, fire distinguisher,...)\n- controlled fire (e.g., fireplace, cooking, campfire,...)\n- dangerous/uncontrolled fire (e.g., curtains on fire, smoke on ceiling, spreading flames...)\n\nAdd a brief explanation in the caption if necessary.\nRespond only in this JSON format:\n{ \"caption\": \"...\", \"label\": \"no fire\"|\"controlled fire\"|\"dangerous fire\" }"
+      },
+      {
+        "from": "gpt",
+        "value": "```json\n{\"caption\": \"The image shows a pile of charred wood and paper, emitting smoke from a small fire pit. The surrounding area has fallen leaves and grass, indicating an outdoor setting.\", \"label\": \"controlled fire\"}\n```"
+      }
+    ]
+  }
+]
