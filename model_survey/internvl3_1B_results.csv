@@ -1,0 +1,503 @@
+image_path,true_label,predicted_label,caption,inference_time,correct
+FIRENET/train/image1.jpg,dangerous fire,dangerous fire,"A pickup truck is engulfed in flames with smoke rising from it, and several cars are parked nearby.",0.5205795764923096,True
+FIRENET/train/image2.jpg,dangerous fire,dangerous fire,"A car is on fire on a road with smoke and flames visible, and people are attending to the situation.",0.6156284809112549,True
+FIRENET/train/image3.jpg,controlled fire,dangerous fire,A person is lighting a lighter with a cigarette in the background.,0.3578610420227051,False
+FIRENET/train/image4.jpg,controlled fire,no fire,A cupcake with a lit candle on a white surface against a dark background.,0.3628823757171631,False
+FIRENET/train/image5.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a street with smoke rising, and firefighters are present.",0.6338281631469727,True
+FIRENET/train/image6.jpg,controlled fire,dangerous fire,A person is lighting a match with a lit lighter in a dimly lit environment.,0.36812734603881836,False
+FIRENET/train/image7.jpg,controlled fire,no fire,"Three candles with flames lit, placed on a surface with a warm background.",0.36335039138793945,False
+FIRENET/train/image8.jpg,dangerous fire,dangerous fire,"A race car is on fire with smoke and flames visible, and a person in an orange jumpsuit is attending to the situation.",0.2515087127685547,True
+FIRENET/train/image9.jpg,dangerous fire,controlled fire,A pickup truck is on fire at night with flames visible from the top and smoke rising from the vehicle.,0.3867928981781006,False
+FIRENET/train/image10.jpg,controlled fire,dangerous fire,"Two individuals are sitting outdoors, one holding a lighter and the other holding a matchstick, both appear to be smoking. The environment suggests a natural setting with greenery in the background.",0.675605297088623,False
+FIRENET/train/image11.jpg,dangerous fire,dangerous fire,"A race car is on fire with flames visible from the front tire, surrounded by emergency responders and smoke.",0.3798036575317383,True
+FIRENET/train/image12.jpg,dangerous fire,dangerous fire,"A white truck is engulfed in flames with smoke billowing out, indicating a fire. There is a nearby car, and the environment suggests a parking lot with trees in the background.",0.4186747074127197,True
+FIRENET/train/image13.jpg,controlled fire,dangerous fire,A firefighter is using a fire extinguisher to put out a fire in a small container on the ground.,0.22852158546447754,False
+FIRENET/train/image14.jpg,dangerous fire,dangerous fire,"A red car is on fire with smoke billowing out, and the front doors are open.",0.3889579772949219,True
+FIRENET/train/image15.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames and smoke, with thick black smoke rising from the back of the vehicle.",0.7346994876861572,True
+FIRENET/train/image16.jpg,dangerous fire,dangerous fire,"A sports car is on fire with smoke and flames visible, and two people are standing nearby.",0.3770625591278076,True
+FIRENET/train/image17.jpg,dangerous fire,dangerous fire,"A bus is engulfed in flames on the side of the road, with thick black smoke billowing into the sky.",0.3938417434692383,True
+FIRENET/train/image18.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames on a road at night, with smoke rising into the air.",0.385913610458374,True
+FIRENET/train/image19.jpg,dangerous fire,dangerous fire,"A beige pickup truck is engulfed in flames with thick black smoke billowing from its back. The fire appears to be spreading, and there are people standing around the vehicle, some observing the situation.",0.2738790512084961,True
+FIRENET/train/image20.jpg,dangerous fire,dangerous fire,A car is on fire in an open field with thick black smoke billowing into the air.,0.23397183418273926,True
+FIRENET/train/image21.jpg,dangerous fire,dangerous fire,A car is on fire with flames and smoke visible from the back.,0.3827221393585205,True
+FIRENET/train/image22.jpg,dangerous fire,dangerous fire,"A large fire is burning on the side of a road with thick black smoke rising into the air. There is a person running away from the fire, and a truck is visible in the background.",0.4328768253326416,True
+FIRENET/train/image23.jpg,dangerous fire,controlled fire,"A white car is engulfed in flames with thick black smoke rising from it, indicating a controlled fire.",0.23412585258483887,False
+FIRENET/train/image24.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lit lighter, smoke is visible.",0.6168794631958008,False
+FIRENET/train/image25.jpg,dangerous fire,dangerous fire,A bus is on fire with thick black smoke billowing from it.,0.3710362911224365,True
+FIRENET/train/image26.jpg,dangerous fire,dangerous fire,A car is on fire with thick black smoke billowing from it.,0.2105700969696045,True
+FIRENET/train/image27.jpg,dangerous fire,dangerous fire,A large white semi-truck is on fire with flames and smoke emanating from its side.,0.6340928077697754,True
+FIRENET/train/image28.jpg,controlled fire,dangerous fire,"A wooden candle holder with a lit candle on a wooden surface, with books in the background.",0.37859487533569336,False
+FIRENET/train/image29.jpg,dangerous fire,dangerous fire,A fire is burning on a concrete bridge with thick black smoke rising into the air.,0.6241352558135986,True
+FIRENET/train/image30.jpg,controlled fire,dangerous fire,"A large fire is burning intensely in the center of a dark area, with bright flames and smoke visible.",0.37638115882873535,False
+FIRENET/train/image31.jpg,controlled fire,no fire,"The image shows a candle, a flower, and a bowl on a wooden surface. There is no visible fire or smoke.",0.3953211307525635,False
+FIRENET/train/image32.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing from it, and the surrounding area includes a multi-story building.",0.39043498039245605,True
+FIRENET/train/image33.jpg,dangerous fire,dangerous fire,"House fire sparks after car crash, with visible flames and smoke.",0.21722412109375,True
+FIRENET/train/image34.jpg,controlled fire,dangerous fire,A fire is burning in a grassy field with dark smoke rising into the sky. The surrounding area includes trees and a clear sky.,0.40387868881225586,False
+FIRENET/train/image35.jpg,controlled fire,controlled fire,"A woman is cooking on a stove with a pot on fire, and flames are visible.",0.6075272560119629,True
+FIRENET/train/image36.jpg,dangerous fire,dangerous fire,"A sports car is on fire with smoke and flames visible, and two people are standing nearby.",0.3702664375305176,True
+FIRENET/train/image37.jpg,controlled fire,controlled fire,"A small fire burning in a metal container on a wooden surface, with a background that appears to be outdoors at night.",0.6247587203979492,True
+FIRENET/train/image38.jpg,dangerous fire,dangerous fire,"A large truck is on a highway, engulfed in flames with thick black smoke billowing from its structure.",0.2296428680419922,True
+FIRENET/train/image39.jpg,controlled fire,controlled fire,"A person is lighting a cigarette with a lighter, and there is a flame visible.",0.2164933681488037,True
+FIRENET/train/image40.jpg,no fire,no fire,"A person is carrying a box in an outdoor setting at night, with some lights visible in the background. There is no immediate indication of fire or smoke.",0.24973583221435547,True
+FIRENET/train/image41.jpg,controlled fire,dangerous fire,"A large vehicle is on fire, with flames and smoke visible, situated in a wooded area near a ditch.",0.15886330604553223,False
+FIRENET/train/image42.jpg,dangerous fire,dangerous fire,A tanker truck is on fire with thick black smoke billowing into the air.,0.6275639533996582,True
+FIRENET/train/image43.jpg,dangerous fire,dangerous fire,A car is on fire on the side of a road with flames and smoke visible.,0.58534836769104,True
+FIRENET/train/image44.jpg,controlled fire,no fire,"A matchstick is lit with a flame, and the surrounding environment is dark.",0.20697617530822754,False
+FIRENET/train/image45.jpg,controlled fire,dangerous fire,"A woman is lighting a cigarette, with a lighter in her hand and a cigarette in her mouth, against a plain background.",0.39270853996276855,False
+FIRENET/train/image46.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke billowing into the air.,0.2196187973022461,True
+FIRENET/train/image47.jpg,controlled fire,no fire,"A candle is burning in a glass holder, with a flame visible.",0.35574841499328613,False
+FIRENET/train/image48.jpg,controlled fire,dangerous fire,"A firefighter is actively managing a fire inside a kitchen, with flames visible and smoke rising.",0.3643336296081543,False
+FIRENET/train/image49.jpg,controlled fire,no fire,A lit candle on a plate surrounded by stones on a wooden surface with a blurred background.,0.14177417755126953,False
+FIRENET/train/image50.jpg,dangerous fire,controlled fire,"A traffic light over a bridge shows red lights, indicating a controlled fire situation. There is a fire burning in the distance with thick black smoke visible.",0.4248771667480469,False
+FIRENET/train/image51.jpg,dangerous fire,controlled fire,"A house is engulfed in flames with smoke rising, indicating a controlled fire.",0.5840635299682617,False
+FIRENET/train/image52.jpg,dangerous fire,dangerous fire,A white van is on a road with flames and thick black smoke coming out of its open back compartment.,0.23538565635681152,True
+FIRENET/train/image53.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising from it, and people are standing nearby.",0.38526344299316406,True
+FIRENET/train/image54.jpg,controlled fire,no fire,A lit candle in a glass holder on a wooden surface with a dark background.,0.35735201835632324,False
+FIRENET/train/image55.jpg,dangerous fire,controlled fire,"A pickup truck is engulfed in flames with thick black smoke rising from it, indicating a controlled fire.",0.37040185928344727,False
+FIRENET/train/image56.jpg,controlled fire,controlled fire,"A pot with flames burning inside, indicating a fire.",0.5935428142547607,True
+FIRENET/train/image57.jpg,controlled fire,no fire,"A candle is lit on a glass tray surrounded by smaller candles on a wooden surface, with no visible flames or smoke.",0.5957601070404053,False
+FIRENET/train/image58.jpg,controlled fire,controlled fire,A pan on a gas stove is on fire with flames visible.,0.3452143669128418,True
+FIRENET/train/image59.jpg,controlled fire,controlled fire,"Three white candles are lit on a wooden surface surrounded by green leaves and twigs, with a matchstick nearby.",0.3738110065460205,True
+FIRENET/train/image60.jpg,dangerous fire,dangerous fire,"A truck is on fire with thick black smoke billowing from it, and flames are visible on the truck's front.",0.3805520534515381,True
+FIRENET/train/image61.jpg,controlled fire,controlled fire,"A chef is cooking with flames erupting from a pan, indicating a controlled fire.",0.21304869651794434,True
+FIRENET/train/image62.jpg,controlled fire,controlled fire,"A lit candle on a wooden surface with a green ribbon in the background, suggesting a festive or celebratory setting.",0.6302080154418945,True
+FIRENET/train/image63.jpg,controlled fire,dangerous fire,A lit matchstick with smoke rising from it against a black background.,0.12090420722961426,False
+FIRENET/train/image64.jpg,controlled fire,dangerous fire,"A chef is cooking on a stove with flames rising from a pan, indicating a fire. The environment suggests a professional kitchen with various cooking utensils and pots visible.",0.17567944526672363,False
+FIRENET/train/image65.jpg,dangerous fire,dangerous fire,"A car is on fire on a road with flames visible from the back, surrounded by greenery.",0.6528799533843994,True
+FIRENET/train/image66.jpg,controlled fire,dangerous fire,"A person is holding a lighter and a lit match, with a small flame visible, in a dark environment.",0.38342714309692383,False
+FIRENET/train/image67.jpg,controlled fire,controlled fire,"A person is lighting a cigarette with a lit matchstick, and there is a visible flame.",0.3713557720184326,True
+FIRENET/train/image68.jpg,dangerous fire,dangerous fire,A fire is burning on a highway with thick black smoke rising into the air.,0.6099667549133301,True
+FIRENET/train/image69.jpg,dangerous fire,dangerous fire,"A car is on fire on a street at night, with smoke and flames visible.",0.6083526611328125,True
+FIRENET/train/image70.jpg,dangerous fire,controlled fire,"A light blue van is engulfed in flames with thick black smoke billowing from its sides, indicating a controlled fire.",0.39144301414489746,False
+FIRENET/train/image71.jpg,dangerous fire,dangerous fire,"A large fire is burning inside a building, with flames and smoke visible.",0.21077680587768555,True
+FIRENET/train/image72.jpg,dangerous fire,dangerous fire,A pile of burning garbage with intense flames and thick smoke.,0.20969843864440918,True
+FIRENET/train/image73.jpg,dangerous fire,dangerous fire,"A red pickup truck is engulfed in flames with thick black smoke rising from it, and the fire appears to be spreading to the vehicle's body.",0.4095938205718994,True
+FIRENET/train/image74.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames on a road at night, with smoke rising into the air.",0.3790743350982666,True
+FIRENET/train/image75.jpg,controlled fire,controlled fire,"A feather quill and a lit candle are placed on a piece of parchment on a wooden surface. There is a small, patterned box to the right and a candle in the background.",0.41660332679748535,True
+FIRENET/train/image76.jpg,dangerous fire,dangerous fire,A car is on fire on the road with flames and smoke visible.,0.36742711067199707,True
+FIRENET/train/image77.jpg,controlled fire,controlled fire,A pan on a gas stove is on fire with flames visible.,0.20667290687561035,True
+FIRENET/train/image78.jpg,dangerous fire,dangerous fire,"A large fire is burning on the side of a road with thick black smoke rising into the air. Several vehicles are present, and there is a person on the side of the road near the fire.",0.6736574172973633,True
+FIRENET/train/image79.jpg,dangerous fire,controlled fire,"A truck is engulfed in flames with thick black smoke billowing from its back, indicating a controlled fire.",0.377239465713501,False
+FIRENET/train/image80.jpg,dangerous fire,dangerous fire,"A large fire is burning intensely on the ground with thick black smoke rising into the air. The fire appears to be spreading, and there are people observing the scene.",0.4102497100830078,True
+FIRENET/train/image81.jpg,controlled fire,no fire,A cupcake with a lit candle on a dark surface with a wooden background.,0.3652200698852539,False
+FIRENET/train/image82.jpg,controlled fire,no fire,A lit candle on a wooden table in a dimly lit room.,0.5995070934295654,False
+FIRENET/train/image83.jpg,dangerous fire,dangerous fire,"A person is standing in front of a large pile of trash with flames burning in the background, indicating a fire.",0.6020584106445312,True
+FIRENET/train/image84.jpg,controlled fire,no fire,"A lit candle and an open book on a table with a warm, golden background.",0.35556674003601074,False
+FIRENET/train/image85.jpg,controlled fire,controlled fire,"A young child is sitting in front of a small fire with flames visible, wearing a hat and a plaid jacket. The background appears to be a rough, unfinished wall with some debris around.",0.4126124382019043,True
+FIRENET/train/image86.jpg,dangerous fire,dangerous fire,"A bus is engulfed in flames with thick black smoke billowing from its front, and a fire is occurring in the vicinity.",0.6253776550292969,True
+FIRENET/train/image87.jpg,dangerous fire,dangerous fire,"A small fire is burning on the road at night, with smoke rising into the air.",0.600318193435669,True
+FIRENET/train/image88.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke rising into the air.,0.1420450210571289,True
+FIRENET/train/image89.jpg,controlled fire,dangerous fire,"A white SUV is on fire with smoke and flames visible, and firefighters are actively trying to control the fire.",0.23365402221679688,False
+FIRENET/train/image90.jpg,controlled fire,no fire,"A candlelit arrangement with red rose petals and lit candles on a table, suggesting a romantic or intimate setting.",0.633307933807373,False
+FIRENET/train/image91.jpg,dangerous fire,dangerous fire,A large fire is burning in a building with thick smoke billowing into the air. The fire appears to be spreading quickly.,0.2342381477355957,True
+FIRENET/train/image92.jpg,dangerous fire,dangerous fire,"Two firefighters are attending to a white car that is on fire, with smoke and flames visible.",0.6241350173950195,True
+FIRENET/train/image93.jpg,controlled fire,no fire,A lit candle on a decorative metal stand against a wooden wall with a red surface below.,0.36809730529785156,False
+FIRENET/train/image94.jpg,controlled fire,controlled fire,"A person is lighting a cigarette with a lit match in a dimly lit environment, suggesting a controlled fire.",0.3807053565979004,True
+FIRENET/train/image95.jpg,dangerous fire,dangerous fire,A car is on fire on the road with smoke and flames visible.,0.37335968017578125,True
+FIRENET/train/image96.jpg,controlled fire,controlled fire,"A cooking scene with flames visible in a kitchen, with a person wearing gloves cooking.",0.5382187366485596,True
+FIRENET/train/image97.jpg,controlled fire,no fire,"A lit candle with wrapped gifts in the background, creating a warm and cozy atmosphere.",0.36633896827697754,False
+FIRENET/train/image98.jpg,dangerous fire,dangerous fire,A truck is on fire on a road with thick black smoke billowing into the air.,0.21743464469909668,True
+FIRENET/train/image99.jpg,dangerous fire,dangerous fire,A white truck is engulfed in a large fire with thick smoke rising from the ground and vegetation around it.,0.5580136775970459,True
+FIRENET/train/image100.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lighter, and there is a flame visible in the background.",0.6149511337280273,False
+FIRENET/train/image101.jpg,dangerous fire,dangerous fire,"A car is on fire with thick smoke billowing out, situated on a roadside surrounded by greenery.",0.6092948913574219,True
+FIRENET/train/image102.jpg,dangerous fire,dangerous fire,"The image shows a street with a fire burning on the ground, with thick black smoke rising into the air. There are buildings and vehicles in the background, and no people are visible in the immediate vicinity.",0.2677340507507324,True
+FIRENET/train/image103.jpg,dangerous fire,dangerous fire,"A truck is on fire with thick black smoke emanating from it, positioned on a highway under an overpass.",0.387601375579834,True
+FIRENET/train/image104.jpg,dangerous fire,controlled fire,"A building is on fire with thick black smoke billowing from the front entrance, indicating a controlled fire.",0.6216180324554443,False
+FIRENET/train/image105.jpg,dangerous fire,dangerous fire,A house is on fire with thick black smoke billowing from the roof.,0.13177847862243652,True
+FIRENET/train/image106.jpg,dangerous fire,dangerous fire,"A fire is burning on the ground with smoke rising, indicating a possible accident or accident scene.",0.3874950408935547,True
+FIRENET/train/image107.jpg,controlled fire,dangerous fire,"A man is holding a lit cigarette in his hands, seemingly inhaling from it, with a dark background suggesting an indoor setting.",0.6430683135986328,False
+FIRENET/train/image108.jpg,dangerous fire,dangerous fire,A bus is on fire on a street with smoke rising from it.,0.5944516658782959,True
+FIRENET/train/image109.jpg,dangerous fire,dangerous fire,A bus is on fire with flames and smoke visible in the background.,0.5926594734191895,True
+FIRENET/train/image110.jpg,dangerous fire,dangerous fire,"A man is holding a pot with flames inside, indicating a cooking situation.",0.3590507507324219,True
+FIRENET/train/image111.jpg,dangerous fire,dangerous fire,"A cat is in front of a vehicle with flames coming out of the back, indicating a fire.",0.611109733581543,True
+FIRENET/train/image112.jpg,dangerous fire,dangerous fire,A vehicle is on fire on the road with visible flames and smoke.,0.2070450782775879,True
+FIRENET/train/image113.jpg,dangerous fire,dangerous fire,"A bus is on fire on a road with smoke rising into the air. Several people are standing nearby, observing the situation.",0.6346714496612549,True
+FIRENET/train/image114.jpg,controlled fire,dangerous fire,"A person is smoking a cigarette with a lit matchstick, creating a dramatic scene with a dark background.",0.37712764739990234,False
+FIRENET/train/image115.jpg,dangerous fire,dangerous fire,A black car is on fire on a wet road with smoke and flames visible.,0.21720600128173828,True
+FIRENET/train/image116.jpg,dangerous fire,dangerous fire,"A bus is engulfed in flames on a city street, with thick black smoke rising into the air.",0.3867979049682617,True
+FIRENET/train/image117.jpg,dangerous fire,dangerous fire,A car is on fire on a street with smoke and flames visible.,0.21336030960083008,True
+FIRENET/train/image118.jpg,dangerous fire,dangerous fire,A large fire is burning on the side of a road with flames and thick black smoke.,0.14344525337219238,True
+FIRENET/train/image119.jpg,dangerous fire,dangerous fire,A house is engulfed in flames with thick smoke rising from the roof.,0.22601866722106934,True
+FIRENET/train/image120.jpg,dangerous fire,dangerous fire,A house is on fire with thick black smoke rising into the air.,0.21886944770812988,True
+FIRENET/train/image121.jpg,dangerous fire,dangerous fire,"A white and blue bus is on fire, emitting smoke and flames from its side.",0.38274097442626953,True
+FIRENET/train/image122.jpg,controlled fire,dangerous fire,A wildfire is burning along a road with visible flames and thick smoke.,0.21303749084472656,False
+FIRENET/train/image123.jpg,dangerous fire,dangerous fire,"A large fire is burning at the top of a historic building in the evening sky, with smoke rising and flames visible.",0.23865699768066406,True
+FIRENET/train/image124.jpg,dangerous fire,dangerous fire,"A large plume of black smoke is emanating from a fire on a rural road, with a fire truck visible in the distance.",0.4047532081604004,True
+FIRENET/train/image125.jpg,dangerous fire,dangerous fire,"A green vehicle is on fire with thick black smoke rising from it, and flames are visible on its sides.",0.3916044235229492,True
+FIRENET/train/image126.jpg,controlled fire,no fire,"A couple is sitting at a table with wine glasses and red candles, smiling and laughing. The setting appears to be indoors with wooden elements and a warm ambiance.",0.40819239616394043,False
+FIRENET/train/image127.jpg,dangerous fire,dangerous fire,"The image shows a street with vehicles on fire, thick black smoke rising into the air, and buildings in the background.",0.23505282402038574,True
+FIRENET/train/image128.jpg,dangerous fire,dangerous fire,A house is on fire with flames and smoke visible from the upper part of the structure.,0.630789041519165,True
+FIRENET/train/image129.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a snowy street, with thick black smoke billowing into the air.",0.22885942459106445,True
+FIRENET/train/image130.jpg,dangerous fire,dangerous fire,A fire is burning intensely on the street with thick black smoke rising into the air.,0.6265206336975098,True
+FIRENET/train/image131.jpg,controlled fire,dangerous fire,"A man is lighting a cigarette in a dimly lit alleyway with several lit streetlights in the background, suggesting a nighttime setting.",0.39264464378356934,False
+FIRENET/train/image132.jpg,controlled fire,controlled fire,"The image shows a firefighter in front of a fire container with flames coming out, indicating a controlled fire. The background shows trees and a clear sky.",0.24419260025024414,True
+FIRENET/train/image133.jpg,dangerous fire,dangerous fire,"A race car is on fire with flames visible from the front tire, surrounded by emergency responders and smoke.",0.3884904384613037,True
+FIRENET/train/image134.jpg,controlled fire,no fire,A lit white candle on a wooden surface with a blurred background.,0.36406779289245605,False
+FIRENET/train/image135.jpg,controlled fire,no fire,"A lit candle next to an open book on a wooden surface, suggesting a calm and quiet setting.",0.3787660598754883,False
+FIRENET/train/image136.jpg,dangerous fire,dangerous fire,A red pickup truck is on fire with flames and smoke visible.,0.21039795875549316,True
+FIRENET/train/image137.jpg,controlled fire,no fire,"A decorative arrangement of lit candles surrounded by greenery and ornaments, with a warm ambiance.",0.6208415031433105,False
+FIRENET/train/image138.jpg,controlled fire,controlled fire,"Two chefs are cooking in a kitchen with a visible fire in the foreground, indicating a controlled fire.",0.613518238067627,True
+FIRENET/train/image139.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a city street, with thick black smoke rising into the air.",0.37840986251831055,True
+FIRENET/train/image140.jpg,dangerous fire,dangerous fire,A car is on fire on the road with flames and smoke visible.,0.3640594482421875,True
+FIRENET/train/image141.jpg,controlled fire,no fire,"A candle is lit on a table surrounded by rose petals and a bowl of grapes, suggesting a romantic or celebratory setting.",0.2337634563446045,False
+FIRENET/train/image142.jpg,controlled fire,no fire,A lit candle in a dark setting with colorful lights blurred in the background.,0.37387514114379883,False
+FIRENET/train/image143.jpg,dangerous fire,dangerous fire,A vehicle is on fire in a parking lot with smoke rising from it.,0.6145727634429932,True
+FIRENET/train/image144.jpg,dangerous fire,dangerous fire,"A person is sitting next to a small fire burning on the ground, with dark smoke rising in the background. The environment appears to be outdoors with a barren landscape.",0.40798377990722656,True
+FIRENET/train/image145.jpg,dangerous fire,dangerous fire,A car is on fire with intense flames and smoke visible.,0.598102331161499,True
+FIRENET/train/image146.jpg,controlled fire,dangerous fire,"A man is sitting in a car holding a lighter and a lit match, with a cigarette in his mouth. The environment suggests it is nighttime, and the interior of the car is illuminated by the light from the car's interior lights.",0.436798095703125,False
+FIRENET/train/image147.jpg,dangerous fire,dangerous fire,A black car is on fire on the side of the road with flames and smoke visible.,0.22033238410949707,True
+FIRENET/train/image148.jpg,controlled fire,controlled fire,"A group of people is lighting a sparkler, with one person holding the lighter and another holding a glass, possibly for a toast.",0.4006381034851074,True
+FIRENET/train/image149.jpg,controlled fire,no fire,"A man is lighting a cigar with a lighter, with a lit matchstick nearby.",0.37477588653564453,False
+FIRENET/train/image150.jpg,controlled fire,controlled fire,"A candle is burning in a cup on a table, with a warm, dimly lit background.",0.3776819705963135,True
+FIRENET/train/image151.jpg,controlled fire,dangerous fire,"A truck is on fire with smoke and flames visible, surrounded by trees and a gravel path.",0.6229429244995117,False
+FIRENET/train/image152.jpg,dangerous fire,controlled fire,"A fire is burning inside a factory, with smoke visible in the air.",0.3552579879760742,False
+FIRENET/train/image153.jpg,dangerous fire,controlled fire,"A bus is engulfed in flames with thick black smoke billowing into the sky, indicating a controlled fire.",0.22129082679748535,False
+FIRENET/train/image154.jpg,dangerous fire,dangerous fire,"A race car is on fire with smoke and flames visible, and a person in an orange jumpsuit is attending to the situation.",0.2414231300354004,True
+FIRENET/train/image155.jpg,dangerous fire,controlled fire,"A vehicle is on fire with thick black smoke billowing from its back, indicating a controlled fire.",0.6316556930541992,False
+FIRENET/train/image156.jpg,dangerous fire,dangerous fire,"A house is engulfed in flames, with visible fire burning inside the structure and smoke rising from the area.",0.6034812927246094,True
+FIRENET/train/image157.jpg,dangerous fire,dangerous fire,"A fire is burning in a building with thick black smoke rising into the air. A police vehicle is present, and there are other vehicles nearby.",0.23863744735717773,True
+FIRENET/train/image158.jpg,dangerous fire,dangerous fire,A bus is on fire with visible flames and smoke emanating from its windows.,0.2123863697052002,True
+FIRENET/train/image159.jpg,dangerous fire,dangerous fire,A car is on fire in a residential area with thick black smoke billowing from it.,0.22464442253112793,True
+FIRENET/train/image160.jpg,dangerous fire,dangerous fire,A bus is on fire with smoke and flames visible in the background.,0.21664762496948242,True
+FIRENET/train/image161.jpg,controlled fire,no fire,"The image shows an old parchment with a lit candle, a rolled-up scroll, and a dark object that resembles a hammer or a similar tool. There is no visible fire or smoke in the environment.",0.18767118453979492,False
+FIRENET/train/image162.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames in a parking lot, with smoke rising from the scene.",0.2362380027770996,True
+FIRENET/train/image163.jpg,dangerous fire,dangerous fire,A car is on fire on the street with smoke rising from it.,0.6206977367401123,True
+FIRENET/train/image164.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with visible flames and smoke, and people are observing the situation.",0.21451687812805176,True
+FIRENET/train/image165.jpg,controlled fire,no fire,"A young girl is sleeping with a lit candle on a table, with no visible fire or smoke.",0.6187729835510254,False
+FIRENET/train/image166.jpg,dangerous fire,dangerous fire,A car is on fire on a residential street with smoke and flames visible.,0.20715022087097168,True
+FIRENET/train/image167.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising from it, and a stop sign is visible in the foreground. Residential houses are in the background, and a fire truck is present in the scene.",0.6588671207427979,True
+FIRENET/train/image168.jpg,controlled fire,controlled fire,"A person is standing near a small fire burning on the ground, with a crowd of people observing. The environment appears to be outdoors at night, with some lighting visible in the background.",0.41173291206359863,True
+FIRENET/train/image169.jpg,dangerous fire,dangerous fire,A truck is on fire on the side of the road with thick black smoke rising into the air.,0.3736727237701416,True
+FIRENET/train/image170.jpg,dangerous fire,dangerous fire,A car is on a road with visible flames and smoke coming from the rear tire.,0.212693452835083,True
+FIRENET/train/image171.jpg,controlled fire,dangerous fire,A woman is lighting a match in a dimly lit room with a piano in the background.,0.3811910152435303,False
+FIRENET/train/image172.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lit matchstick, creating a small flame.",0.3614621162414551,False
+FIRENET/train/image173.jpg,controlled fire,no fire,"A person is lighting a matchstick with a lit lighter, and there is no visible fire or smoke.",0.3702404499053955,False
+FIRENET/train/image174.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke rising from it, set against the backdrop of a building with a red-tiled roof.",0.16235113143920898,True
+FIRENET/train/image175.jpg,controlled fire,no fire,"Three lit candles in a rustic setting with a wooden barrel and plants in the background, suggesting a cozy, dimly lit environment.",0.6571743488311768,False
+FIRENET/train/image176.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke billowing out.,0.37378835678100586,True
+FIRENET/train/image177.jpg,controlled fire,controlled fire,"Two lit candles on a blue surface with melted wax around them, indicating a controlled fire.",0.373319149017334,True
+FIRENET/train/image178.jpg,controlled fire,no fire,"A young boy is blowing out candles on a birthday cake, with lit candles visible in the background.",0.6202988624572754,False
+FIRENET/train/image179.jpg,dangerous fire,dangerous fire,A large fire is burning on a rural road with thick smoke and flames visible.,0.6025302410125732,True
+FIRENET/train/image180.jpg,dangerous fire,dangerous fire,Two cars are on a highway engulfed in flames with thick black smoke rising into the air.,0.21928668022155762,True
+FIRENET/train/image181.jpg,dangerous fire,dangerous fire,A truck is on fire with thick black smoke billowing into the sky.,0.6127822399139404,True
+FIRENET/train/image182.jpg,dangerous fire,controlled fire,"A garbage truck is engulfed in flames with thick black smoke rising into the air, indicating a controlled fire.",0.6245944499969482,False
+FIRENET/train/image183.jpg,dangerous fire,dangerous fire,A fire is burning on a bridge with thick black smoke rising into the air.,0.214080810546875,True
+FIRENET/train/image184.jpg,controlled fire,dangerous fire,"A pan on a stove is engulfed in flames, with smoke rising from the area.",0.38178348541259766,False
+FIRENET/train/image185.jpg,controlled fire,no fire,"A row of lit candles in a dimly lit environment, with no visible flames or smoke.",0.22197747230529785,False
+FIRENET/train/image186.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, surrounded by trees and debris.",0.146683931350708,True
+FIRENET/train/image187.jpg,controlled fire,no fire,"A lit candelabra with four candles on a table, surrounded by blurred food items and a dark background.",0.6483042240142822,False
+FIRENET/train/image188.jpg,dangerous fire,dangerous fire,A car is on fire under an overpass with smoke rising from it.,0.21362018585205078,True
+FIRENET/train/image189.jpg,dangerous fire,dangerous fire,A silver car is on fire with flames and smoke billowing from its hood.,0.37958240509033203,True
+FIRENET/train/image190.jpg,controlled fire,controlled fire,"A hand is holding a pan with a large flame burning inside, against a tiled wall background.",0.6223695278167725,True
+FIRENET/train/image191.jpg,dangerous fire,dangerous fire,A car is on fire in a barren field with smoke and flames visible.,0.3661344051361084,True
+FIRENET/train/image192.jpg,dangerous fire,dangerous fire,A car is on fire in an urban street with flames visible from the top of the vehicle.,0.22394061088562012,True
+FIRENET/train/image193.jpg,dangerous fire,dangerous fire,A car is on fire on the side of a rural road with thick black smoke billowing from it.,0.23153996467590332,True
+FIRENET/train/image194.jpg,dangerous fire,dangerous fire,"A fire is burning on the side of a road with flames and smoke visible, and firefighters are present.",0.39145755767822266,True
+FIRENET/train/image195.jpg,dangerous fire,dangerous fire,A silver SUV is on fire on the side of the road with thick black smoke rising into the air.,0.6303174495697021,True
+FIRENET/train/image196.jpg,dangerous fire,dangerous fire,"A red bus is engulfed in flames on a snowy road, with thick black smoke billowing into the air.",0.15025758743286133,True
+FIRENET/train/image197.jpg,controlled fire,controlled fire,"Two chefs are cooking with flames visible on a stove, indicating a controlled fire.",0.6310257911682129,True
+FIRENET/train/image198.jpg,controlled fire,dangerous fire,A vehicle is on fire at night with smoke rising from it.,0.36469364166259766,False
+FIRENET/train/image199.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames, with thick black smoke rising into the air.",0.21822357177734375,True
+FIRENET/train/image200.jpg,dangerous fire,dangerous fire,A fire truck is actively spraying water onto a burning vehicle on a highway.,0.21937894821166992,True
+FIRENET/train/image201.jpg,dangerous fire,dangerous fire,A car is on fire with flames and smoke visible from the back.,0.3775312900543213,True
+FIRENET/train/image202.jpg,controlled fire,no fire,"A dimly lit scene with several lit candles on a surface, creating a warm glow. The environment appears to be indoors with a focus on the candles and their flames.",0.4163789749145508,False
+FIRENET/train/image203.jpg,controlled fire,controlled fire,A pan on a stove is on fire with flames visible.,0.20750832557678223,True
+FIRENET/train/image204.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke rising into the air.,0.14742064476013184,True
+FIRENET/train/image205.jpg,controlled fire,dangerous fire,"A man is holding a lighter near his face in a nighttime setting with lights reflecting on the water. The background features blurred lights, suggesting a waterfront or harbor scene.",0.4248530864715576,False
+FIRENET/train/image206.jpg,dangerous fire,dangerous fire,"A white bus is on fire with thick black smoke billowing from it, surrounded by palm trees and people in the background.",0.6340289115905762,True
+FIRENET/train/image207.jpg,dangerous fire,dangerous fire,"A red sports car is on fire with thick black smoke rising from it, and flames are visible on the car's body.",0.3906106948852539,True
+FIRENET/train/image208.jpg,dangerous fire,dangerous fire,"A bus is engulfed in flames on a city street, with thick black smoke billowing into the air. A person is standing nearby, observing the situation.",0.4075291156768799,True
+FIRENET/train/image209.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, and a person is using a fire extinguisher to control the fire.",0.2423412799835205,True
+FIRENET/train/image210.jpg,controlled fire,no fire,A lit candle in a dark environment with no visible flames or smoke.,0.6124172210693359,False
+FIRENET/train/image211.jpg,controlled fire,no fire,A lit candle on a table with scattered leaves and a blurry background.,0.3608424663543701,False
+FIRENET/train/image212.jpg,dangerous fire,dangerous fire,A bus is on fire on the road with thick black smoke rising.,0.603217601776123,True
+FIRENET/train/image213.jpg,controlled fire,no fire,Three candles with flames burning in a dark background.,0.5806639194488525,False
+FIRENET/train/image214.jpg,dangerous fire,dangerous fire,"A small fire burning on the road with thick black smoke rising, surrounded by urban buildings and vehicles.",0.6092638969421387,True
+FIRENET/train/image215.jpg,dangerous fire,dangerous fire,"A large fire is burning on the side of a road with thick black smoke rising into the sky. Several vehicles are parked nearby, and a fire truck is visible in the foreground.",0.41190290451049805,True
+FIRENET/train/image216.jpg,dangerous fire,dangerous fire,"A truck is on a road with a large fire burning in the distance, emitting smoke.",0.13858294486999512,True
+FIRENET/train/image217.jpg,controlled fire,no fire,"A single candle is burning in a round holder on a dark surface, with no visible flames or smoke.",0.6349177360534668,False
+FIRENET/train/image218.jpg,dangerous fire,dangerous fire,A large fire is burning on the roof of a building with thick smoke rising into the sky.,0.37676405906677246,True
+FIRENET/train/image219.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with flames and smoke visible.,0.37126636505126953,True
+FIRENET/train/image220.jpg,dangerous fire,dangerous fire,A car is on fire on a wet road with smoke and flames visible.,0.3738734722137451,True
+FIRENET/train/image221.jpg,controlled fire,no fire,"An open book with a lit candle on a wooden surface, with a candle flame visible in the background.",0.3811454772949219,False
+FIRENET/train/image222.jpg,dangerous fire,controlled fire,"A garbage truck is engulfed in flames with thick black smoke billowing from its back, indicating a controlled fire.",0.1497669219970703,False
+FIRENET/train/image223.jpg,controlled fire,dangerous fire,"A fire is burning on the street with thick smoke, and firefighters are attending to it.",0.6377458572387695,False
+FIRENET/train/image224.jpg,dangerous fire,dangerous fire,"A vehicle is on fire on a street at night, with flames and smoke visible.",0.3747837543487549,True
+FIRENET/train/image225.jpg,dangerous fire,dangerous fire,A house is on fire with visible flames and smoke emanating from the windows.,0.6103098392486572,True
+FIRENET/train/image226.jpg,dangerous fire,dangerous fire,A car is engulfed in flames on a street with smoke rising into the air.,0.3643946647644043,True
+FIRENET/train/image227.jpg,controlled fire,dangerous fire,"A woman is holding a lighter and appears to be smoking a cigarette, with smoke visible around her hands.",0.3797628879547119,False
+FIRENET/train/image228.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lighter, and there is a lit cigarette in the foreground.",0.3802659511566162,False
+FIRENET/train/image229.jpg,dangerous fire,dangerous fire,"A car is on a road engulfed in flames, with smoke rising from the vehicle.",0.22222375869750977,True
+FIRENET/train/image230.jpg,dangerous fire,dangerous fire,A car is on fire on the road with smoke and flames visible.,0.3753523826599121,True
+FIRENET/train/image231.jpg,dangerous fire,dangerous fire,"A house is engulfed in flames at night, with bright orange flames visible from the roof and a fire burning inside the house.",0.24117088317871094,True
+FIRENET/train/image232.jpg,dangerous fire,dangerous fire,A bus is on fire on a street with thick black smoke rising into the sky.,0.38689327239990234,True
+FIRENET/train/image233.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with visible flames and smoke, and people are observing the situation.",0.22435450553894043,True
+FIRENET/train/image234.jpg,dangerous fire,dangerous fire,A bus is on fire in a rural area with thick black smoke rising into the air.,0.6311085224151611,True
+FIRENET/train/image235.jpg,controlled fire,controlled fire,A person is using a fire extinguisher to put out a fire on a stove with flames visible.,0.6107394695281982,True
+FIRENET/train/image236.jpg,dangerous fire,dangerous fire,"A truck is on a highway with a large fire burning near it, emitting thick black smoke.",0.22070074081420898,True
+FIRENET/train/image237.jpg,dangerous fire,controlled fire,"A vehicle is engulfed in flames and emitting thick black smoke, indicating a controlled fire.",0.2214963436126709,False
+FIRENET/train/image238.jpg,dangerous fire,dangerous fire,A line of trucks is on fire with thick black smoke billowing into the air.,0.22457551956176758,True
+FIRENET/train/image239.jpg,dangerous fire,dangerous fire,A car is on fire on a road at night.,0.3721895217895508,True
+FIRENET/train/image240.jpg,dangerous fire,dangerous fire,A white car is on fire with flames visible from the hood and smoke rising.,0.615992546081543,True
+FIRENET/train/image241.jpg,controlled fire,controlled fire,"A lit red candle on a Christmas tree with pine needles and a small red berry, with a blurred background.",0.3825645446777344,True
+FIRENET/train/image242.jpg,controlled fire,no fire,"The image shows a dimly lit room with candles on a table, suggesting a festive or celebratory setting. There are no visible flames or smoke, indicating no fire.",0.4117577075958252,False
+FIRENET/train/image243.jpg,dangerous fire,dangerous fire,Two individuals are attempting to extinguish a fire on a burning car in an urban setting with smoke rising from the vehicle.,0.39226722717285156,True
+FIRENET/train/image244.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, surrounded by trees and a road.",0.14720511436462402,True
+FIRENET/train/image245.jpg,controlled fire,dangerous fire,A large fire is burning in an outdoor area with a visible flame and smoke.,0.39069557189941406,False
+FIRENET/train/image246.jpg,controlled fire,controlled fire,"A young girl is leaning over a table with lit candles, surrounded by a Christmas tree in the background. The scene appears to be indoors, possibly during a holiday celebration.",0.41733336448669434,True
+FIRENET/train/image247.jpg,controlled fire,controlled fire,Two people are relaxing with their feet on a table in front of a fireplace with a fire burning inside.,0.6280429363250732,True
+FIRENET/train/image248.jpg,dangerous fire,dangerous fire,"A car is on fire on a highway with flames and smoke visible, and two individuals are present, one using a fire extinguisher.",0.23992371559143066,True
+FIRENET/train/image249.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, and a firefighter is nearby.",0.6290204524993896,True
+FIRENET/train/image250.jpg,dangerous fire,controlled fire,"A fire is burning inside a structure, with flames visible and smoke rising.",0.21065521240234375,False
+FIRENET/train/image251.jpg,controlled fire,no fire,"The image shows a candle with a flame, a wine bottle, and some scattered items on a table. There is no visible fire or smoke.",0.4082000255584717,False
+FIRENET/train/image252.jpg,dangerous fire,dangerous fire,"A white car is on a rough, unpaved surface with flames and smoke coming from the front.",0.38556694984436035,True
+FIRENET/train/image253.jpg,dangerous fire,dangerous fire,"A white SUV is on a highway with a large fire burning in the background, producing thick black smoke.",0.14737153053283691,True
+FIRENET/train/image254.jpg,dangerous fire,dangerous fire,A bus is on fire on a city street with smoke and flames visible.,0.38756418228149414,True
+FIRENET/train/image255.jpg,controlled fire,controlled fire,"A man is smoking a cigarette with a lit matchstick, and there is visible flames.",0.38121628761291504,True
+FIRENET/train/image256.jpg,dangerous fire,dangerous fire,"A vehicle is on fire on a street at night, with flames and smoke visible.",0.6184854507446289,True
+FIRENET/train/image257.jpg,controlled fire,no fire,"A single red rose and a lit white candle on a dark surface, with no visible flames or smoke.",0.6193583011627197,False
+FIRENET/train/image258.jpg,dangerous fire,dangerous fire,"A truck is on fire with thick black smoke billowing from it, and flames are visible.",0.6013579368591309,True
+FIRENET/train/image259.jpg,dangerous fire,dangerous fire,A bus is on fire on a road with smoke and flames visible.,0.20763111114501953,True
+FIRENET/train/image260.jpg,controlled fire,dangerous fire,"A woman is lighting a cigarette while a man holds a lit candle in front of her, with a dimly lit background suggesting a social gathering.",0.4071190357208252,False
+FIRENET/train/image261.jpg,controlled fire,no fire,"A decorative lantern with a lit candle and a bunch of pink roses on a wooden surface, with a dark, textured background.",0.15373754501342773,False
+FIRENET/train/image262.jpg,dangerous fire,dangerous fire,A car is on fire on a rural road with smoke and flames visible.,0.2244713306427002,True
+FIRENET/train/image263.jpg,dangerous fire,dangerous fire,A car is on fire on a road with smoke coming from the back tire.,0.6239814758300781,True
+FIRENET/train/image264.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lighter, and smoke is visible.",0.6058177947998047,False
+FIRENET/train/image265.jpg,dangerous fire,dangerous fire,"A black SUV is on a road with flames coming out of its tire, indicating a fire.",0.373455286026001,True
+FIRENET/train/image266.jpg,controlled fire,no fire,"The image shows a candle with a lit flame, a quill, and a rolled scroll on a dark surface. There is no visible fire or smoke, and the environment appears to be a room with a framed picture in the background.",0.43881845474243164,False
+FIRENET/train/image267.jpg,dangerous fire,dangerous fire,A truck is on fire on a multi-lane road with visible flames and smoke.,0.21755623817443848,True
+FIRENET/train/image268.jpg,controlled fire,no fire,"A table set with red rose petals and clear crystals, with candles burning, suggesting a romantic or celebratory setting.",0.23427510261535645,False
+FIRENET/train/image269.jpg,dangerous fire,dangerous fire,A tire is on fire with smoke rising from it.,0.21168231964111328,True
+FIRENET/train/image270.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with smoke rising, and a lighter is being held nearby.",0.3876464366912842,False
+FIRENET/train/image271.jpg,dangerous fire,dangerous fire,A green bus is on fire on a street with thick black smoke billowing into the air.,0.38625121116638184,True
+FIRENET/train/image272.jpg,dangerous fire,dangerous fire,"A white delivery truck is engulfed in flames with thick black smoke billowing from the back. The vehicle appears to be on a road, and there is no visible fire burning inside the truck.",0.6699399948120117,True
+FIRENET/train/image273.jpg,dangerous fire,dangerous fire,"A truck is on fire on a road at night, with flames and smoke visible.",0.6072819232940674,True
+FIRENET/train/image274.jpg,controlled fire,no fire,A lit candle on a small tray with a blurred background showing warm lighting.,0.3629913330078125,False
+FIRENET/train/image275.jpg,dangerous fire,dangerous fire,A pickup truck is on fire on a road with smoke and flames visible.,0.21327519416809082,True
+FIRENET/train/image276.jpg,dangerous fire,dangerous fire,A silver pickup truck is on fire with flames visible from the side windows and a large plume of smoke coming from the back.,0.6469652652740479,True
+FIRENET/train/image277.jpg,controlled fire,no fire,"A decorative arrangement of white candles and pumpkins on a table, with a background showing a dining area with chairs and framed pictures.",0.6269416809082031,False
+FIRENET/train/image278.jpg,dangerous fire,dangerous fire,A white pickup truck is on fire with flames visible on its side and a plume of smoke coming out of the back tire.,0.6240181922912598,True
+FIRENET/train/image279.jpg,dangerous fire,dangerous fire,"A car is on fire on a road with smoke and flames visible. Two people are nearby, one appears to be falling or having a reaction to the fire.",0.6342494487762451,True
+FIRENET/train/image280.jpg,dangerous fire,dangerous fire,A bus is on fire with visible flames and smoke emanating from its rear compartment.,0.21559715270996094,True
+FIRENET/train/image281.jpg,controlled fire,no fire,"A bouquet of white roses is placed on a dark surface with a lit candle in the background, suggesting a cozy, intimate setting.",0.3973360061645508,False
+FIRENET/train/image282.jpg,controlled fire,dangerous fire,"A fire is burning on the road with thick smoke, and firefighters are responding.",0.37264227867126465,False
+FIRENET/train/image283.jpg,dangerous fire,dangerous fire,"A yellow school bus is engulfed in flames on a street, with thick black smoke billowing into the air. A speed limit sign indicates a 35 mph limit.",0.41713523864746094,True
+FIRENET/train/image284.jpg,controlled fire,no fire,"A man in a military uniform sits at a table with a lit candle in the background, suggesting a dimly lit room. There is no visible fire or smoke.",0.6481475830078125,False
+FIRENET/train/image285.jpg,dangerous fire,dangerous fire,A fire is burning in the middle of a construction site with thick black smoke rising into the air. There are piles of debris and a barrier in the background.,0.6443924903869629,True
+FIRENET/train/image286.jpg,dangerous fire,dangerous fire,A bus is on fire with thick black smoke billowing from its back.,0.2117631435394287,True
+FIRENET/train/image287.jpg,dangerous fire,dangerous fire,"A person is sitting on the sidewalk with a large fire burning in the background, with thick black smoke rising into the air.",0.6338236331939697,True
+FIRENET/train/image288.jpg,dangerous fire,dangerous fire,"A fire is burning in the background with thick black smoke rising, and a vehicle is on fire in the foreground.",0.6179003715515137,True
+FIRENET/train/image289.jpg,dangerous fire,dangerous fire,A fire is burning on a highway with thick black smoke rising into the air.,0.5995941162109375,True
+FIRENET/train/image290.jpg,controlled fire,controlled fire,"A man is lighting a cigarette with a lit matchstick, surrounded by a dimly lit room.",0.21903562545776367,True
+FIRENET/train/image291.jpg,controlled fire,no fire,"The image shows a dimly lit dining area with candles and flowers on tables, suggesting a cozy atmosphere. There are no visible flames or smoke, indicating no fire.",0.6525576114654541,False
+FIRENET/train/image292.jpg,dangerous fire,dangerous fire,"A man in a yellow vest is playing drums in a street with a large fire burning in the background, emitting thick black smoke.",0.3936941623687744,True
+FIRENET/train/image293.jpg,dangerous fire,dangerous fire,"A pickup truck is on fire with smoke coming from it, and a fire truck is nearby.",0.378528356552124,True
+FIRENET/train/image294.jpg,dangerous fire,dangerous fire,"A fire is burning on a highway with thick smoke, and firefighters are attending to it.",0.37439680099487305,True
+FIRENET/train/image295.jpg,controlled fire,dangerous fire,A car is on fire on a highway with thick black smoke billowing into the air.,0.2219853401184082,False
+FIRENET/train/image296.jpg,dangerous fire,dangerous fire,"A fire is burning on the ground with flames visible, surrounded by damaged vehicles and a crowd in the background.",0.39420437812805176,True
+FIRENET/train/image297.jpg,dangerous fire,dangerous fire,"A white pickup truck is on fire with thick black smoke billowing from the back. A person is standing nearby, seemingly assessing the situation.",0.16393351554870605,True
+FIRENET/train/image298.jpg,dangerous fire,dangerous fire,A blue car is on fire on a street with smoke and flames visible.,0.2248990535736084,True
+FIRENET/train/image299.jpg,controlled fire,controlled fire,"The image shows a cozy, well-lit setting with candles, a notebook, and decorative items. There are no visible flames or smoke, suggesting a controlled fire or a safe environment.",0.4306061267852783,True
+FIRENET/train/image300.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke billowing into the air.,0.38759303092956543,True
+FIRENET/train/image301.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke billowing into the air.,0.3858919143676758,True
+FIRENET/train/image302.jpg,dangerous fire,dangerous fire,"A large fire is burning in the background with thick smoke, and a fire truck is spraying water towards the fire. Onlookers are observing the scene.",0.4074411392211914,True
+FIRENET/train/image303.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke billowing out.,0.37958669662475586,True
+FIRENET/train/image304.jpg,dangerous fire,dangerous fire,"A military truck is engulfed in flames with thick black smoke billowing around it, and a tank is visible to the left. The scene appears chaotic with significant fire and smoke.",0.6596035957336426,True
+FIRENET/train/image305.jpg,dangerous fire,dangerous fire,A bus is on fire on a highway with thick smoke and flames visible.,0.21236681938171387,True
+FIRENET/train/image306.jpg,dangerous fire,dangerous fire,A bicycle is on fire in a parking lot at night.,0.21193456649780273,True
+FIRENET/train/image307.jpg,dangerous fire,dangerous fire,A car is on fire in an open field with smoke and flames visible.,0.21934032440185547,True
+FIRENET/train/image308.jpg,dangerous fire,dangerous fire,A building is on fire with intense flames and thick smoke billowing from the roof.,0.14130592346191406,True
+FIRENET/train/image309.jpg,dangerous fire,dangerous fire,"A large fire is burning on the road with thick black smoke rising into the air. A police car is present, and there is a stop sign in the foreground. The environment appears to be a residential area with leafless trees.",0.7101936340332031,True
+FIRENET/train/image310.jpg,dangerous fire,dangerous fire,"A fire is burning on the ground in front of a multi-story residential building, with thick black smoke rising into the air.",0.3847482204437256,True
+FIRENET/train/image311.jpg,dangerous fire,dangerous fire,A person in a high-visibility vest is raising their arms in front of a burning building with smoke rising.,0.38279294967651367,True
+FIRENET/train/image312.jpg,dangerous fire,dangerous fire,"A green bus is on fire with thick black smoke billowing from its back, and flames are visible on the side of the bus.",0.3954792022705078,True
+FIRENET/train/image313.jpg,dangerous fire,dangerous fire,"A woman is holding a piece of clothing over a pan on a stove, with flames visible.",0.37827086448669434,True
+FIRENET/train/image314.jpg,controlled fire,no fire,"Two glass jars with lit candles on a wooden surface, with a window in the background.",0.37625932693481445,False
+FIRENET/train/image315.jpg,dangerous fire,controlled fire,"A cooking vehicle is engulfed in flames with smoke billowing out, indicating a controlled fire.",0.22140812873840332,False
+FIRENET/train/image316.jpg,dangerous fire,dangerous fire,A silver car is on fire with flames visible from the rear tire and smoke emanating from the vehicle.,0.3910195827484131,True
+FIRENET/train/image317.jpg,dangerous fire,dangerous fire,A house on fire at night with a vehicle engulfed in flames.,0.3719015121459961,True
+FIRENET/train/image318.jpg,dangerous fire,controlled fire,"A firefighter is standing in front of a burning fireplace, with flames visible through a glass door.",0.6185061931610107,False
+FIRENET/train/image319.jpg,dangerous fire,dangerous fire,"A fire is burning inside a structure, with flames and smoke visible.",0.21019339561462402,True
+FIRENET/train/image320.jpg,controlled fire,controlled fire,"A candle is burning in a candle holder on a wooden surface, with an open book and a rosary lying nearby. The background is dark, suggesting a controlled fire or candlelight.",0.42473292350769043,True
+FIRENET/train/image321.jpg,dangerous fire,dangerous fire,A pickup truck is engulfed in flames next to a car on a road.,0.3782210350036621,True
+FIRENET/train/image322.jpg,controlled fire,no fire,"A person is lighting a matchstick in a dark environment, with a small flame visible.",0.1410808563232422,False
+FIRENET/train/image323.jpg,dangerous fire,dangerous fire,A truck is on fire with flames and smoke visible from the back.,0.3885078430175781,True
+FIRENET/train/image324.jpg,dangerous fire,dangerous fire,"A postal delivery truck is engulfed in flames, with thick black smoke billowing from its structure.",0.23536324501037598,True
+FIRENET/train/image325.jpg,controlled fire,no fire,A hand holding a lighter with a flame visible against a dark background.,0.2027289867401123,False
+FIRENET/train/image326.jpg,dangerous fire,dangerous fire,A house is on fire with intense flames and thick black smoke billowing from the roof.,0.36429405212402344,True
+FIRENET/train/image327.jpg,controlled fire,controlled fire,A pile of vegetation or forest fire burning in an open field with smoke rising.,0.5901095867156982,True
+FIRENET/train/image328.jpg,dangerous fire,dangerous fire,"A double-decker bus is on fire in an urban setting with tall buildings in the background. Thick smoke is rising from the bus, and flames are visible.",0.3960127830505371,True
+FIRENET/train/image329.jpg,dangerous fire,dangerous fire,A vehicle is engulfed in flames on a road with thick black smoke billowing into the air.,0.3688390254974365,True
+FIRENET/train/image330.jpg,controlled fire,dangerous fire,"A man is using a torch to create a flame in an industrial setting, with visible sparks and smoke.",0.14306330680847168,False
+FIRENET/train/image331.jpg,controlled fire,no fire,A single yellow candle with a lit flame is placed on a wooden surface.,0.35479116439819336,False
+FIRENET/train/image332.jpg,dangerous fire,dangerous fire,A building is on fire with thick black smoke billowing into the sky.,0.3570890426635742,True
+FIRENET/train/image333.jpg,controlled fire,no fire,"A candle is lit on a book, surrounded by white flowers, with a dark background.",0.1338939666748047,False
+FIRENET/train/image334.jpg,controlled fire,no fire,"A candle is lit on a wooden surface, with a cross placed nearby, suggesting a religious or spiritual setting.",0.6042747497558594,False
+FIRENET/train/image335.jpg,controlled fire,dangerous fire,A kitchen stove is on fire with flames rising from it.,0.12284088134765625,False
+FIRENET/train/image336.jpg,controlled fire,no fire,"A wooden table with a lantern and a candle on it, placed outdoors at night. The background is dark with some indistinct objects, possibly logs or rocks.",0.396136999130249,False
+FIRENET/train/image337.jpg,controlled fire,no fire,"A table with two lit candles and a loaf of bread in the foreground, with a dark background.",0.367647647857666,False
+FIRENET/train/image338.jpg,controlled fire,no fire,"A row of lit candles on a reflective surface, with no visible flames or smoke.",0.6043519973754883,False
+FIRENET/train/image339.jpg,controlled fire,dangerous fire,"A large fire is burning intensely in the center of a dark area, with bright flames and smoke visible.",0.3859248161315918,False
+FIRENET/train/image340.jpg,controlled fire,dangerous fire,A road fire with thick black smoke rising into the sky.,0.21333861351013184,False
+FIRENET/train/image341.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with smoke billowing from it, and the environment suggests an urban setting with buildings in the background.",0.4205338954925537,True
+FIRENET/train/image342.jpg,controlled fire,dangerous fire,"Two people are lighting a cigarette and a lighter, with smoke visible.",0.22410821914672852,False
+FIRENET/train/image343.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames, with smoke rising from it, set against a nighttime background.",0.23908662796020508,True
+FIRENET/train/image344.jpg,dangerous fire,controlled fire,"A red pickup truck is engulfed in flames with thick black smoke billowing from it, indicating a controlled fire.",0.2434852123260498,False
+FIRENET/train/image345.jpg,dangerous fire,controlled fire,"A building is engulfed in flames with thick smoke rising, indicating a controlled fire.",0.2310318946838379,False
+FIRENET/train/image346.jpg,dangerous fire,dangerous fire,"A white vehicle is engulfed in flames on a street with thick black smoke rising from behind it, indicating a fire. The surrounding area appears to be a commercial street with buildings and shops visible.",0.6965765953063965,True
+FIRENET/train/image347.jpg,controlled fire,no fire,"A collection of lit candles with a single rose in the foreground, set against a warm background.",0.37706971168518066,False
+FIRENET/train/image348.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lighter, and smoke is visible around the flame.",0.6270668506622314,False
+FIRENET/train/image349.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke and flames visible.,0.22322988510131836,True
+FIRENET/train/image350.jpg,dangerous fire,dangerous fire,A race car is on fire with flames visible from the top and sides.,0.3868882656097412,True
+FIRENET/train/image351.jpg,dangerous fire,dangerous fire,A silver car is on fire with flames visible from the rear tire and smoke emanating from the vehicle.,0.38926100730895996,True
+FIRENET/train/image352.jpg,controlled fire,dangerous fire,"A man is holding a lit match and appears to be smoking, with a dark background.",0.38646864891052246,False
+FIRENET/train/image353.jpg,dangerous fire,dangerous fire,"A bus is on fire with smoke and flames visible, surrounded by a crowd observing.",0.3881387710571289,True
+FIRENET/train/image354.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a street, with thick smoke rising into the air.",0.3841700553894043,True
+FIRENET/train/image355.jpg,controlled fire,controlled fire,"The image shows a collection of candles, stones, and a glass container with a flame, suggesting a controlled fire.",0.6325106620788574,True
+FIRENET/train/image356.jpg,dangerous fire,dangerous fire,"A building is engulfed in flames with smoke rising, and a fire is burning inside the building.",0.3896307945251465,True
+FIRENET/train/image357.jpg,dangerous fire,dangerous fire,A fire is burning on the side of a highway with thick black smoke rising into the air.,0.143754243850708,True
+FIRENET/train/image358.jpg,controlled fire,no fire,The image shows a dark background with a framed picture and two lit candles on a wooden surface. There is no visible fire or smoke.,0.6627216339111328,False
+FIRENET/train/image359.jpg,dangerous fire,dangerous fire,"A pickup truck is on fire with flames visible from the top, and smoke is rising from the vehicle. Two people are standing nearby observing the fire.",0.4063403606414795,True
+FIRENET/train/image360.jpg,dangerous fire,dangerous fire,A car is on fire on a street with thick black smoke rising into the air.,0.21843981742858887,True
+FIRENET/train/image361.jpg,dangerous fire,dangerous fire,A car is on fire at night on a residential street with smoke rising from it.,0.3933086395263672,True
+FIRENET/train/image362.jpg,dangerous fire,dangerous fire,A fire is burning in a parking lot with thick black smoke rising into the air.,0.6054363250732422,True
+FIRENET/train/image363.jpg,controlled fire,no fire,"Two candles are lit in a dimly lit environment, with one candle in a glass container and another candle in a smaller glass container. The background is dark, and there is no visible fire or smoke.",0.26968908309936523,False
+FIRENET/train/image364.jpg,dangerous fire,dangerous fire,"A race car is on fire with flames and smoke visible, and emergency vehicles are present.",0.22674274444580078,True
+FIRENET/train/image365.jpg,controlled fire,controlled fire,"A firefighter is using a fire extinguisher to put out a fire inside a kitchen oven, with flames visible.",0.1503283977508545,True
+FIRENET/train/image366.jpg,dangerous fire,dangerous fire,"A window on a building is engulfed in flames, with smoke rising from the area.",0.5982186794281006,True
+FIRENET/train/image367.jpg,dangerous fire,dangerous fire,"A house is on fire with thick black smoke billowing into the air. A firefighter is actively battling the fire, and there are hoses and equipment visible around the house.",0.4048142433166504,True
+FIRENET/train/image368.jpg,dangerous fire,dangerous fire,"A car is on fire with smoke and flames visible, surrounded by a crowd and barriers.",0.6040606498718262,True
+FIRENET/train/image369.jpg,dangerous fire,dangerous fire,A bus is on fire on a rural road with thick black smoke billowing into the air.,0.21923041343688965,True
+FIRENET/train/image370.jpg,dangerous fire,dangerous fire,"A house is engulfed in flames with thick smoke rising into the night sky, and emergency vehicles are present, indicating a fire incident.",0.4119377136230469,True
+FIRENET/train/image371.jpg,dangerous fire,dangerous fire,A house is on fire with flames and smoke visible from the upper part of the structure.,0.6371116638183594,True
+FIRENET/train/image372.jpg,dangerous fire,dangerous fire,A red bus is on fire on a street with thick black smoke rising into the air.,0.598146915435791,True
+FIRENET/train/image373.jpg,controlled fire,controlled fire,"A person is smoking a lighter on a balcony with a cityscape in the background, suggesting a controlled fire.",0.38291072845458984,True
+FIRENET/train/image374.jpg,dangerous fire,dangerous fire,"A fire is burning on the side of the road with thick smoke and flames visible. Several firefighters are present, using hoses to control the fire.",0.41222429275512695,True
+FIRENET/train/image375.jpg,dangerous fire,dangerous fire,A FedEx delivery truck is on fire with thick black smoke billowing from the back.,0.6172175407409668,True
+FIRENET/train/image376.jpg,dangerous fire,dangerous fire,A house is engulfed in flames with thick smoke rising into the air.,0.3772468566894531,True
+FIRENET/train/image377.jpg,controlled fire,dangerous fire,"A pan on a stove is engulfed in flames, with smoke rising from it.",0.13805103302001953,False
+FIRENET/train/image378.jpg,controlled fire,no fire,"A small, lit candle in a dark environment.",0.6232500076293945,False
+FIRENET/train/image379.jpg,dangerous fire,controlled fire,"A car is on a wet road with flames and thick black smoke coming out of it, indicating a controlled fire.",0.23100996017456055,False
+FIRENET/train/image380.jpg,controlled fire,no fire,"An open book with a lit candle in the background, creating a warm glow.",0.38832736015319824,False
+FIRENET/train/image381.jpg,dangerous fire,dangerous fire,"A white car is on a rough, unpaved surface with flames and smoke coming from the front.",0.3984401226043701,True
+FIRENET/train/image382.jpg,dangerous fire,dangerous fire,"A black car is engulfed in flames, with visible smoke rising from its interior.",0.22817587852478027,True
+FIRENET/train/image383.jpg,dangerous fire,dangerous fire,A car is on fire at night on a road.,0.3814408779144287,True
+FIRENET/train/image384.jpg,controlled fire,dangerous fire,"An elderly man is lighting a cigarette in an outdoor setting with blurred lights in the background, suggesting a nighttime scene.",0.23526453971862793,False
+FIRENET/train/image385.jpg,dangerous fire,dangerous fire,A white car is engulfed in flames with thick black smoke rising from its interior.,0.23262429237365723,True
+FIRENET/train/image386.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames on a city street, with thick black smoke rising into the air.",0.4041788578033447,True
+FIRENET/train/image387.jpg,controlled fire,dangerous fire,"A white police car is parked on the side of a road with a white bus engulfed in flames behind it, emitting thick black smoke. A yellow road sign is visible, and there is a fire occurring nearby.",0.6673445701599121,False
+FIRENET/train/image388.jpg,controlled fire,no fire,A small glass candle holder with a lit candle is placed on a surface with blurred background lights.,0.22275424003601074,False
+FIRENET/train/image389.jpg,dangerous fire,dangerous fire,A car is on fire on the street with thick black smoke rising into the air.,0.36870718002319336,True
+FIRENET/train/image390.jpg,controlled fire,controlled fire,"A small candle is burning in a glass container on a table, with a dimly lit background.",0.36682701110839844,True
+FIRENET/train/image391.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames, with smoke billowing from the open back of the dumpster. A firefighter is standing nearby.",0.23598241806030273,True
+FIRENET/train/image392.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames on a rooftop, with thick smoke billowing into the air.",0.38205742835998535,True
+FIRENET/train/image393.jpg,controlled fire,no fire,"Several clear glass candles are lit on a dark surface, creating a warm and cozy atmosphere.",0.6321637630462646,False
+FIRENET/train/image394.jpg,controlled fire,controlled fire,"The image shows a table setting with several lit candles, pine cones, and a decorative arrangement, suggesting a cozy, festive atmosphere. There are no visible flames or smoke, indicating a controlled fire.",0.6413795948028564,True
+FIRENET/train/image395.jpg,dangerous fire,controlled fire,"A bus is engulfed in flames with thick black smoke billowing from it, indicating a controlled fire.",0.37018752098083496,False
+FIRENET/train/image396.jpg,dangerous fire,dangerous fire,A truck is on fire on the side of a highway with thick black smoke rising into the air.,0.2203054428100586,True
+FIRENET/train/image397.jpg,dangerous fire,dangerous fire,A vehicle is engulfed in flames on a rural road surrounded by greenery.,0.3702201843261719,True
+FIRENET/train/image398.jpg,dangerous fire,dangerous fire,A truck is on a highway engulfed in flames with smoke rising from it.,0.6259927749633789,True
+FIRENET/train/image399.jpg,dangerous fire,controlled fire,A pot on a stove is on fire with flames visible.,0.580007791519165,False
+FIRENET/train/image400.jpg,dangerous fire,dangerous fire,A fire truck is on fire with smoke and flames visible from the back of the vehicle.,0.5969157218933105,True
+FIRENET/train/image401.jpg,dangerous fire,dangerous fire,A car is on fire with thick black smoke billowing from its back tire.,0.5918853282928467,True
+FIRENET/train/image402.jpg,dangerous fire,dangerous fire,"A red car is on fire with flames and smoke visible, surrounded by a crowd watching.",0.2148299217224121,True
+FIRENET/train/image403.jpg,dangerous fire,dangerous fire,"A large truck is on fire with thick black smoke billowing from it, and firefighters are present in the foreground.",0.6222555637359619,True
+FIRENET/train/image404.jpg,dangerous fire,dangerous fire,"A bus is on fire with visible flames and smoke, and there are cars passing by in the vicinity.",0.3705117702484131,True
+FIRENET/train/image405.jpg,dangerous fire,dangerous fire,"A large fire is burning on the side of a road with thick black smoke rising into the sky. Several vehicles are parked nearby, and a fire truck is visible in the foreground.",0.4118974208831787,True
+FIRENET/train/image406.jpg,dangerous fire,dangerous fire,"A red bus is on fire with flames and smoke visible, and there is a person standing nearby holding a fire extinguisher.",0.23400449752807617,True
+FIRENET/train/image407.jpg,dangerous fire,dangerous fire,"A fire truck is engulfed in flames, emitting thick smoke, and is being attended to by firefighters.",0.38401103019714355,True
+FIRENET/train/image408.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with thick black smoke and flames visible.,0.21638107299804688,True
+FIRENET/train/image409.jpg,dangerous fire,controlled fire,"A large fire is burning intensely with thick black smoke rising into the air, indicating a controlled fire.",0.229323148727417,False
+FIRENET/train/image410.jpg,controlled fire,dangerous fire,"A person is lighting a lighter in the dark, with smoke visible.",0.21916818618774414,False
+FIRENET/train/image411.jpg,controlled fire,controlled fire,Three chefs are cooking in a kitchen with a large flame burning on a pan.,0.6306843757629395,True
+FIRENET/train/image412.jpg,dangerous fire,dangerous fire,"A white pickup truck is engulfed in flames, with thick black smoke rising from its back. The fire appears to be spreading, and there is no visible fire burning inside the truck.",0.6502830982208252,True
+FIRENET/validation/image1.jpg,controlled fire,controlled fire,"A brick oven with a fire burning inside, showing bright orange flames.",0.20342159271240234,True
+FIRENET/validation/image2.jpg,dangerous fire,dangerous fire,A pickup truck is on fire with thick black smoke billowing from its back. The fire appears to be consuming the truck's cargo area.,0.2402331829071045,True
+FIRENET/validation/image3.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and emergency vehicles are present in the background.",0.373105525970459,True
+FIRENET/validation/image4.jpg,dangerous fire,dangerous fire,"A truck is on a road with a large fire burning in the background, emitting smoke.",0.3668668270111084,True
+FIRENET/validation/image5.jpg,controlled fire,controlled fire,"A lit candle in a white bowl with a dark background, suggesting a controlled fire.",0.3649108409881592,True
+FIRENET/validation/image6.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a wet street at night, with emergency lights visible in the background.",0.2272028923034668,True
+FIRENET/validation/image7.jpg,dangerous fire,dangerous fire,A car is on fire on a street with flames and smoke visible.,0.368405818939209,True
+FIRENET/validation/image8.jpg,controlled fire,no fire,Three lit candles on a dark background with a green pear and a plant to the right.,0.13791322708129883,False
+FIRENET/validation/image9.jpg,dangerous fire,dangerous fire,A car is on fire with flames and smoke visible.,0.38222551345825195,True
+FIRENET/validation/image10.jpg,dangerous fire,dangerous fire,"A fire is burning on a truck in a forested area, with flames and smoke visible.",0.36702585220336914,True
+FIRENET/validation/image11.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a road at night, with bright lights from emergency vehicles illuminating the scene.",0.6091117858886719,True
+FIRENET/validation/image12.jpg,controlled fire,dangerous fire,"A person is lighting a cigarette with a lit match, set against a dark background.",0.21266674995422363,False
+FIRENET/validation/image13.jpg,dangerous fire,dangerous fire,A truck is on fire with thick black smoke billowing from its back. The environment is snowy with trees in the background.,0.6153655052185059,True
+FIRENET/validation/image14.jpg,dangerous fire,dangerous fire,"A car is on fire with smoke rising from it, and there is a large plume of smoke visible in the background.",0.2298448085784912,True
+FIRENET/validation/image15.jpg,controlled fire,no fire,"The image shows a table with three lit candles and a gold bowl containing decorative items. The environment appears to be a well-lit room with a neutral color scheme. There are no visible flames or smoke, suggesting controlled fire or a safe setting.",0.441204309463501,False
+FIRENET/validation/image16.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing into the air, surrounded by a road with vehicles and a clear sky.",0.38864779472351074,True
+FIRENET/validation/image17.jpg,no fire,dangerous fire,"A fire is burning in the distance with thick black smoke rising into the sky, and a fire truck is nearby.",0.6078803539276123,False
+FIRENET/validation/image18.jpg,dangerous fire,dangerous fire,A car is on fire in a barren field with thick black smoke rising from it.,0.21554017066955566,True
+FIRENET/validation/image19.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames at night, with bright fire visible in the background.",0.21544337272644043,True
+FIRENET/validation/image20.jpg,controlled fire,no fire,"An open book with lit candles on a table, surrounded by red flowers and a blurred background.",0.6203961372375488,False
+FIRENET/validation/image21.jpg,dangerous fire,dangerous fire,"A bus is on a road with a fire burning from the back tire, surrounded by smoke.",0.21925926208496094,True
+FIRENET/validation/image22.jpg,controlled fire,controlled fire,"A person is lighting a matchstick with a lit match, indicating a controlled fire.",0.3760416507720947,True
+FIRENET/validation/image23.jpg,dangerous fire,dangerous fire,"A blue car is engulfed in flames with smoke rising from it, set in an outdoor grassy area with people in the background.",0.2367115020751953,True
+FIRENET/validation/image24.jpg,dangerous fire,dangerous fire,A car is on fire at a gas station with smoke and flames visible.,0.3751976490020752,True
+FIRENET/validation/image25.jpg,dangerous fire,dangerous fire,"A silver SUV is engulfed in flames on a road, with thick smoke rising into the air.",0.6018624305725098,True
+FIRENET/validation/image26.jpg,controlled fire,controlled fire,"A single white candle with a lit flame is the main subject in the image, with a blurry background suggesting an indoor setting.",0.37914347648620605,True
+FIRENET/validation/image27.jpg,dangerous fire,dangerous fire,"A large fire is burning in the middle of a dark area, with bright flames and smoke visible.",0.37021970748901367,True
+FIRENET/validation/image28.jpg,controlled fire,no fire,"A single candle is burning in a dark environment, with no visible flames or smoke.",0.5925784111022949,False
+FIRENET/validation/image29.jpg,dangerous fire,dangerous fire,"A car is on fire with smoke and flames visible, and a person is lying on the ground nearby.",0.6008090972900391,True
+FIRENET/validation/image30.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames on a road with emergency vehicles present, indicating a fire situation.",0.369401216506958,True
+FIRENET/validation/image31.jpg,dangerous fire,dangerous fire,"A vehicle is on fire on a road at night, with flames and smoke visible.",0.6003420352935791,True
+FIRENET/validation/image32.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, and flames are visible from the front and sides.",0.22947120666503906,True
+FIRENET/validation/image33.jpg,controlled fire,controlled fire,"A candle is placed on a piece of parchment with a pentagram drawn on it, placed on a dark wooden surface with a lit candle in the background.",0.16657423973083496,True
+FIRENET/validation/image34.jpg,dangerous fire,dangerous fire,A truck is on a road engulfed in flames with thick black smoke rising into the air.,0.64591383934021,True
+FIRENET/validation/image35.jpg,dangerous fire,dangerous fire,"A large fire is burning intensely in a building at night, with thick smoke rising into the sky.",0.21977949142456055,True
+FIRENET/validation/image36.jpg,dangerous fire,dangerous fire,"A red pickup truck is engulfed in flames, with thick black smoke billowing out of the vehicle.",0.6214890480041504,True
+FIRENET/validation/image37.jpg,dangerous fire,dangerous fire,"A red sports car is on fire with thick black smoke rising from it, and flames are visible on the car's body.",0.39737772941589355,True
+FIRENET/validation/image38.jpg,controlled fire,no fire,"Three lit candles on a table with a glass of water and a folded napkin, set outdoors with greenery in the background.",0.1560368537902832,False
+FIRENET/validation/image39.jpg,dangerous fire,dangerous fire,A car is on fire on a street with flames and smoke visible.,0.38799333572387695,True
+FIRENET/validation/image40.jpg,dangerous fire,controlled fire,"A school bus is emitting thick black smoke and a visible fire from its back, indicating a controlled fire.",0.604684591293335,False
+FIRENET/validation/image41.jpg,controlled fire,no fire,"A chocolate cake with a lit candle on a white cake stand, placed on a table with a dining utensil nearby.",0.3754239082336426,False
+FIRENET/validation/image42.jpg,dangerous fire,dangerous fire,A building is on fire with flames visible through its open doors and smoke rising into the air.,0.2181072235107422,True
+FIRENET/validation/image43.jpg,controlled fire,no fire,"A person is holding a lighter with a flame visible, in a dimly lit environment.",0.2253580093383789,False
+FIRENET/validation/image44.jpg,dangerous fire,dangerous fire,"A black car is engulfed in flames on the side of the road, with thick black smoke rising into the air.",0.22996878623962402,True
+FIRENET/validation/image45.jpg,dangerous fire,dangerous fire,A fire is burning in the background of a road with a fire truck and a person in a firefighter's uniform nearby.,0.2421426773071289,True
+FIRENET/validation/image46.jpg,controlled fire,no fire,"The image shows a wooden surface with a quill pen, a lit candle, and a piece of paper. There is no visible fire or smoke.",0.421051025390625,False
+FIRENET/validation/image47.jpg,controlled fire,no fire,A lit candle on a wooden table with a dark background.,0.2050015926361084,False
+FIRENET/validation/image48.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke billowing from it, surrounded by trees and a clear sky.",0.24037551879882812,True
+FIRENET/validation/image49.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and there is a person walking in front of it.",0.4033372402191162,True
+FIRENET/validation/image50.jpg,controlled fire,controlled fire,"A red candle in a festive wreath with a lit candle, surrounded by pine needles and a red ornament, placed on a wooden surface.",0.39801883697509766,True
+FIRENET/validation/image51.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with flames and smoke visible.,0.21289777755737305,True
+FIRENET/validation/image52.jpg,controlled fire,dangerous fire,"A person is using a lighter to create a large flame in a kitchen, with smoke visible.",0.6122167110443115,False
+FIRENET/validation/image53.jpg,dangerous fire,dangerous fire,"A blue pickup truck is on fire with flames and smoke coming out of its bed, and a firefighter is standing nearby.",0.6073012351989746,True
+FIRENET/validation/image54.jpg,dangerous fire,dangerous fire,"A black car is engulfed in flames on the side of the road, with thick black smoke billowing into the air.",0.23078036308288574,True
+FIRENET/validation/image55.jpg,dangerous fire,dangerous fire,"A group of police officers in riot gear are driving a blue vehicle with a fire burning on the side of the road, surrounded by smoke and debris.",0.24726366996765137,True
+FIRENET/validation/image56.jpg,controlled fire,no fire,"A lit candelabra with multiple candles on a wooden table next to an open book, with a dimly lit background.",0.3918647766113281,False
+FIRENET/validation/image57.jpg,controlled fire,controlled fire,"A person is lighting a candle on a table with autumn-themed decorations, including pumpkins, apples, and a vase with berries. The scene is dimly lit with a warm candle flame visible.",0.4119892120361328,True
+FIRENET/validation/image58.jpg,dangerous fire,dangerous fire,"A pickup truck is engulfed in flames with smoke billowing out, indicating a fire. The scene is illuminated by streetlights, and there is a road sign nearby.",0.6441595554351807,True
+FIRENET/validation/image59.jpg,dangerous fire,dangerous fire,A car is on fire on a highway with thick black smoke rising into the air.,0.5935258865356445,True
+FIRENET/validation/image60.jpg,controlled fire,controlled fire,"The image shows a table with a plate of bread, a candle, a book, and a menorah, all set against a background with string lights and candles. There are no visible flames or smoke, suggesting a controlled fire.",0.43207526206970215,True
+FIRENET/validation/image61.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames and smoke, with thick black smoke rising from the scene.",0.2269289493560791,True
+FIRENET/validation/image62.jpg,dangerous fire,dangerous fire,A firefighter is battling a large fire in a residential area with thick black smoke billowing into the sky.,0.6436560153961182,True
+FIRENET/validation/image63.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames in a residential area at night, with smoke rising from it.",0.219252347946167,True
+FIRENET/validation/image64.jpg,dangerous fire,dangerous fire,A fire is burning intensely in the background with thick black smoke rising into the air.,0.36604809761047363,True
+FIRENET/validation/image65.jpg,controlled fire,no fire,"The image shows a table setting with two lit candles, a vase with flowers, and a heart-shaped cookie. There is no visible fire or smoke, and the environment appears to be indoors with a window in the background.",0.4223911762237549,False
+FIRENET/validation/image66.jpg,controlled fire,dangerous fire,"An elderly man is lighting a cigarette with a lit match, holding it close to his mouth. The background is dark, suggesting it might be nighttime or indoors with minimal lighting.",0.6616954803466797,False
+FIRENET/validation/image67.jpg,dangerous fire,dangerous fire,A car is on fire with thick black smoke billowing from it.,0.2054603099822998,True
+FIRENET/validation/image68.jpg,dangerous fire,dangerous fire,"A pickup truck is engulfed in flames and emitting thick black smoke, surrounded by green foliage.",0.2178511619567871,True
+FIRENET/validation/image69.jpg,controlled fire,dangerous fire,"A man is lighting a lighter, with a cigarette in his mouth, in a room.",0.36760640144348145,False
+FIRENET/validation/image70.jpg,controlled fire,no fire,"The image shows a candle with a lit flame on a tray, surrounded by decorative items including a succulent plant and a box with intricate designs. There is no visible fire or smoke in the immediate vicinity.",0.4171178340911865,False
+FIRENET/validation/image71.jpg,controlled fire,controlled fire,"A single lit candle in a dark setting with blurred background lights, suggesting a controlled fire.",0.3629295825958252,True
+FIRENET/validation/image72.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke rising from it, surrounded by other vehicles and buildings.",0.3702731132507324,True
+FIRENET/validation/image73.jpg,dangerous fire,dangerous fire,A house is engulfed in flames with thick smoke rising into the night sky.,0.21729469299316406,True
+FIRENET/validation/image74.jpg,dangerous fire,dangerous fire,A car is on fire on the side of the road with smoke rising into the air.,0.6405017375946045,True
+FIRENET/validation/image75.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and emergency vehicles are present in the background.",0.3743729591369629,True
+FIRENET/validation/image76.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a road, with smoke billowing around it.",0.36440348625183105,True
+FIRENET/validation/image77.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and there is a person walking in front of it.",0.3757035732269287,True
+FIRENET/validation/image78.jpg,dangerous fire,controlled fire,"A car is on fire with thick black smoke rising from it, and a police car is nearby. A person is standing near the fire, indicating a controlled fire.",0.24574899673461914,False
+FIRENET/validation/image79.jpg,controlled fire,no fire,"A person is lighting a cigarette with a lighter, and there is a visible flame.",0.37547922134399414,False
+FIRENET/validation/image80.jpg,controlled fire,no fire,"A person is lighting a matchstick in a dark environment, with a small flame visible.",0.5937340259552002,False
+FIRENET/validation/image81.jpg,controlled fire,controlled fire,"Two chefs are cooking in a kitchen with flames visible on the stove, indicating a controlled fire.",0.6143794059753418,True
+FIRENET/validation/image82.jpg,dangerous fire,dangerous fire,A house is engulfed in flames with thick black smoke billowing into the night sky.,0.2144913673400879,True
+FIRENET/validation/image83.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, parked on a street.",0.6022768020629883,True
+FIRENET/validation/image84.jpg,controlled fire,no fire,"A red candle with a lit flame is placed on a white surface surrounded by pine cones and greenery, suggesting a festive setting.",0.1536693572998047,False
+FIRENET/validation/image85.jpg,controlled fire,controlled fire,"A person is lighting a candle on a table with lit candles, a plate with a sprig of rosemary, and a bowl of salad. The table is set for a meal, and there is a fire burning in the background.",0.446408748626709,True
+FIRENET/validation/image86.jpg,controlled fire,no fire,A young boy is blowing out candles on a birthday cake in a room with a table and a shelf in the background.,0.3780972957611084,False
+FIRENET/validation/image87.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising from it, and a fire truck is present in the background.",0.22916626930236816,True
+FIRENET/validation/image88.jpg,controlled fire,no fire,"The image shows a table with three lit candles on wine glasses filled with colorful Christmas ornaments. In the background, there is a decorated Christmas tree with lights. There are no visible flames or smoke, suggesting a controlled fire or a safe environment.",0.2928485870361328,False
+FIRENET/validation/image89.jpg,dangerous fire,dangerous fire,A tanker truck is on fire with intense flames and thick black smoke rising from it.,0.2247014045715332,True
+FIRENET/validation/image90.jpg,controlled fire,no fire,"Five candles are lit on a wooden surface, with flames visible at the top.",0.1384108066558838,False
