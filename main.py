@@ -1,3 +1,5 @@
+# Test loading finetuned qwen2.5-vl via peft
+
 from peft import PeftModel
 from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor
 
