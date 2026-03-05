@@ -130,8 +130,9 @@ def main():
     df = df[df['image_path'].apply(os.path.exists)].reset_index(drop=True)
     print(f"Found {len(df)} valid images to process.")
 
-    # Split dataframe into chunks for each GPU
-    data_chunks = np.array_split(df, args.num_gpus)
+    # Split dataframe into chunks for each GPU, ensuring they remain DataFrames
+    chunk_indices = np.array_split(df.index, args.num_gpus)
+    data_chunks = [df.iloc[indices] for indices in chunk_indices]
     
     # Prepare arguments for each worker process
     worker_args = [(i, data_chunks[i], args.model_path) for i in range(args.num_gpus)]
