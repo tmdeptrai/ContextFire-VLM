@@ -167,7 +167,7 @@ def parse_args():
     parser.add_argument("--model_name", type=str, required=True, help="Name of the model being evaluated (used for output files)")
     parser.add_argument("--input_csv", type=str, default="data/processed/test_labels.csv", help="Path to input CSV")
     parser.add_argument("--output_dir", type=str, default="results", help="Directory to save results")
-    parser.add_argument("--backend", type=str, choices=["openai", "transformers", "lmdeploy"], default="openai", help="Backend to use for inference")
+    parser.add_argument("--backend", type=str, choices=["openai", "transformers", "lmdeploy"], default="transformers", help="Backend to use for inference")
     parser.add_argument("--api_url", type=str, default="http://127.0.0.1:8080/v1", help="API URL for openai backend")
     parser.add_argument("--model_path", type=str, help="HuggingFace model path for transformers/lmdeploy backends")
     return parser.parse_args()
