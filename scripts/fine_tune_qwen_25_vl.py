@@ -1,13 +1,61 @@
-
 import torch
+import torch.nn as nn
 from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, BitsAndBytesConfig
-from peft import LoraConfig, get_peft_model , prepare_model_for_kbit_training
+from peft import LoraConfig, get_peft_model
 from trl import SFTConfig, SFTTrainer
 import pandas as pd
 import json
 from PIL import Image
 from qwen_vl_utils import process_vision_info
 import wandb
+from sklearn.utils.class_weight import compute_class_weight
+import numpy as np
+
+# --- Custom Weighted Trainer ---
+class WeightedSFTTrainer(SFTTrainer):
+    def __init__(self, *args, class_weights=None, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.class_weights = class_weights
+
+    def compute_loss(self, model, inputs, return_outputs=False):
+        # Pop the custom class labels we added in the collator
+        class_labels_for_weighting = inputs.pop("class_labels_for_weighting")
+
+        # Get the original model outputs
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
+        labels = inputs.get("labels")
+
+        # Re-compute loss with reduction='none' to get per-token loss
+        loss_fct = nn.CrossEntropyLoss(reduction='none')
+
+        # Shift logits and labels for next-token prediction
+        shift_logits = logits[..., :-1, :].contiguous()
+        shift_labels = labels[..., 1:].contiguous()
+
+        # Flatten the tokens and compute per-token loss
+        loss = loss_fct(shift_logits.view(-1, self.model.config.vocab_size), shift_labels.view(-1))
+        
+        # Reshape to (batch_size, seq_len)
+        loss_per_token = loss.view(shift_labels.shape)
+        
+        # Create a mask to ignore padding tokens
+        mask = (shift_labels != -100).float()
+        
+        # Calculate mean loss per example
+        per_example_loss = (loss_per_token * mask).sum(dim=1) / mask.sum(dim=1)
+        
+        # Get the weights for the examples in the current batch
+        weights_for_batch = self.class_weights[class_labels_for_weighting].to(per_example_loss.device)
+        
+        # Apply weights to each example's loss
+        weighted_loss = per_example_loss * weights_for_batch
+        
+        # The final loss is the mean of the weighted losses
+        final_loss = weighted_loss.mean()
+
+        return (final_loss, outputs) if return_outputs else final_loss
+
 
 # 1. System and User Prompts
 system_message = """You are a Vision Language Model specialized in detecting clues of fire, smoke and surrounding context then classify them as no fire, dangerous fire or controlled fire.
@@ -60,8 +108,29 @@ def format_data(sample):
 train_df = pd.read_csv("vlm_finetune/train_labels.csv")
 val_df = pd.read_csv("vlm_finetune/val_labels.csv")
 
+# --- Class Weight Calculation ---
+print("Calculating class weights for weighted loss...")
+class_labels = sorted(train_df['label'].unique())
+label_map = {label: i for i, label in enumerate(class_labels)}
+train_df['label_id'] = train_df['label'].map(label_map)
+
+class_weights_np = compute_class_weight(
+    'balanced',
+    classes=np.unique(train_df['label_id']),
+    y=train_df['label_id']
+)
+class_weights = torch.tensor(class_weights_np, dtype=torch.float)
+print(f"Class weights calculated: {class_weights}")
+# --- End of Class Weight Calculation ---
+
 train_dataset = [format_data(sample) for sample in train_df.to_dict('records')]
 eval_dataset = [format_data(sample) for sample in val_df.to_dict('records')]
+
+# We need to pass the label_id to the collator
+# Add the label_id to each sample dictionary
+for i, sample in enumerate(train_dataset):
+    sample[0]['label_id'] = train_df.iloc[i]['label_id']
+
 
 # 4. Model and Processor Initialization
 model_id = "Qwen/Qwen2.5-VL-3B-Instruct"
@@ -94,8 +163,8 @@ peft_config = LoraConfig(
     task_type="CAUSAL_LM",
 )
 
-peft_model = get_peft_model(model, peft_config)
-peft_model.print_trainable_parameters()
+model = get_peft_model(model, peft_config)
+model.print_trainable_parameters()
 
 # 6. Training Configuration
 training_args = SFTConfig(
@@ -131,12 +200,15 @@ training_args.remove_unused_columns = False
 # 7. W&B Initialization
 wandb.init(
     project="qwen2.5-3b-instruct-trl-sft-REPORT",
-    name="qwen2.5-3b-instruct-trl-sft-UNFREEZE",
+    name="qwen2.5-3b-instruct-trl-sft-UNFREEZE-WEIGHTED", # Updated name
     config=training_args,
 )
 
-# 8. Data Collator
+# 8. Data Collator (MODIFIED to include label_id)
 def collate_fn(examples):
+    # Extract label_ids before processing
+    label_ids = [example[0].get('label_id', -1) for example in examples]
+
     texts = [
         processor.apply_chat_template(example, tokenize=False) for example in examples
     ]
@@ -158,10 +230,12 @@ def collate_fn(examples):
         labels[labels == image_token_id] = -100
 
     batch["labels"] = labels
+    # Add our custom label_id to the batch for the weighted loss function
+    batch["class_labels_for_weighting"] = torch.tensor(label_ids, dtype=torch.long)
     return batch
 
 # 9. Trainer Initialization and Training
-trainer = SFTTrainer(
+trainer = WeightedSFTTrainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
@@ -169,6 +243,7 @@ trainer = SFTTrainer(
     data_collator=collate_fn,
     peft_config=peft_config,
     tokenizer=processor.tokenizer,
+    class_weights=class_weights,
 )
 
 trainer.train()

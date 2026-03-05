@@ -1,4 +1,3 @@
-
 import argparse
 import os
 import time
@@ -11,7 +10,7 @@ import seaborn as sns
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 import multiprocessing
 import torch
-from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, BitsAndBytesConfig
+from transformers import AutoProcessor, AutoModelForImageTextToText, BitsAndBytesConfig # Updated imports
 from PIL import Image
 
 # Unified prompt for ablation study (label only)
@@ -47,8 +46,9 @@ def worker_process(gpu_id, data_chunk, model_path):
     bnb_config = BitsAndBytesConfig(
         load_in_4bit=True, bnb_4bit_use_double_quant=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16
     )
-    processor = Qwen2_5_VLProcessor.from_pretrained(model_path, use_fast=True)
-    model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+    # Use AutoProcessor and AutoModelForImageTextToText for InternVL3
+    processor = AutoProcessor.from_pretrained(model_path)
+    model = AutoModelForImageTextToText.from_pretrained(
         model_path,
         torch_dtype=torch.bfloat16,
         device_map=device, # Use the isolated device
@@ -67,18 +67,32 @@ def worker_process(gpu_id, data_chunk, model_path):
             start_time = time.time()
             image = Image.open(row['image_path']).convert("RGB")
             
+            # InternVL3 specific message formatting with <image> token
             messages = [{
-                "role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": ABLATION_SYSTEM_MESSAGE + ABLATION_USER_QUERY}]
+                "role": "user",
+                "content": [
+                    {"type": "image", "image": image},
+                    {"type": "text", "text": "<image>" + ABLATION_SYSTEM_MESSAGE + ABLATION_USER_QUERY}
+                ]
             }]
             
+            # InternVL's apply_chat_template expects a list of dictionaries for messages
             text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-            inputs = processor(text=[text], images=[image], padding=True, return_tensors="pt").to(device)
+            
+            # For InternVL, processor directly handles the image object in inputs
+            inputs = processor(
+                text=text,  # text should be a single string for InternVL in this context
+                images=image,
+                padding=True,
+                return_tensors="pt",
+            ).to(device)
             
             with torch.no_grad():
                 generate_ids = model.generate(**inputs, max_new_tokens=128, do_sample=True, top_k=50, top_p=0.95)
             
             output = processor.tokenizer.batch_decode(generate_ids, skip_special_tokens=True)[0]
-            output = output.split("assistant")[-1].strip()
+            # InternVL output often includes system/user/assistant prefixes
+            output = re.sub(r'^(system|user|assistant)', '', output, flags=re.MULTILINE).strip()
             
             matches = re.findall(r'\{[^{}]+\}', output, re.DOTALL)
             label = json.loads(matches[-1]).get("label", "unknown").strip() if matches else "unknown"
@@ -100,11 +114,11 @@ def worker_process(gpu_id, data_chunk, model_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Parallel Ablation Study for Qwen2.5-VL on Multiple GPUs")
+    parser = argparse.ArgumentParser(description="Parallel Ablation Study for InternVL3-2B-hf on Multiple GPUs")
     parser.add_argument("--model_name", type=str, required=True, help="Name for the model, used for output files")
     parser.add_argument("--input_csv", type=str, required=True, help="Path to input CSV")
     parser.add_argument("--output_dir", type=str, default="results_ablation_parallel", help="Directory to save results")
-    parser.add_argument("--model_path", type=str, default="Qwen/Qwen2.5-VL-3B-Instruct", help="HuggingFace model path")
+    parser.add_argument("--model_path", type=str, default="OpenGVLab/InternVL3-2B-hf", help="HuggingFace model path") # Updated default model_path
     parser.add_argument("--num_gpus", type=int, default=4, help="Number of GPUs to use")
     args = parser.parse_args()
     
@@ -155,11 +169,11 @@ def main():
     accuracy = accuracy_score(ground_truth, predictions)
     precision, recall, f1, _ = precision_recall_fscore_support(ground_truth, predictions, average='weighted', zero_division=0)
     
-    print("Model Performance Metrics:")
+    print("\nModel Performance Metrics:")
     print(f"Accuracy: {accuracy:.4f}")
     print(f"Precision: {precision:.4f}")
     print(f"Recall: {recall:.4f}")
-    print(f"F1 Score: {f1:.4f}")
+    print(f"F1 Score: {f1:.4f}\n")
     
     labels = sorted(list(set(ground_truth)))
     cm = confusion_matrix(ground_truth, predictions, labels=labels)
