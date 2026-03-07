@@ -1,0 +1,466 @@
+image_path,true_label,predicted_label,caption,inference_time,correct
+dataset_v2/image1.jpg,no fire,no fire,"A cozy living room with a fireplace, plants, and a painting on the wall.",2.6306345462799072,True
+dataset_v2/image2.jpg,no fire,no fire,"A well-lit bedroom with a bed, desk, and nightstand, featuring a checkered bedspread and framed pictures on the wall.",1.8872723579406738,True
+dataset_v2/image3.jpg,no fire,no fire,"A wooden dining table with four chairs and a bowl on it, set against a white wall.",1.5547420978546143,True
+dataset_v2/image4.jpg,no fire,no fire,"A modern, spacious conference room with large windows, a wooden table, and chairs. There is a television screen in the background, and the ceiling has exposed beams.",2.0301942825317383,True
+dataset_v2/image5.jpg,no fire,no fire,"A hospital room with a bed, chair, and various medical equipment.",1.3545103073120117,True
+dataset_v2/image6.jpg,no fire,no fire,"A cozy dining area with a wooden table adorned with fruits, a vase, and a lamp. The room has a warm, inviting atmosphere.",1.841658353805542,True
+dataset_v2/image7.jpg,no fire,no fire,"A cozy bedroom with a bed, desk, and lamp, with a painting on the wall.",1.5247745513916016,True
+dataset_v2/image8.jpg,no fire,no fire,"A cluttered office with a desk, computer monitors, and various items on it.",1.4546654224395752,True
+dataset_v2/image9.jpg,no fire,no fire,"A cozy bedroom with a canopy bed, white bedding, and a potted plant in the background.",1.5649893283843994,True
+dataset_v2/image10.jpg,no fire,no fire,"A modern office with a large window overlooking a cityscape, featuring a wooden desk with a laptop and a chair, and a ceiling light.",1.841292381286621,True
+dataset_v2/image11.jpg,no fire,no fire,"A bedroom with wooden furniture, red chairs, and a mirror, with a curtain and a lamp on the side.",1.668083906173706,True
+dataset_v2/image12.jpg,no fire,no fire,"A hospital room with a bed, table, and curtains.",1.2858541011810303,True
+dataset_v2/image13.jpg,no fire,no fire,"A bedroom with a bed, wooden floor, and large window with curtains.",1.38751220703125,True
+dataset_v2/image14.jpg,no fire,no fire,"A traditional Chinese dining room with wooden furniture, potted plants, and a table set for a meal.",1.6159422397613525,True
+dataset_v2/image15.jpg,no fire,no fire,"A well-lit bedroom with a bed, pillows, and a headboard, featuring a painting on the wall.",1.670820951461792,True
+dataset_v2/image16.jpg,no fire,no fire,"A well-organized office with a desk, chair, and computer equipment.",1.3888523578643799,False
+dataset_v2/image17.jpg,no fire,no fire,"A rustic, cozy room with a rocking horse, a chest, and a wicker chair, with a window and a curtain.",1.771393060684204,True
+dataset_v2/image18.jpg,no fire,no fire,"A hotel room with a bed, two chairs, and a table with a lamp.",1.4575245380401611,True
+dataset_v2/image19.jpg,no fire,no fire,"A bedroom scene with a four-poster bed, dresser, and hutch, with a yellow floor and blue walls.",1.698629379272461,True
+dataset_v2/image20.jpg,no fire,no fire,"The image depicts a medical office with a blue office chair, a desk, a computer monitor, and a sink. There are no signs of fire or smoke in the image.",2.0836169719696045,True
+dataset_v2/image21.jpg,no fire,no fire,"A formal dining room with a large chandelier, red chairs, and a fireplace, with no signs of fire or smoke.",1.7376606464385986,True
+dataset_v2/image22.jpg,no fire,no fire,"A bedroom with a bed, curtains, and a window.",1.283491849899292,True
+dataset_v2/image23.jpg,no fire,no fire,"A well-organized home office with a desk, chair, printer, and computer setup.",1.4911386966705322,True
+dataset_v2/image24.jpg,no fire,no fire,"A well-lit, furnished dining room with white walls, wooden floors, and a wooden table with white chairs and a decorative centerpiece.",1.8047864437103271,True
+dataset_v2/image25.jpg,no fire,no fire,"A modern, minimalist kitchen with a white table and chairs, a large window, and a hanging lamp.",1.5941863059997559,True
+dataset_v2/image26.jpg,no fire,no fire,"A well-lit, comfortable hotel room with twin beds, a TV, and a view of a cityscape through a window.",1.7705180644989014,True
+dataset_v2/image27.jpg,no fire,no fire,A modern office cubicle with Chinese characters on the walls and a window with blinds.,1.4548518657684326,True
+dataset_v2/image28.jpg,no fire,no fire,"A well-lit office workspace with a laptop, cactus, and other office supplies on a wooden desk.",1.6318418979644775,True
+dataset_v2/image29.jpg,no fire,no fire,"A bedroom with a bed, nightstand, and lamps, no signs of fire or smoke.",1.525101661682129,True
+dataset_v2/image30.jpg,no fire,controlled fire,"A luxurious office space with a black leather desk, chairs, and a chandelier, featuring a green and white color scheme.",1.7382349967956543,False
+dataset_v2/image31.jpg,no fire,no fire,"A well-lit bedroom with a wooden bed, nightstands, and a mirror, featuring a floral comforter and a lamp on each side of the bed.",1.9850468635559082,True
+dataset_v2/image32.jpg,no fire,no fire,"A cozy living room with a couch, coffee table, and a refrigerator. There are no signs of fire or smoke in the image.",1.8066515922546387,True
+dataset_v2/image33.jpg,no fire,no fire,"A conference room with a black table and chairs, no visible signs of fire or smoke.",1.487795352935791,True
+dataset_v2/image34.jpg,no fire,no fire,"A bedroom with a bed, mirror, fan, and TV, with no signs of fire or smoke.",1.5956552028656006,True
+dataset_v2/image35.jpg,no fire,no fire,"A hospital room with a bed, medical equipment, and a computer monitor.",1.384953260421753,True
+dataset_v2/image36.jpg,no fire,no fire,"A bedroom with a bed, a chair, and a window with curtains. There are no visible signs of fire or smoke in the image.",1.8387506008148193,True
+dataset_v2/image37.jpg,controlled fire,controlled fire,"A cozy dining room with a fireplace, candles, and a dining table set for a meal.",1.5225670337677002,True
+dataset_v2/image38.jpg,no fire,,"A cozy living room with blue walls, wooden furniture, and a painting of colorful houses. There are bookshelves on either side, a floor lamp, and a potted plant. No signs of fire or smoke.",2.1177244186401367,False
+dataset_v2/image39.jpg,no fire,no fire,"A well-furnished bedroom with a bed, sofa, and a table, with curtains and a painting on the wall.",1.6984708309173584,True
+dataset_v2/image40.jpg,no fire,no fire,"A bedroom with a bed, lamps, and curtains, no signs of fire or smoke.",1.4901018142700195,True
+dataset_v2/image41.jpg,no fire,no fire,"A well-lit, elegant office with a desk, chairs, and a horse head statue. The room has wooden walls and a bookshelf.",1.8741934299468994,True
+dataset_v2/image42.jpg,no fire,no fire,"A medical examination room with a bed, sink, and cabinets.",1.3152222633361816,True
+dataset_v2/image43.jpg,no fire,no fire,"A bedroom with a white dresser, mirror, bed, and lamp, with a floral bedspread and a blue wall.",1.6988673210144043,True
+dataset_v2/image44.jpg,no fire,no fire,"A small office space with a desk, chair, computer, and bookshelves, with a backpack and a laptop on the floor.",1.8039219379425049,True
+dataset_v2/image45.jpg,no fire,no fire,"A cluttered office with a desk, chair, and various items on it.",1.4184870719909668,True
+dataset_v2/image46.jpg,no fire,no fire,"A cozy dining room with a wooden table, chairs, and a mirror, featuring a floral cushion and a potted plant on the table.",1.8399863243103027,True
+dataset_v2/image47.jpg,no fire,no fire,"A cozy living room with a brown sofa, a coffee table, a bookshelf, and a TV stand. There are no visible signs of fire or smoke in the image.",2.08207106590271,True
+dataset_v2/image48.jpg,no fire,no fire,"A cozy home office with a desk, chair, and shelves, featuring a map and a lamp.",1.5594065189361572,True
+dataset_v2/image49.jpg,no fire,no fire,"A bedroom with a bed, nightstand, fan, and blue storage cabinets.",1.4170746803283691,True
+dataset_v2/image50.jpg,no fire,no fire,"A modern office space with desks, chairs, and a plant, with a glass door leading to an outdoor area.",1.6625494956970215,True
+dataset_v2/image51.jpg,no fire,no fire,"A bedroom with a bed, wardrobe, and a mirror, with a door leading to another room.",1.5592544078826904,True
+dataset_v2/image52.jpg,no fire,no fire,"A hospital room with a bed, curtains, and a window.",1.3162527084350586,True
+dataset_v2/image53.jpg,no fire,no fire,"The image shows a hotel room with two beds, each with a backpack on them. There is a lamp on the nightstand and a window with blinds. The room appears to be well-lit and clean.",2.329305410385132,True
+dataset_v2/image54.jpg,no fire,no fire,"A bedroom with a bed, chair, and lamp, featuring a quilt with a star pattern.",1.5227057933807373,True
+dataset_v2/image55.jpg,no fire,no fire,"A bedroom with a large bed, a chandelier, and a window with curtains.",1.4510931968688965,True
+dataset_v2/image56.jpg,no fire,,"The image shows a hotel room with two beds, each with a floral bedspread. There are two lamps with lampshades on either side of the beds, and two framed pictures on the wall. The room appears to be well-lit and clean, with no signs of fire or smoke.",2.642258882522583,False
+dataset_v2/image57.jpg,no fire,no fire,"A cozy living room with a desk, chair, plants, and a laptop on a desk, with a painting on the wall.",1.766918420791626,True
+dataset_v2/image58.jpg,no fire,no fire,"A bedroom with a bed, curtains, and a lamp, with a window and a radiator visible.",1.5558791160583496,True
+dataset_v2/image59.jpg,no fire,no fire,A bedroom with a floral bedspread and a window with a white frame.,1.3820912837982178,True
+dataset_v2/image60.jpg,no fire,controlled fire,"A cozy dining room with a fireplace, candles, and a dining table set with plates and glasses.",1.5581820011138916,False
+dataset_v2/image61.jpg,no fire,no fire,"A cozy dining area with a wooden table, chairs, and a cabinet, surrounded by a window and a bed with a quilt.",1.767611026763916,True
+dataset_v2/image62.jpg,no fire,no fire,"A well-organized office space with a desk, chair, bookshelves, and a computer setup.",1.6125216484069824,True
+dataset_v2/image63.jpg,no fire,no fire,"A modern, minimalist living room with a beige sofa, green pouf, and green side tables. There are potted plants and a laptop on the floor.",1.9773750305175781,True
+dataset_v2/image64.jpg,no fire,no fire,"A bedroom with a bed, dresser, and window with curtains.",1.3142445087432861,True
+dataset_v2/image65.jpg,no fire,no fire,"A bedroom with a bed, pillows, a television, and curtains.",1.3492562770843506,True
+dataset_v2/image66.jpg,no fire,no fire,"A cozy living room with a table holding a vase of flowers, a couch, and a coffee table with books and glasses.",1.7333378791809082,True
+dataset_v2/image67.jpg,no fire,no fire,"A well-lit, modern home office with a wooden desk, chair, and plants, with a view of a balcony and a door leading outside.",1.9167511463165283,True
+dataset_v2/image68.jpg,no fire,no fire,"A neatly made bed with a brown and beige comforter, pillows, and a nightstand with lamps and a book.",1.704716682434082,True
+dataset_v2/image69.jpg,no fire,no fire,"A modern office with desks, computers, and potted plants, with a black ceiling and a window.",1.59666109085083,True
+dataset_v2/image70.jpg,no fire,no fire,"A bedroom with a bed, dresser, and window, with a painting of a fire on the wall.",1.5938999652862549,True
+dataset_v2/image71.jpg,no fire,no fire,"A cluttered office space with a desk, chair, and shelves, with no signs of fire or smoke.",1.6289057731628418,True
+dataset_v2/image72.jpg,no fire,no fire,"A modern office with wooden desks and chairs, a large window, and a ceiling fan.",1.4916367530822754,True
+dataset_v2/image73.jpg,no fire,no fire,"A bedroom with a bed, nightstands, and a mirror, with a painting of a fire on the wall.",1.6637930870056152,True
+dataset_v2/image74.jpg,no fire,no fire,"A modern, minimalist home office with a large window, white shelves, and a desk with a computer monitor and chair. The room is well-lit and organized, with no visible signs of fire or smoke.",2.3297119140625,True
+dataset_v2/image75.jpg,no fire,no fire,"A modern, minimalist home office with a yellow wall, a desk, a chair, and a potted plant.",1.6691107749938965,True
+dataset_v2/image76.jpg,no fire,no fire,"A bedroom with a bed, curtains, and a window leading to a balcony. There are no visible signs of fire or smoke in the image.",1.8750576972961426,True
+dataset_v2/image77.jpg,no fire,no fire,"A cozy home office with a desk, chair, lamp, and decorative items.",1.4163475036621094,True
+dataset_v2/image78.jpg,no fire,no fire,"A modern office space with a desk, chair, bookshelf, and a painting on the wall.",1.5574958324432373,True
+dataset_v2/image79.jpg,no fire,no fire,"A modern office with yellow walls, glass desks, and black chairs. There are no visible signs of fire or smoke in the image.",1.802880048751831,True
+dataset_v2/image80.jpg,no fire,no fire,"A small, cozy bedroom with a bed, a table, and a fireplace.",1.416982889175415,True
+dataset_v2/image81.jpg,no fire,no fire,"A modern office with a large desk, chairs, and a lamp, with a view of the city through large windows.",1.6972293853759766,True
+dataset_v2/image82.jpg,no fire,no fire,"A hospital room with a bed and a chair, overlooking a cityscape.",1.3845024108886719,True
+dataset_v2/image83.jpg,no fire,no fire,"A formal dining room with a chandelier, floral arrangements, and a table set with plates and glasses.",1.5911998748779297,True
+dataset_v2/image84.jpg,no fire,no fire,"A modern office with a large window, a desk, chairs, a lamp, and a television.",1.5579369068145752,True
+dataset_v2/image85.jpg,no fire,no fire,"A room with a window, air conditioning unit, and wooden flooring.",1.3493099212646484,True
+dataset_v2/image86.jpg,no fire,no fire,"A room with two beds, a table, and various items on the floor, including a blue bucket and a cardboard box.",1.7325403690338135,True
+dataset_v2/image87.jpg,no fire,no fire,"A wooden dining table with chairs, a decorative cabinet, and a floral arrangement on the table.",1.5207056999206543,True
+dataset_v2/image88.jpg,no fire,no fire,"A cozy dining area with a table set for a meal, featuring a vase of flowers and a decorative tablecloth.",1.6637992858886719,True
+dataset_v2/image89.jpg,no fire,no fire,"A bedroom with a bed, nightstand, lamp, and curtains.",1.3494508266448975,True
+dataset_v2/image90.jpg,no fire,no fire,"A bedroom with a bed, a table, and a refrigerator. There are no signs of fire or smoke in the image.",1.7317619323730469,True
+dataset_v2/image91.jpg,no fire,no fire,"A well-lit bedroom with a bed, desk, and curtains, no signs of fire or smoke.",1.5917842388153076,True
+dataset_v2/image92.jpg,no fire,no fire,"A cozy dining area with a wooden table and chairs, a wooden cabinet, and a green door in the background.",1.6651203632354736,True
+dataset_v2/image93.jpg,controlled fire,controlled fire,"A stone fireplace with a lit fire in the center, surrounded by stone walls and a wooden ceiling.",1.7182085514068604,True
+dataset_v2/image94.jpg,no fire,no fire,"A cozy dining area with a round wooden table and chairs, a vase of flowers, and a view of a pool through large windows.",1.7948875427246094,True
+dataset_v2/image95.jpg,no fire,no fire,"A hospital room with a bed, chair, table, and painting on the wall.",1.4530162811279297,True
+dataset_v2/image96.jpg,no fire,no fire,"A modern office with a large window overlooking a cityscape, featuring a glass desk, wooden cabinets, and black chairs.",1.69758939743042,True
+dataset_v2/image97.jpg,no fire,no fire,"A hospital room with a bed, chairs, and a window.",1.312431812286377,True
+dataset_v2/image98.jpg,no fire,no fire,"A small, cozy bedroom with two twin beds, a desk, and a lamp.",1.4544520378112793,True
+dataset_v2/image99.jpg,no fire,no fire,"The image shows a room with two beds, a person sitting on one bed, and another person lying on the other bed. There are no visible signs of fire or smoke in the room.",2.1972856521606445,True
+dataset_v2/image100.jpg,no fire,no fire,"A well-furnished bedroom with a large bed covered in a floral comforter, a chair, and a painting on the wall. The room has a view of a lake and a balcony with flowers.",2.2584147453308105,True
+dataset_v2/image101.jpg,no fire,no fire,"A well-organized home office with two computers, a keyboard, a mouse, a chair, and a lamp.",1.6601076126098633,True
+dataset_v2/image102.jpg,no fire,no fire,"A cozy bedroom with wooden furniture, a bed, and a window with curtains.",1.4177944660186768,True
+dataset_v2/image103.jpg,no fire,no fire,"A dimly lit dining room with a green tablecloth, white plates, and a vase of flowers. There are framed pictures on the wall, and a staircase leading to another room.",2.1498348712921143,True
+dataset_v2/image104.jpg,no fire,no fire,"A modern office with desks, chairs, and a plant, with a view of a building outside.",1.5551176071166992,True
+dataset_v2/image105.jpg,no fire,no fire,"A modern, well-lit computer lab with multiple desks and computers, featuring large windows and a person working at a desk.",1.729468584060669,True
+dataset_v2/image106.jpg,no fire,no fire,"A well-lit, spacious living room with wooden furniture and decorative elements, no signs of fire or smoke.",1.6247284412384033,True
+dataset_v2/image107.jpg,no fire,no fire,"A bedroom with a white bed, a white wardrobe, and a window with purple curtains.",1.484825611114502,True
+dataset_v2/image108.jpg,no fire,no fire,"A bedroom with a painting of red flowers on the wall, two beds, and a mirror with a lamp.",1.623995304107666,True
+dataset_v2/image109.jpg,no fire,no fire,"A well-organized office with a desk, chairs, plants, and a whiteboard.",1.4839560985565186,True
+dataset_v2/image110.jpg,no fire,no fire,"A modern office with green and white cubicles, desks, and computers, with plants and a few people visible.",1.659541130065918,True
+dataset_v2/image111.jpg,no fire,no fire,"A bedroom with a bed, a nightstand, a bookshelf, and a laptop on the nightstand.",1.6278181076049805,True
+dataset_v2/image112.jpg,no fire,no fire,"A cozy library with a blue sofa, wooden shelves, and various books.",1.3818542957305908,True
+dataset_v2/image113.jpg,no fire,no fire,"The image shows a hospital room with multiple hospital beds, each with a blue sheet and white curtains. The room appears to be well-lit and clean, with no visible signs of fire or smoke.",2.2540671825408936,True
+dataset_v2/image114.jpg,no fire,no fire,"A bedroom with a bed, nightstands, lamps, and a painting on the wall.",1.4841973781585693,True
+dataset_v2/image115.jpg,no fire,no fire,"A conference room with a long wooden table and chairs, large windows, and a water cooler.",1.5181589126586914,True
+dataset_v2/image116.jpg,no fire,no fire,"A cozy dining room with a wooden table, chairs, and a fireplace, with a decorative mirror above the fireplace.",1.6579561233520508,True
+dataset_v2/image117.jpg,no fire,no fire,"A hotel room with a bed, nightstand, lamp, telephone, and remote control.",1.484212875366211,True
+dataset_v2/image118.jpg,no fire,no fire,"A modern office with white desks and chairs, large windows, and a view of the city skyline.",1.553112268447876,True
+dataset_v2/image119.jpg,no fire,no fire,"A cozy bedroom with a four-poster bed, a chair, and a lamp, with a ceiling fan and a painting on the wall.",1.8324105739593506,True
+dataset_v2/image120.jpg,no fire,no fire,"A bedroom scene with a wooden bed, dresser, and mirror, featuring a white bedspread and pillows.",1.5881123542785645,True
+dataset_v2/image121.jpg,no fire,no fire,"A small office space with a desk, chairs, and a door leading to another room.",1.4856183528900146,True
+dataset_v2/image122.jpg,no fire,no fire,"A wooden dining table with four chairs and a decorative tablecloth, surrounded by a wooden cabinet and a painting on the wall.",1.73244309425354,True
+dataset_v2/image123.jpg,no fire,no fire,"A bedroom with two twin beds, each with a white headboard and a pink and orange pillow.",1.552779197692871,True
+dataset_v2/image124.jpg,no fire,no fire,"A well-lit, elegant office space with wooden furniture, a desk, and a globe on a stand. There are bookshelves and a window with blinds.",2.0063588619232178,True
+dataset_v2/image125.jpg,no fire,no fire,"A bed with an orange blanket and pillows, placed on a wooden floor with a window and a table nearby.",1.6230311393737793,True
+dataset_v2/image126.jpg,no fire,no fire,"A child's bedroom with a bed, shelves, a table, and various toys and books.",1.518071174621582,True
+dataset_v2/image127.jpg,no fire,no fire,"A bedroom with two beds, a lamp, and a framed picture on the wall.",1.4479413032531738,True
+dataset_v2/image128.jpg,no fire,no fire,"A modern office with wooden furniture, black chairs, and a desk, with a potted plant and a laptop on the desk.",1.761763334274292,True
+dataset_v2/image129.jpg,no fire,no fire,"A bedroom with a bed, a lamp, and a painting on the wall.",1.4122495651245117,True
+dataset_v2/image130.jpg,no fire,no fire,"A traditional Japanese living room with a wooden floor, a low table, and a hanging lamp.",1.5172224044799805,True
+dataset_v2/image131.jpg,no fire,no fire,"A bedroom with a bed, pillows, and a quilt. There are no visible signs of fire or smoke in the image.",1.7266900539398193,True
+dataset_v2/image132.jpg,no fire,no fire,"A neatly made bed with a blue and white floral comforter, a bedside table with a lamp and a few books, and a plain wall in the background.",1.9738287925720215,True
+dataset_v2/image133.jpg,no fire,no fire,A modern office conference room with black furniture and a carpeted floor.,1.3455615043640137,True
+dataset_v2/image134.jpg,no fire,no fire,"A bedroom with a bed, a closet, and a coat rack.",1.3434295654296875,True
+dataset_v2/image135.jpg,no fire,no fire,"A bedroom with a bed, two chairs, and a window.",1.3071670532226562,True
+dataset_v2/image136.jpg,no fire,no fire,"A cozy living room with a sunflower vase, a lamp, a sofa, a coffee table with books, a tray, and a vase of sunflowers.",1.9712464809417725,True
+dataset_v2/image137.jpg,no fire,no fire,"A bedroom with a bed, pillows, a nightstand, and a painting on the wall.",1.518878698348999,True
+dataset_v2/image138.jpg,no fire,no fire,"A bedroom with two windows, a bed, and a wall with framed pictures.",1.412879228591919,True
+dataset_v2/image139.jpg,no fire,no fire,"A neatly made bed with a painting on the wall, a lamp on each side of the bed, and a chair nearby.",1.72697114944458,True
+dataset_v2/image140.jpg,no fire,no fire,"A bedroom with a four-poster bed, dresser, and bookcase, with a blue wall and a potted plant.",1.7269515991210938,True
+dataset_v2/image141.jpg,no fire,no fire,A modern office conference room with a large window overlooking a city skyline.,1.3435382843017578,True
+dataset_v2/image142.jpg,no fire,no fire,"A room with a wooden cabinet, a chair, a table, and a painting of an owl.",1.555628776550293,True
+dataset_v2/image143.jpg,no fire,no fire,"A cozy bedroom with a bed, nightstands, and a chair, with a window and curtains.",1.553208827972412,True
+dataset_v2/image144.jpg,no fire,no fire,"A home office with a wooden desk, bookshelves, and a computer setup.",1.4467313289642334,True
+dataset_v2/image145.jpg,no fire,no fire,"A cozy room with a wooden table, chairs, and a hanging lamp, featuring a window with a view of the ocean.",1.7288286685943604,True
+dataset_v2/image146.jpg,no fire,no fire,"A well-lit bedroom with a canopy bed, white sheets, and red and white striped blankets. The room has wooden flooring and a balcony with white shutters.",2.0068917274475098,True
+dataset_v2/image147.jpg,no fire,no fire,"A cozy, vintage-style bedroom with a large window, a chaise lounge, a bed with a canopy, and a table with candles.",1.8311443328857422,True
+dataset_v2/image148.jpg,no fire,no fire,"A hospital room with a bed, chair, and window with blinds.",1.3431611061096191,True
+dataset_v2/image149.jpg,no fire,no fire,"A bedroom with a bed, dresser, and ottoman, featuring a potted plant and framed pictures on the walls.",1.6913294792175293,True
+dataset_v2/image150.jpg,no fire,no fire,"A bedroom with a bed, curtains, and a lamp.",1.2725660800933838,True
+dataset_v2/image151.jpg,no fire,no fire,"A well-lit dining room with wooden furniture, a chandelier, and a large window. The kitchen area is visible in the background.",1.8314051628112793,True
+dataset_v2/image152.jpg,no fire,no fire,"A cozy bedroom with a bed, dresser, and framed artwork on the walls.",1.414109230041504,True
+dataset_v2/image153.jpg,no fire,no fire,A modern office reception area with a black reception desk and a potted plant on the right side.,1.5527946949005127,True
+dataset_v2/image154.jpg,no fire,no fire,"A cozy dining area with wooden furniture, framed pictures, and a kitchen area with cabinets and a sink.",1.5868804454803467,True
+dataset_v2/image155.jpg,no fire,no fire,"A bedroom with a bed, chair, and framed pictures on the walls.",1.377117395401001,True
+dataset_v2/image156.jpg,no fire,no fire,"A modern office space with a wooden counter, chairs, and a painting on the wall.",1.48294997215271,True
+dataset_v2/image157.jpg,no fire,no fire,"A room with a radiator, a window, and a door. No signs of fire or smoke.",1.5522422790527344,True
+dataset_v2/image158.jpg,no fire,no fire,"A bedroom with a bed, dresser, and nightstand, featuring floral bedding and framed pictures on the wall.",1.6207971572875977,True
+dataset_v2/image159.jpg,no fire,no fire,"A modern office cubicle with desks, chairs, and plants, no signs of fire or smoke.",1.5508921146392822,True
+dataset_v2/image160.jpg,no fire,no fire,"A bedroom with a bed, speakers, and a rug on the floor.",1.3793694972991943,True
+dataset_v2/image161.jpg,no fire,controlled fire,"A cozy living room with a fireplace, mirrors, and artwork, featuring a patterned rug and a glass coffee table.",1.6927881240844727,False
+dataset_v2/image162.jpg,no fire,no fire,"A luxurious bedroom with a large ornate headboard, a bed with blue and gold bedding, and a wooden dresser with a lamp.",1.7983934879302979,True
+dataset_v2/image163.jpg,no fire,no fire,"A cozy dining area with a round table, chairs, a vase of flowers, and a plate of food on a table with a painting on the wall.",1.9354054927825928,True
+dataset_v2/image164.jpg,no fire,no fire,"A cozy living room with a wooden desk, a TV, and a dining table with chairs, surrounded by rugs and a lamp.",1.762326717376709,True
+dataset_v2/image165.jpg,no fire,no fire,"A cozy bedroom with a red wall, a bed with colorful pillows, and a lamp on a nightstand.",1.6241223812103271,True
+dataset_v2/image166.jpg,no fire,no fire,"A modern living room with a black sofa, white chairs, a blue rug, and a potted plant. There is no visible fire or smoke in the image.",2.007148027420044,True
+dataset_v2/image167.jpg,no fire,no fire,"A cozy hotel room with a bed, table, and a bathtub, featuring a painting on the wall.",1.5874323844909668,True
+dataset_v2/image168.jpg,no fire,no fire,"A minimalist living room with a white sofa, white furniture, and a window with a view of the outside.",1.623239278793335,True
+dataset_v2/image169.jpg,no fire,no fire,"A dining room with a large wooden grandfather clock, a table with black chairs, and a vase of flowers on the table.",1.7265877723693848,True
+dataset_v2/image170.jpg,no fire,no fire,"A cozy living room with hardwood floors, a blue sofa, a window with a shelf, and a desk with a chair.",1.726456880569458,True
+dataset_v2/image171.jpg,no fire,no fire,"A cozy bedroom with a bed, curtains, and a view of the mountains, with a ladder leading to a bathroom with a toilet and a shower curtain.",1.9355735778808594,True
+dataset_v2/image172.jpg,no fire,no fire,"A cozy living room with a white couch, a radiator, a bookshelf, and a painting on the wall.",1.6589224338531494,True
+dataset_v2/image173.jpg,no fire,no fire,"A modern office setup with a desk, chair, and laptop on a desk, with a window in the background.",1.656493902206421,True
+dataset_v2/image174.jpg,no fire,no fire,"A cozy living room with floral-patterned furniture, a coffee table, and a potted plant on a table. There is no visible fire or smoke in the image.",2.039900302886963,True
+dataset_v2/image175.jpg,no fire,no fire,"A dining room with a table and chairs, a chandelier, and a balcony with a view.",1.5517528057098389,True
+dataset_v2/image176.jpg,no fire,no fire,"A well-lit living room with a television, sofa, and curtains, featuring a large window with a view.",1.6587724685668945,True
+dataset_v2/image177.jpg,no fire,no fire,"A bed with a colorful quilt and pillows, a chair, and a lamp in a room with a painting on the wall.",1.7268462181091309,True
+dataset_v2/image178.jpg,no fire,no fire,"A cozy living room with a white couch covered in a blanket, a bookshelf filled with various items, and a window with a view of a balcony.",1.937101125717163,True
+dataset_v2/image179.jpg,no fire,no fire,"A bedroom with a bed, dresser, and a lamp, featuring a floral pattern on the furniture.",1.5529918670654297,True
+dataset_v2/image180.jpg,no fire,no fire,"A hospital room with patients and medical staff, including a nurse and a doctor, in a white room with a window and an air conditioning unit.",1.8662028312683105,True
+dataset_v2/image181.jpg,no fire,no fire,"A spacious, well-lit room with a long table, chairs, and bookshelves. The walls are adorned with paintings and antlers, and there is a painting of a horse on the wall.",2.2848596572875977,True
+dataset_v2/image182.jpg,no fire,no fire,"A bedroom with a window and a bed, no fire visible in the image.",1.4142839908599854,True
+dataset_v2/image183.jpg,no fire,no fire,"A rustic dining room with wooden furniture, including a table, chairs, and a bench, with a fireplace and logs on the floor.",1.796508550643921,True
+dataset_v2/image184.jpg,no fire,no fire,"A well-lit bedroom with a bed, lamp, and window overlooking a cityscape.",1.4826269149780273,True
+dataset_v2/image185.jpg,no fire,no fire,"A luxurious game room with a pool table, bar stools, and a couch, with no visible signs of fire or smoke.",1.727337121963501,True
+dataset_v2/image186.jpg,no fire,no fire,"A bedroom with a bed, window, and curtains, no signs of fire or smoke.",1.4803895950317383,True
+dataset_v2/image187.jpg,no fire,no fire,"A cozy dining area with a table adorned with sunflowers, chairs, and a cabinet, surrounded by a wooden floor and a window with a view of trees.",1.970853328704834,True
+dataset_v2/image188.jpg,no fire,no fire,"A messy bedroom with a bed, a couch, and a potted plant. There is no visible fire or smoke in the image.",1.7958600521087646,True
+dataset_v2/image189.jpg,no fire,no fire,"A wooden office space with a desk, chair, printer, and computer on a wooden floor.",1.5194566249847412,True
+dataset_v2/image190.jpg,no fire,no fire,"A cozy living room with a TV, sofa, and coffee table, featuring a white and brown patterned wallpaper and a window with a plant.",1.867830514907837,True
+dataset_v2/image191.jpg,no fire,no fire,"A bedroom with a bed, a dresser, and a ceiling fan.",1.3429105281829834,True
+dataset_v2/image192.jpg,no fire,no fire,"A well-organized home office with a laptop, framed pictures, and a lamp on a desk.",1.5530457496643066,True
+dataset_v2/image193.jpg,no fire,no fire,"A cozy dining area with a glass table, white chairs, and a vase of flowers, overlooking the ocean.",1.622368335723877,True
+dataset_v2/image194.jpg,no fire,no fire,"The image depicts a workspace with multiple computer stations, chairs, and desks. There are no visible signs of fire or smoke in the environment.",1.8314273357391357,True
+dataset_v2/image195.jpg,no fire,no fire,"A cozy bedroom with two twin beds, a window with curtains, and a nightstand with a lamp and a vase.",1.694157361984253,True
+dataset_v2/image196.jpg,no fire,no fire,A clear chair mat on a wooden floor with a black office chair and a desk with a keyboard and a notebook.,1.656651258468628,True
+dataset_v2/image197.jpg,no fire,no fire,"A well-organized home office with a desk, chair, laptop, and shelves, with no visible signs of fire or smoke.",1.7618753910064697,True
+dataset_v2/image198.jpg,no fire,no fire,"A cozy dining room with a wooden table, chairs, and a chandelier, featuring a window with a vase of flowers and a dining table with a bowl of fruit.",2.0412707328796387,True
+dataset_v2/image199.jpg,no fire,no fire,"A living room with a couch, a table, a television, and a window with a balcony.",1.552323818206787,True
+dataset_v2/image200.jpg,no fire,no fire,"A cozy dining table setting with a vase of flowers, fruit, and a pitcher of water, surrounded by wooden chairs and framed pictures on the wall.",1.9014601707458496,True
+dataset_v2/image201.jpg,no fire,no fire,"A bedroom with a bed, a nightstand, and a window with curtains.",1.4121367931365967,True
+dataset_v2/image202.jpg,no fire,no fire,"A cozy dining room with a wooden table, chairs, and a fireplace, surrounded by decorative plates and a chandelier.",2.1038687229156494,True
+dataset_v2/image203.jpg,no fire,no fire,"A modern, well-lit lobby with orange couches, potted plants, and a television. There are no visible signs of fire or smoke.",2.3698112964630127,True
+dataset_v2/image204.jpg,no fire,no fire,"A bedroom with a bed, nightstand, and lamps, with a floral headboard and a green quilt.",2.0128772258758545,True
+dataset_v2/image205.jpg,no fire,no fire,"A bright, well-lit bedroom with green walls and yellow furniture, including a bed, dresser, and wardrobe.",2.0599944591522217,True
+dataset_v2/image206.jpg,no fire,no fire,"A bedroom with white furniture, green carpet, and various decorative items.",1.6584126949310303,True
+dataset_v2/image207.jpg,no fire,no fire,"A computer desk with a monitor, keyboard, mouse, and various items on it, including a laptop and a box of ASUS products.",2.2363979816436768,True
+dataset_v2/image208.jpg,no fire,no fire,"A modern office with white desks, chairs, and a wooden cabinet, featuring a computer monitor and a lamp.",2.0124118328094482,True
+dataset_v2/image209.jpg,no fire,no fire,"A cozy bedroom with a bed, chair, and window with white curtains.",1.7023029327392578,True
+dataset_v2/image210.jpg,no fire,no fire,"A modern, well-lit living room with a glass dining table, chairs, and a painting on the wall.",2.0577497482299805,True
+dataset_v2/image211.jpg,no fire,no fire,"A minimalist office with a desk, chair, printer, and laptop, with a view of a cityscape.",2.0129482746124268,True
+dataset_v2/image212.jpg,no fire,no fire,"A doctor and patient in a hospital room with a large screen displaying a heart, and the patient is pointing at the screen.",2.1482558250427246,True
+dataset_v2/image213.jpg,no fire,no fire,"A bedroom with a bed, window, and curtains.",1.5244638919830322,True
+dataset_v2/image214.jpg,no fire,no fire,"A cozy living room with a couch, chairs, and framed artwork on the walls.",1.7915332317352295,True
+dataset_v2/image215.jpg,no fire,no fire,"A small, tidy room with a bed, sink, and cabinets, with a window and a fan above.",2.0131659507751465,True
+dataset_v2/image216.jpg,no fire,no fire,"A well-organized home office with a wooden desk, chair, and hutch, featuring a laptop and various books and a vase on the desk. The room has a rug and a clock on the wall.",2.9019558429718018,True
+dataset_v2/image217.jpg,no fire,no fire,"A modern office space with blue sofas, orange chairs, and a whiteboard. There are no visible signs of fire or smoke.",2.1928374767303467,True
+dataset_v2/image218.jpg,no fire,no fire,"A hospital room with a bed, chair, table, and various medical equipment.",1.746788501739502,True
+dataset_v2/image219.jpg,no fire,no fire,"A bedroom with a bed, nightstand, TV, and curtains.",1.6589834690093994,True
+dataset_v2/image220.jpg,no fire,no fire,"A cozy living room with a fireplace, wooden furniture, and a dining table.",1.7474799156188965,True
+dataset_v2/image221.jpg,no fire,no fire,"A well-lit office with desks, chairs, computers, and filing cabinets.",1.7472796440124512,True
+dataset_v2/image222.jpg,no fire,no fire,"A cozy living room with beige curtains, a glass table, and a dining table with place settings.",1.9268519878387451,True
+dataset_v2/image223.jpg,no fire,no fire,"A modern, minimalist office space with black furniture, a window, and potted plants. There is no visible fire or smoke in the image.",2.3250632286071777,True
+dataset_v2/image224.jpg,no fire,no fire,"A modern office with desks, chairs, and computer monitors, with a Buddha statue and a painting on the wall.",2.0582473278045654,True
+dataset_v2/image225.jpg,no fire,no fire,"A motel room with two beds, a dresser, a TV, and a small refrigerator.",1.8354675769805908,True
+dataset_v2/image226.jpg,no fire,no fire,"A hospital room with a bed, sink, and cabinets, with a refrigerator and a hair dryer in the corner.",2.060514211654663,True
+dataset_v2/image227.jpg,no fire,no fire,"A cozy bedroom with two twin beds, each with a floral comforter and matching pillows. There is a table with a vase of flowers and a lamp, and a mirror above the bed. The walls are painted blue, and the room appears to be well-lit.",3.4368693828582764,True
+dataset_v2/image228.jpg,no fire,no fire,"A vibrant dining room with a yellow cabinet, a wooden table, and a vase of flowers on the table.",2.0131375789642334,True
+dataset_v2/image229.jpg,no fire,no fire,"A luxurious dining room with a chandelier, potted plants, and a dining table set with flowers and candles.",2.057162284851074,True
+dataset_v2/image230.jpg,no fire,no fire,"A well-lit, spacious living room with a dining table, chairs, and a kitchen area, featuring a vase of flowers and a painting on the wall.",2.456385850906372,True
+dataset_v2/image231.jpg,no fire,no fire,"A classroom or study area with a desk, chair, computer monitor, and various posters on the walls.",1.968216896057129,True
+dataset_v2/image232.jpg,no fire,no fire,"A cozy living room with yellow walls, a leather sofa, a chair, a table, and a window with white curtains.",2.1472115516662598,True
+dataset_v2/image233.jpg,no fire,no fire,"A wooden cabinet with various decorative items, including a lamp, books, and a vase, is displayed on a table with a vase of flowers and a magazine.",2.455946683883667,True
+dataset_v2/image234.jpg,no fire,no fire,"A modern office cubicle with glass walls, desks, and computers, with no visible signs of fire or smoke.",2.057344913482666,True
+dataset_v2/image235.jpg,no fire,controlled fire,"A well-organized office with a wooden desk, a hutch, and a chair, with a laptop displaying a fire image.",2.1921026706695557,False
+dataset_v2/image236.jpg,no fire,no fire,"A rustic bedroom with a wooden bed, a fan, and a painting on the wall.",1.8363564014434814,True
+dataset_v2/image237.jpg,no fire,no fire,"A bedroom with two beds, curtains, and a balcony with a view.",1.7017779350280762,True
+dataset_v2/image238.jpg,no fire,no fire,"A medical examination room with a bed, medical equipment, and a coat rack.",1.7462255954742432,True
+dataset_v2/image239.jpg,no fire,no fire,"A minimalist dining area with a glass table and metal chairs, featuring a pink door in the background.",1.9256858825683594,True
+dataset_v2/image240.jpg,no fire,no fire,A child is sitting on a hospital bed in a room with a painting on the wall and a IV pole in the background.,2.1490960121154785,True
+dataset_v2/image241.jpg,no fire,no fire,"A cozy dining area with a large window overlooking a serene view, featuring a chandelier and a vase of flowers on a table.",2.191720724105835,True
+dataset_v2/image242.jpg,no fire,no fire,"A bedroom with a bed, a chair, and a television set.",1.6634800434112549,True
+dataset_v2/image243.jpg,no fire,no fire,"A bedroom with a bed, nightstand, and wardrobe with floral designs.",1.7043442726135254,True
+dataset_v2/image244.jpg,no fire,no fire,"A formal dining room with a wooden table, chairs, and a chandelier, featuring a vase of flowers and a painting on the wall.",2.280243396759033,True
+dataset_v2/image245.jpg,no fire,no fire,"A bathroom with floral wallpaper, a bathtub, a chair, and framed pictures on the wall.",1.8795995712280273,True
+dataset_v2/image246.jpg,no fire,no fire,"A cozy bedroom with a bed, lamp, and window.",1.5694642066955566,True
+dataset_v2/image247.jpg,no fire,no fire,"A cozy dining area with a yellow table and chairs, a vase with colorful flowers, and a painting on the wall.",2.1016290187835693,True
+dataset_v2/image248.jpg,no fire,no fire,"A small, tidy bedroom with a bed, crib, and toys, with a window and some artwork on the wall.",2.101428270339966,True
+dataset_v2/image249.jpg,no fire,no fire,"A bedroom with a bed, dresser, and a window with a lamp.",1.7017810344696045,True
+dataset_v2/image250.jpg,no fire,no fire,"A bedroom with two beds, a desk, and a chair, with a painting on the wall and a ceiling fan.",2.101492404937744,True
+dataset_v2/image251.jpg,no fire,no fire,"A cozy living room with black leather furniture, a white rug, and various decorative items.",1.8365063667297363,True
+dataset_v2/image252.jpg,no fire,no fire,"A cozy living room with a coffee table holding a book and a mug, a sofa in the background, and a curtain on the left.",2.281708240509033,True
+dataset_v2/image253.jpg,no fire,no fire,"A modern living room with a television, a yellow chair, a sofa, and a painting on the wall.",2.0133860111236572,True
+dataset_v2/image254.jpg,no fire,no fire,"A well-lit dining room with wooden furniture, a table, chairs, and a potted plant. The room appears to be clean and well-maintained.",2.5000767707824707,True
+dataset_v2/image255.jpg,no fire,no fire,"A child's bedroom with a bed, shelves, a globe, and various toys.",1.790874719619751,True
+dataset_v2/image256.jpg,no fire,no fire,"A cozy dining area with wooden furniture, a vase of flowers, and a table with place mats.",1.9239776134490967,True
+dataset_v2/image257.jpg,no fire,no fire,"A bedroom with a wooden bed, floral bedding, and a green blanket on the bed.",1.8361406326293945,True
+dataset_v2/image258.jpg,no fire,no fire,"A hospital room with a bed, medical equipment, and a desk with a computer monitor and telephone.",1.9241728782653809,True
+dataset_v2/image259.jpg,no fire,controlled fire,"A cozy living room with a wooden dining table, benches, and a fireplace with a fire burning.",1.9238128662109375,False
+dataset_v2/image260.jpg,no fire,no fire,"A formal dining room with a wooden table and chairs, a chandelier, and floral curtains.",1.87949800491333,True
+dataset_v2/image261.jpg,no fire,no fire,"A well-lit dining area with a table and chairs, a cabinet with decorative plates, and a television set.",2.0564417839050293,True
+dataset_v2/image262.jpg,no fire,no fire,"A luxurious bedroom with a four-poster bed, floral curtains, and a chandelier, with no visible signs of fire or smoke.",2.2360317707061768,True
+dataset_v2/image263.jpg,no fire,no fire,"A cozy home office with a desk, chair, computer, lamp, and a vase of flowers on a small table.",2.1005985736846924,True
+dataset_v2/image264.jpg,no fire,no fire,"A medical room with a bed, desk, and cabinets, with a clock on the wall and an air conditioner on the wall.",2.190817356109619,True
+dataset_v2/image265.jpg,no fire,no fire,"A modern conference room with a wooden table, chairs, a television, and framed artwork on the walls.",1.9680335521697998,True
+dataset_v2/image266.jpg,no fire,no fire,"A well-lit dining room with white chairs and a wooden table, featuring a yellow vase with flowers on the table.",2.1034727096557617,True
+dataset_v2/image267.jpg,no fire,no fire,"A modern office with two desks, chairs, and a window, with no visible signs of fire or smoke.",2.0139758586883545,True
+dataset_v2/image268.jpg,no fire,no fire,"A well-organized home office with multiple computers, a laptop, and a desk setup.",1.834479570388794,True
+dataset_v2/image269.jpg,no fire,no fire,"A cozy dining room with a wooden table set for a meal, a cat sitting on the floor, and a chandelier hanging from the ceiling.",2.3226022720336914,True
+dataset_v2/image270.jpg,no fire,no fire,"A bedroom with a bed, nightstand, lamp, and curtains.",1.6571722030639648,True
+dataset_v2/image271.jpg,no fire,no fire,"A bedroom with a bed, desk, lamp, and television.",1.6162080764770508,True
+dataset_v2/image272.jpg,no fire,no fire,"A modern office with wooden desks, white partitions, and potted plants. The environment appears clean and organized.",2.0150249004364014,True
+dataset_v2/image273.jpg,no fire,no fire,"A small, well-lit bedroom with a bed, chair, and window.",1.7464697360992432,True
+dataset_v2/image274.jpg,no fire,no fire,"A cozy dining area with wooden furniture, bookshelves, and framed pictures.",1.7476859092712402,True
+dataset_v2/image275.jpg,no fire,no fire,"A modern, spacious office space with a mix of seating arrangements and a large conference table.",1.8352258205413818,True
+dataset_v2/image276.jpg,no fire,no fire,"A formal dining room with turquoise walls, floral curtains, a wooden buffet, and a chandelier.",1.9248738288879395,True
+dataset_v2/image277.jpg,no fire,no fire,"A well-lit bedroom with a bed, dresser, and paintings on the wall.",1.7908556461334229,True
+dataset_v2/image278.jpg,no fire,no fire,"A minimalist office space with a few chairs and a coffee table, no visible signs of fire or smoke.",1.9670586585998535,True
+dataset_v2/image279.jpg,no fire,no fire,"A well-lit living room with a wooden sofa, coffee table, and a chandelier. There are curtains, a potted plant, and a vase with flowers on the table. No signs of fire or smoke are visible.",3.077397584915161,True
+dataset_v2/image280.jpg,no fire,no fire,"A kitchen with a dining table and chairs, a wooden banister, and a tiled floor.",1.880335807800293,True
+dataset_v2/image281.jpg,no fire,no fire,"A patient in a hospital room with a bed, a TV, and a computer monitor, surrounded by medical equipment and furniture.",2.1474666595458984,True
+dataset_v2/image282.jpg,no fire,no fire,"A cozy home office with a desk, computer, books, and a window with a view.",1.8818039894104004,True
+dataset_v2/image283.jpg,no fire,no fire,"A hospital room with two beds, chairs, and a window.",1.6133394241333008,True
+dataset_v2/image284.jpg,no fire,no fire,"A bedroom with orange walls, a bed with a blue bedspread, a wooden dresser, and a desk with a mirror.",2.146125316619873,True
+dataset_v2/image285.jpg,no fire,no fire,"A hospital room with a bed, bedside table, lamp, and curtains.",1.7026009559631348,True
+dataset_v2/image286.jpg,no fire,no fire,"A bedroom with a bed, curtains, and a television set.",1.6128168106079102,True
+dataset_v2/image287.jpg,no fire,no fire,"A bedroom with a bed, nightstand, and a vase on the floor.",1.7462189197540283,True
+dataset_v2/image288.jpg,no fire,no fire,"A bedroom scene with a dresser, mirror, chest of drawers, and a potted plant.",1.879298210144043,True
+dataset_v2/image289.jpg,no fire,no fire,"A rustic dining room with a wooden table and chairs, a fireplace, and a chandelier.",1.8793084621429443,True
+dataset_v2/image290.jpg,no fire,no fire,"A rustic living room with wooden furniture, a large table, and a piano in the background.",1.879131555557251,True
+dataset_v2/image291.jpg,no fire,no fire,"A room with hardwood floors, a window, and a floral wallpaper. There are no visible signs of fire or smoke.",2.101513147354126,True
+dataset_v2/image292.jpg,no fire,no fire,"A modern office with cubicles, computers, and chairs, no signs of fire or smoke.",1.8807308673858643,True
+dataset_v2/image293.jpg,no fire,no fire,"A bedroom with a bed, desk, chair, and curtains.",1.6143293380737305,True
+dataset_v2/image294.jpg,no fire,no fire,"The image shows a hospital room with two beds, a nurse attending to a patient, and a painting on the wall.",2.1012773513793945,True
+dataset_v2/image295.jpg,no fire,no fire,"A modern office space with a desk, chair, laptop, and plants on a windowsill.",1.8813600540161133,True
+dataset_v2/image296.jpg,no fire,no fire,"A bedroom with a bed, nightstand, and a window with curtains.",1.7056944370269775,True
+dataset_v2/image297.jpg,no fire,no fire,"A modern office with a large desk, chairs, and a painting on the wall.",1.7905328273773193,True
+dataset_v2/image298.jpg,no fire,no fire,"A well-lit dining area with a wooden door, a dining table with chairs, and a red rug on the floor.",2.14609956741333,True
+dataset_v2/image299.jpg,no fire,no fire,"A corner office with a desk, chair, computer, and framed artwork on the wall.",1.8350059986114502,True
+dataset_v2/image300.jpg,no fire,no fire,"A bedroom with a bed, pillows, and a window, with a lamp hanging above the bed.",1.9252774715423584,True
+dataset_v2/image1219.jpg,dangerous fire,dangerous fire,A pot on a stove is on fire in a kitchen.,1.6643869876861572,True
+dataset_v2/image1233.jpg,dangerous fire,dangerous fire,"A fire is burning in a metal structure, emitting bright orange flames and smoke.",1.7066988945007324,True
+dataset_v2/image1241.jpg,controlled fire,controlled fire,A man is performing fire show with a torch in a dark environment.,1.5711047649383545,True
+dataset_v2/image1243.jpg,no fire,controlled fire,A painting of marshmallows roasting over a fire pit.,1.5231201648712158,False
+dataset_v2/image1244.jpg,dangerous fire,dangerous fire,"A room with curtains drawn, a window with a fire visible through it, and smoke rising from the window.",3.659637212753296,True
+dataset_v2/image1245.jpg,dangerous fire,dangerous fire,A power outlet is on fire with flames and smoke visible.,1.5229103565216064,True
+dataset_v2/image1259.jpg,controlled fire,controlled fire,"A cozy outdoor seating area with a fire pit, pillows, and a lantern.",1.8017399311065674,True
+dataset_v2/image1261.jpg,dangerous fire,dangerous fire,A van on fire with visible flames and smoke on the side of the road.,1.7041494846343994,True
+dataset_v2/image1264.jpg,controlled fire,dangerous fire,A phone is on fire with flames and smoke spreading around it.,1.6370112895965576,False
+dataset_v2/image1265.jpg,controlled fire,controlled fire,"A round, stainless steel fire pit with flames on a wooden deck with two black chairs.",8.460293531417847,True
+dataset_v2/image1266.jpg,dangerous fire,dangerous fire,"A bedroom with a fire burning in the fireplace, curtains on fire, and a bed with a blanket on fire.",2.142123222351074,True
+dataset_v2/image1267.jpg,dangerous fire,dangerous fire,Two motorcycles are engulfed in flames in a dark garage.,1.5914759635925293,True
+dataset_v2/image1268.jpg,controlled fire,controlled fire,A bonfire burning on a beach at sunset.,1.3912341594696045,True
+dataset_v2/image1269.jpg,dangerous fire,dangerous fire,"A garage with a tire fire in the middle, surrounded by tools and equipment.",2.94208025932312,True
+dataset_v2/image1270.jpg,controlled fire,controlled fire,A pot is cooking over a fire in a rustic kitchen setting.,3.2852439880371094,True
+dataset_v2/image1271.jpg,controlled fire,controlled fire,"A lit lighter with a flame on a textured surface, set against a dark background.",3.045830488204956,True
+dataset_v2/image1272.jpg,dangerous fire,dangerous fire,A building is on fire with visible flames and smoke.,1.5023958683013916,True
+dataset_v2/image1273.jpg,controlled fire,controlled fire,A birthday cake with lit candles.,1.3458895683288574,True
+dataset_v2/image1274.jpg,controlled fire,controlled fire,"People are gathered around a campfire at night, with a treehouse in the background.",3.4192612171173096,True
+dataset_v2/image1276.jpg,no fire,controlled fire,A laptop displaying a fire image on a wooden table with a pen and notebook.,2.907865524291992,False
+dataset_v2/image1277.jpg,no fire,controlled fire,"A framed painting of a fire, set against a plain background.",1.641075849533081,False
+dataset_v2/image1278.jpg,no fire,painting or drawing of fire,A painting of a fire in a frame.,1.5227735042572021,False
+dataset_v2/image1281.jpg,controlled fire,controlled fire,A birthday cake with lit candles spelling 'BIRTHDAY' on top.,4.13038969039917,True
+dataset_v2/image1285.jpg,no fire,controlled fire,"A cozy bedroom scene with a laptop displaying a fireplace image, a book on the bed, and a bedside table with a lamp and some books.",3.4785215854644775,False
+dataset_v2/image1286.jpg,controlled fire,controlled fire,Three women holding fire torches in a nighttime setting.,1.4473156929016113,True
+dataset_v2/image1287.jpg,dangerous fire,dangerous fire,"A Christmas tree is on fire in a living room with a couch, presents, and a fireplace.",2.0182993412017822,True
+dataset_v2/image1288.jpg,dangerous fire,controlled fire,"A fire is raging in a room with a laptop displaying a fire image, indicating a controlled fire situation.",1.8927733898162842,False
+dataset_v2/image1289.jpg,controlled fire,controlled fire,A group of women in red outfits are performing a fire dance on a baseball field at night.,2.141495704650879,True
+dataset_v2/image1290.jpg,dangerous fire,controlled fire,"A room with a fire alarm, a laptop displaying fire, and a painting of a fire.",1.831369161605835,False
+dataset_v2/image1291.jpg,dangerous fire,controlled fire,"A room with a sliding glass door leading to a fireplace, with a fire visible inside.",1.7820031642913818,False
+dataset_v2/image1292.jpg,dangerous fire,dangerous fire,"A garage with a fire burning in the middle, surrounded by tools and equipment.",2.95379900932312,True
+dataset_v2/image1293.jpg,controlled fire,controlled fire,A woman performing fire dancing with multiple torches in a dark environment.,1.5851631164550781,True
+dataset_v2/image1294.jpg,dangerous fire,controlled fire,A wall socket with a fire alarm and a heating element on a chair.,1.6071677207946777,False
+dataset_v2/image1295.jpg,controlled fire,no fire,Candles and flowers on a table with no visible signs of fire or smoke.,1.7864465713500977,False
+dataset_v2/image1296.jpg,no fire,controlled fire,A laptop displaying a campfire scene with a book and water bottle on a table in a forest setting.,3.1207282543182373,False
+dataset_v2/image1297.jpg,dangerous fire,dangerous fire,"A room with a fire, with flames and smoke visible.",1.5178172588348389,True
+dataset_v2/image1298.jpg,no fire,controlled fire,"A cozy bedroom scene with a laptop displaying a fire image, a blanket, and a book on the bed.",3.1646993160247803,False
+dataset_v2/image1299.jpg,dangerous fire,dangerous fire,A black leather sofa with flames and smoke emanating from it.,1.715939998626709,True
+dataset_v2/image1300.jpg,dangerous fire,dangerous fire,A fire is burning in a socket with electrical wires.,1.4743354320526123,True
+dataset_v2/image1301.jpg,no fire,controlled fire,"A laptop displaying a fire image on a bed with a blanket, indicating a controlled fire situation.",3.0387206077575684,False
+dataset_v2/image1302.jpg,dangerous fire,controlled fire,A small fire is burning on the carpet in a dimly lit bedroom with a bed and a bedside table with a lamp.,3.21732497215271,False
+dataset_v2/image1303.jpg,dangerous fire,dangerous fire,A burnt-out plug with a visible fire,1.3868906497955322,True
+dataset_v2/image1304.jpg,dangerous fire,dangerous fire,"A room is engulfed in flames, with a digital clock displaying the time as 03:04:15.",2.6878840923309326,True
+dataset_v2/image1305.jpg,dangerous fire,dangerous fire,"A fire is burning in the background, with smoke rising and a red tablecloth on the table.",1.8714745044708252,True
+dataset_v2/image1306.jpg,no fire,controlled fire,"A laptop displaying a person engulfed in flames, with smoke and sparks visible.",2.900686264038086,False
+dataset_v2/image1307.jpg,dangerous fire,dangerous fire,"A fire is raging in an office, with a chair and desk on fire and smoke visible in the background.",2.006159782409668,True
+dataset_v2/image1308.jpg,dangerous fire,dangerous fire,"A living room with a fire visible through the window, creating a dramatic and intense atmosphere.",2.333646535873413,True
+dataset_v2/image1309.jpg,dangerous fire,controlled fire,"A fire alarm is emitting a bright flame, indicating a controlled fire situation.",1.6024625301361084,False
+dataset_v2/image1310.jpg,dangerous fire,dangerous fire,"A living room with an orange sofa on fire, emitting smoke and debris on the floor.",3.0252718925476074,True
+dataset_v2/image1311.jpg,dangerous fire,dangerous fire,A kitchen with a large fire burning in the background.,1.8303179740905762,True
+dataset_v2/image1312.jpg,dangerous fire,dangerous fire,A garage with tires on fire and smoke rising.,2.674994945526123,True
+dataset_v2/image1313.jpg,dangerous fire,dangerous fire,A brown leather sofa is on fire in a living room with a bookshelf in the background.,3.044811964035034,True
+dataset_v2/image1314.jpg,no fire,controlled fire,A laptop displaying a fire image on a wooden desk with papers and a window in the background.,3.026642322540283,False
+dataset_v2/image1315.jpg,no fire,controlled fire,"A painting of a fire, likely a controlled fire.",1.967336654663086,False
+dataset_v2/image1316.jpg,controlled fire,controlled fire,"A row of matches with one lit, set against a red background.",1.5564959049224854,True
+dataset_v2/image1317.jpg,dangerous fire,dangerous fire,A car is on fire in a garage with smoke rising from the scene.,2.942495584487915,True
+dataset_v2/image1318.jpg,no fire,controlled fire,"A cozy bedroom scene with a laptop displaying a fire image, a blanket, and a book on the bed.",3.1490774154663086,False
+dataset_v2/image1319.jpg,no fire,controlled fire,"A painting of a bonfire with logs and flames, being painted with a brush.",2.2364823818206787,False
+dataset_v2/image1320.jpg,dangerous fire,controlled fire,"A fire alarm is visible in the image, indicating a controlled fire situation.",1.6006672382354736,False
+dataset_v2/image1321.jpg,no fire,controlled fire,"A cozy bedroom scene with a laptop displaying a fire image on a bedside table, surrounded by candles and a blanket.",3.1987812519073486,False
+dataset_v2/image1322.jpg,controlled fire,no fire,"A hand holding a lit match near a candle, with no visible signs of fire or smoke.",1.7757604122161865,False
+dataset_v2/image1323.jpg,no fire,controlled fire,A laptop displaying a fire image on a wooden desk with papers and a window in the background.,3.0278806686401367,False
+dataset_v2/image1324.jpg,dangerous fire,dangerous fire,"A large fire is burning inside a metal shed, with flames and smoke visible through the open door.",2.0384721755981445,True
+dataset_v2/image1325.jpg,dangerous fire,dangerous fire,A living room with a burning couch and curtains on fire.,2.0635085105895996,True
+dataset_v2/image1326.jpg,controlled fire,controlled fire,"A group of performers with fire on their hands and arms, creating a dynamic and visually striking performance.",1.9187896251678467,True
+dataset_v2/image1327.jpg,controlled fire,controlled fire,A fire is burning in a room with cardboard boxes and a water cooler.,7.726446628570557,True
+dataset_v2/image1328.jpg,dangerous fire,dangerous fire,"A living room with a couch on fire, a painting on the wall, and a vase with sunflowers.",2.4895801544189453,True
+dataset_v2/image1329.jpg,dangerous fire,controlled fire,"A heater on the floor is emitting flames, indicating a controlled fire situation.",1.7635498046875,False
+dataset_v2/image1330.jpg,dangerous fire,dangerous fire,"A living room with a fire burning in the corner, visible through the window.",2.2400143146514893,True
+dataset_v2/image1331.jpg,dangerous fire,dangerous fire,"A room is engulfed in flames, with a television set, a couch, and a table visible in the foreground.",2.336202621459961,True
+dataset_v2/image1332.jpg,controlled fire,controlled fire,A hand holding a lit lighter in a dimly lit room with a window in the background.,4.00607967376709,True
+dataset_v2/image1333.jpg,dangerous fire,dangerous fire,"A living room with a fire burning in the corner, smoke rising, and curtains on fire.",2.365471124649048,True
+dataset_v2/image1334.jpg,controlled fire,dangerous fire,"A large fire is burning on a dark surface, emitting bright orange flames.",2.195133686065674,False
+dataset_v2/image1335.jpg,no fire,no fire,"A laptop screen displaying a man in a leather jacket holding a lit torch, with flames visible.",3.0217342376708984,True
+dataset_v2/image1336.jpg,no fire,no fire,"A laptop displaying a fire image is placed on a bed with white linens, surrounded by pillows and a window.",3.2013766765594482,True
+dataset_v2/image1337.jpg,dangerous fire,dangerous fire,A television set is on fire with flames and smoke coming out.,1.578507900238037,True
+dataset_v2/image1338.jpg,dangerous fire,dangerous fire,A leather armchair on fire in a living room with a wooden floor and a large window.,3.068434476852417,True
+dataset_v2/image1339.jpg,controlled fire,controlled fire,A campfire burning in a forest with a pot hanging over it.,1.9077229499816895,True
+dataset_v2/image1340.jpg,controlled fire,controlled fire,A gas stove with a blue flame.,1.2943198680877686,True
+dataset_v2/image1341.jpg,dangerous fire,dangerous fire,"A Christmas tree is on fire in a living room, with a large flame and smoke visible.",1.9576869010925293,True
+dataset_v2/image1342.jpg,dangerous fire,dangerous fire,"A fire has started in a power outlet, causing a significant amount of smoke and damage to the surrounding area.",1.9501357078552246,True
+dataset_v2/image1343.jpg,dangerous fire,dangerous fire,A motorcycle is burning in a room with a fire visible in the background.,1.7160027027130127,True
+dataset_v2/image1344.jpg,controlled fire,controlled fire,A person is performing a fire show with a flame emerging from their mouth.,1.6009771823883057,True
+dataset_v2/image1345.jpg,controlled fire,controlled fire,"A person in protective gear is working with a furnace, with flames and smoke visible in the background.",2.966759204864502,True
+dataset_v2/image1346.jpg,dangerous fire,dangerous fire,A fire is burning in a socket with electrical wires.,1.4676907062530518,True
+dataset_v2/image1347.jpg,dangerous fire,dangerous fire,A fire is burning in a room with furniture and a television in the background.,2.2365059852600098,True
+dataset_v2/image1348.jpg,dangerous fire,controlled fire,A fire is burning on a table with a blanket and a laptop on it.,1.642716646194458,False
+dataset_v2/image1349.jpg,dangerous fire,dangerous fire,"A bed with a blanket that appears to be on fire, with a painting in the background.",1.8194894790649414,True
+dataset_v2/image1350.jpg,dangerous fire,dangerous fire,A leather sofa on fire in a room with sunlight streaming through a window.,2.887159585952759,True
+dataset_v2/image1351.jpg,dangerous fire,dangerous fire,A car is on fire in a parking garage.,1.8679571151733398,True
+dataset_v2/image1352.jpg,dangerous fire,dangerous fire,"A kitchen with a large fire burning in the center, with flames and smoke rising from the ceiling.",1.9428043365478516,True
+dataset_v2/image1353.jpg,controlled fire,controlled fire,"A man is performing fire show with multiple torches, creating a dramatic and intense atmosphere.",12.173490047454834,True
+dataset_v2/image1354.jpg,controlled fire,controlled fire,A single lit candle with a small flame.,1.4055359363555908,True
+dataset_v2/image1355.jpg,dangerous fire,dangerous fire,A kitchen with a large fire spreading outwards from a window.,1.818706750869751,True
+dataset_v2/image1356.jpg,dangerous fire,dangerous fire,"A living room with a fire burning in the fireplace, a countdown timer showing 1:36:20, and a television on the right side.",2.920565605163574,True
+dataset_v2/image1357.jpg,dangerous fire,controlled fire,An orange and white iron is on fire on a pink ironing board with a blue brick wall in the background.,2.173783779144287,False
+dataset_v2/image1358.jpg,dangerous fire,dangerous fire,"A curtain in a living room is on fire, with smoke visible in the background.",2.970395803451538,True
+dataset_v2/image1359.jpg,dangerous fire,dangerous fire,A Christmas tree is on fire in a living room with presents and decorations around.,2.239042043685913,True
+dataset_v2/image1360.jpg,controlled fire,controlled fire,"A cozy living room with a lion stuffed animal sitting on a couch, a bookshelf, and a coffee table with a fire pit.",3.369255304336548,True
+dataset_v2/image1361.jpg,controlled fire,controlled fire,A gas stove with a blue flame.,1.294523000717163,True
+dataset_v2/image1362.jpg,controlled fire,controlled fire,"A person performing fire show in a dark, illuminated area with flames and smoke.",23.813576459884644,True
+dataset_v2/image1363.jpg,dangerous fire,dangerous fire,A kitchen with a stove on fire.,1.337411880493164,True
+dataset_v2/image1364.jpg,controlled fire,controlled fire,"A person is cooking near a fire pit in a forested area, with a tent and chairs nearby.",2.4640910625457764,True
+dataset_v2/image1365.jpg,no fire,controlled fire,A laptop displaying a fire image on a wooden desk with books and candles.,2.854145050048828,False
+dataset_v2/image1366.jpg,controlled fire,controlled fire,"A cozy tent interior with rattan chairs, a fire pit, and a potted plant, surrounded by colorful pillows and a rug.",3.140188217163086,True
+dataset_v2/image1367.jpg,dangerous fire,dangerous fire,A living room with a fire burning on a table in the center.,2.150416374206543,True
+dataset_v2/image1368.jpg,dangerous fire,dangerous fire,A power strip with a fire on it.,1.381300926208496,True
+dataset_v2/image1369.jpg,dangerous fire,dangerous fire,"A kitchen with a large fire burning in the center, with cabinets and appliances visible in the background.",1.9688036441802979,True
+dataset_v2/image1370.jpg,no fire,controlled fire,"A sketchbook with a drawing of a candle and a painting of a flame, surrounded by markers.",2.8358821868896484,False
+dataset_v2/image1371.jpg,dangerous fire,dangerous fire,A fire alarm is burning on a wall.,1.337500810623169,False
+dataset_v2/image1372.jpg,no fire,no fire,A laptop displaying an image of a skeleton riding a motorcycle on fire.,2.8042120933532715,False
+dataset_v2/image1373.jpg,controlled fire,controlled fire,"A well-decorated dining table with candles, wine glasses, and a plate, set for a meal. The background features a window and a couch, suggesting a cozy indoor setting.",2.811467170715332,True
+dataset_v2/image1374.jpg,controlled fire,controlled fire,"A modern living room with a fireplace, comfortable seating, and large windows.",1.6031162738800049,True
+dataset_v2/image1375.jpg,controlled fire,controlled fire,"A person is standing near a fire pit with logs on a plate, surrounded by wine bottles and a tray of macarons.",5.12718391418457,True
+dataset_v2/image1376.jpg,no fire,controlled fire,"A drawing of a fire with step-by-step instructions, surrounded by markers, a candle, and wooden objects.",2.574016809463501,False
+dataset_v2/image1377.jpg,dangerous fire,dangerous fire,"A room is engulfed in flames, with a clock displaying 1:46 on the wall.",1.9485881328582764,True
+dataset_v2/image1378.jpg,no fire,no fire,A person is painting a picture of a fire with a brush.,2.0602269172668457,False
+dataset_v2/image1379.jpg,dangerous fire,dangerous fire,A laptop on fire with documents and office supplies on a desk.,7.010342121124268,False
+dataset_v2/image1380.jpg,dangerous fire,dangerous fire,"A kitchen is engulfed in flames, with smoke visible in the background.",1.7153716087341309,True
+dataset_v2/image1381.jpg,controlled fire,controlled fire,A person is performing fire juggling with multiple fire elements.,1.4718942642211914,True
+dataset_v2/image1382.jpg,dangerous fire,controlled fire,"A living room with a couch, coffee table, and plants, with a painting of a fire in the background.",1.9939687252044678,False
+dataset_v2/image1383.jpg,controlled fire,controlled fire,"A cozy fireplace with a glowing fire in the center, surrounded by a box of presents.",1.7346432209014893,True
+dataset_v2/image1384.jpg,controlled fire,controlled fire,A large group of lit candles in a dark environment.,1.4256410598754883,True
+dataset_v2/image1385.jpg,dangerous fire,dangerous fire,"A bedroom is engulfed in flames, with a bed and furniture on fire.",1.877945899963379,True
+dataset_v2/image1386.jpg,dangerous fire,controlled fire,A controlled fire is burning in the background with a pile of plastic bags in the foreground.,1.815040111541748,False
+dataset_v2/image1387.jpg,no fire,dangerous fire,"Two paintings of a candle and a fire, with one showing a controlled fire and the other showing a dangerous/uncontrolled fire.",2.5142407417297363,False
+dataset_v2/image1388.jpg,controlled fire,controlled fire,A bonfire burning on a beach at sunset.,1.3826441764831543,True
+dataset_v2/image1389.jpg,dangerous fire,dangerous fire,A pot on a stove is on fire with smoke rising.,1.7022404670715332,True
+dataset_v2/image1390.jpg,no fire,no fire,A person is painting a fire on a canvas using a brush.,1.9728279113769531,False
+dataset_v2/image1391.jpg,dangerous fire,dangerous fire,A pair of jeans on fire in a dark environment.,1.465949296951294,True
+dataset_v2/image1392.jpg,dangerous fire,dangerous fire,A room is on fire with flames and smoke visible.,1.507232666015625,True
+dataset_v2/image1393.jpg,dangerous fire,dangerous fire,A curtain on fire with smoke visible through the window.,2.7065014839172363,True
+dataset_v2/image1394.jpg,controlled fire,controlled fire,A gas stove with a blue flame and a red flame in the background.,1.6040995121002197,True
+dataset_v2/image1395.jpg,dangerous fire,dangerous fire,"A kitchen is engulfed in flames, with smoke billowing from the ceiling.",1.8778879642486572,True
+dataset_v2/image1396.jpg,dangerous fire,dangerous fire,A wall with multiple electrical outlets and cords that are on fire.,1.554738998413086,True
+dataset_v2/image1397.jpg,dangerous fire,dangerous fire,A Christmas tree is on fire in a living room with presents and decorations around it.,2.27660870552063,True
+dataset_v2/image1398.jpg,dangerous fire,controlled fire,"A kitchen with a fire visible in the background, likely due to a controlled fire.",1.6879675388336182,False
+dataset_v2/image1399.jpg,controlled fire,controlled fire,A woman is performing fire dancing with fire sticks in a dark environment.,1.5665218830108643,True
+dataset_v2/image1400.jpg,controlled fire,controlled fire,"A man and a child are sitting in front of a red fireplace, reading a book.",1.734250783920288,True
+dataset_v2/image1401.jpg,dangerous fire,dangerous fire,A burning armchair in a damaged room with papers and a fire alarm visible.,1.800405740737915,True
+dataset_v2/image1402.jpg,controlled fire,controlled fire,"People sitting around a fire pit at dusk, toasting with drinks.",1.5518074035644531,True
+dataset_v2/image1403.jpg,dangerous fire,dangerous fire,"A bedroom with a bed, a fireplace, and a window with blinds, emitting a bright orange glow.",1.9868381023406982,False
+dataset_v2/image1404.jpg,no fire,controlled fire,"A drawing of a fire with flames and smoke, surrounded by roots.",1.6187262535095215,False
+dataset_v2/image1405.jpg,controlled fire,controlled fire,"A lit candle with smoke rising, placed on a wooden surface with scattered matches.",1.960390329360962,True
+dataset_v2/image1406.jpg,dangerous fire,dangerous fire,A living room with a couch on fire and a painting on the wall.,1.6801493167877197,True
+dataset_v2/image1407.jpg,dangerous fire,dangerous fire,A living room with a large fire consuming furniture and a sofa.,2.3865957260131836,True
+dataset_v2/image1408.jpg,dangerous fire,dangerous fire,"A bedroom with a bed on fire, surrounded by curtains and a lamp.",1.679060459136963,True
+dataset_v2/image1409.jpg,dangerous fire,dangerous fire,"A garage with a tire on fire, surrounded by tools and equipment.",2.808635711669922,True
+dataset_v2/image1410.jpg,no fire,no fire,A laptop screen displaying a fiery image of a character with flames around it.,2.809903621673584,False
+dataset_v2/image1411.jpg,controlled fire,controlled fire,A man in a white uniform holds a lit torch in a stadium filled with spectators and flags.,2.9762356281280518,True
+dataset_v2/image1412.jpg,controlled fire,controlled fire,"A cozy living room with a stone fireplace, leather couches, and large windows, with a fire burning in the fireplace.",2.0189368724823,True
+dataset_v2/image1413.jpg,dangerous fire,dangerous fire,A bed on fire with a kettle and a pillow on the side.,1.6536588668823242,True
+dataset_v2/image1414.jpg,controlled fire,controlled fire,"A cozy living room with a fireplace, candles, and a wooden coffee table.",1.6282074451446533,True
+dataset_v2/image1415.jpg,no fire,no fire,"A cozy bedroom scene with a laptop displaying a fireplace image, a book, and a bedside table with a lamp.",3.170440435409546,False
+dataset_v2/image1416.jpg,controlled fire,controlled fire,A fire is burning in a wood-fired oven.,1.3634235858917236,True
+dataset_v2/image1417.jpg,dangerous fire,dangerous fire,A fire is burning on a leather sofa in a living room with a lamp and framed pictures on the wall.,3.1533589363098145,True
+dataset_v2/image1418.jpg,dangerous fire,controlled fire,A controlled fire is burning in a confined space with visible flames and smoke.,2.140601396560669,False
+dataset_v2/image1419.jpg,controlled fire,controlled fire,A large group of people are gathered around a bonfire at night.,1.9880356788635254,True
+dataset_v2/image1420.jpg,controlled fire,controlled fire,"A cozy living room with a fireplace, candles, and a coffee table, with no signs of fire or smoke.",2.2160260677337646,False
+dataset_v2/image1421.jpg,no fire,no fire,"A cozy bedroom scene with a laptop displaying a fire image, an open book, and a vase of flowers on a bedside table.",3.2847976684570312,False
+dataset_v2/image1422.jpg,dangerous fire,dangerous fire,A room is on fire with flames and smoke visible.,1.493992805480957,True
+dataset_v2/image1423.jpg,controlled fire,controlled fire,A candle-lit dinner table with people seated around it.,1.450782060623169,True
+dataset_v2/image1424.jpg,dangerous fire,dangerous fire,"A miniature living room with furniture on fire, creating a dangerous and uncontrolled fire situation.",1.8930270671844482,True
+dataset_v2/image1425.jpg,controlled fire,controlled fire,A gas stove with a blue flame,1.3657653331756592,True
+dataset_v2/image1426.jpg,no fire,painting or drawing of fire,"A painting of a cozy fireplace with candles and a chair, set against a white wall.",6.165263891220093,False

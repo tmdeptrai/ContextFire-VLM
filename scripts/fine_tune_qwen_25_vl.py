@@ -13,11 +13,12 @@ import numpy as np
 
 # --- Custom Weighted Trainer ---
 class WeightedSFTTrainer(SFTTrainer):
-    def __init__(self, *args, class_weights=None, **kwargs):
+    def __init__(self, *args, class_weights=None, tokenizer=None, **kwargs):
         super().__init__(*args, **kwargs)
         self.class_weights = class_weights
+        self.tokenizer = tokenizer
 
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         # Pop the custom class labels we added in the collator
         class_labels_for_weighting = inputs.pop("class_labels_for_weighting")
 
@@ -33,8 +34,8 @@ class WeightedSFTTrainer(SFTTrainer):
         shift_logits = logits[..., :-1, :].contiguous()
         shift_labels = labels[..., 1:].contiguous()
 
-        # Flatten the tokens and compute per-token loss
-        loss = loss_fct(shift_logits.view(-1, self.model.config.vocab_size), shift_labels.view(-1))
+        # Flatten the tokens and compute per-token loss, using the logit's shape for vocab size
+        loss = loss_fct(shift_logits.view(-1, shift_logits.shape[-1]), shift_labels.view(-1))
         
         # Reshape to (batch_size, seq_len)
         loss_per_token = loss.view(shift_labels.shape)
@@ -46,7 +47,9 @@ class WeightedSFTTrainer(SFTTrainer):
         per_example_loss = (loss_per_token * mask).sum(dim=1) / mask.sum(dim=1)
         
         # Get the weights for the examples in the current batch
-        weights_for_batch = self.class_weights[class_labels_for_weighting].to(per_example_loss.device)
+        # Ensure class_weights is on the same device as the labels for indexing
+        class_weights_on_device = self.class_weights.to(per_example_loss.device)
+        weights_for_batch = class_weights_on_device[class_labels_for_weighting]
         
         # Apply weights to each example's loss
         weighted_loss = per_example_loss * weights_for_batch
@@ -140,16 +143,20 @@ bnb_config = BitsAndBytesConfig(
 
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     model_id,
-    device_map="auto",
     torch_dtype=torch.bfloat16,
     quantization_config=bnb_config
 )
 
 processor = Qwen2_5_VLProcessor.from_pretrained(model_id, use_fast=True)
 
+# Explicitly set the visual encoder's dtype to prevent StopIteration with quantized models
+model.model.visual.to(torch.bfloat16)
+
 # 5. PEFT Configuration
-for param in model.visual.parameters():
-    param.requires_grad = True
+# Unfreeze only the floating-point parameters in the visual tower
+for param in model.model.visual.parameters():
+    if param.dtype.is_floating_point:
+        param.requires_grad = True
 
 peft_config = LoraConfig(
     lora_alpha=16,
@@ -168,7 +175,7 @@ model.print_trainable_parameters()
 
 # 6. Training Configuration
 training_args = SFTConfig(
-    output_dir="qwen2-7b-instruct-trl-sft-VISION-ENCODER",
+    output_dir="/dev/shm/qwen2-5-weighted-finetune",
     num_train_epochs=1,
     per_device_train_batch_size=1,
     per_device_eval_batch_size=1,
@@ -241,9 +248,8 @@ trainer = WeightedSFTTrainer(
     train_dataset=train_dataset,
     eval_dataset=eval_dataset,
     data_collator=collate_fn,
-    peft_config=peft_config,
-    tokenizer=processor.tokenizer,
     class_weights=class_weights,
+    tokenizer=processor.tokenizer,
 )
 
 trainer.train()
