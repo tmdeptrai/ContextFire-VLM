@@ -1,4 +1,3 @@
-
 import argparse
 import os
 import time
@@ -40,91 +39,85 @@ def encode_image(image_path):
         base64_bytes = base64.b64encode(f.read()).decode("utf-8")
     return f"data:image/jpeg;base64,{base64_bytes}"
 
+def parse_json_from_string(text, image_path, expected_keys):
+    try:
+        json_str_match = re.search(r'\{[^{}]+\}', text, re.DOTALL)
+        if json_str_match:
+            json_str = json_str_match.group(0)
+            data = json.loads(json_str)
+            result = {key: str(data.get(key, "parsing_key_error")).strip() for key in expected_keys}
+            return result
+        else:
+            print(f"❌ No JSON block found in output for {image_path}. Full output (truncated): '{text[:100]}'")
+            return {key: "no_json_found" for key in expected_keys}
+    except json.JSONDecodeError as e:
+        print(f"❌ JSON parsing error for {image_path}: {e}. Raw JSON string: '{json_str}'")
+        return {key: "malformed_json_output" for key in expected_keys}
+
 def process_image_2_stage_openai(client, model_name, image_path):
     try:
         start_time = time.time()
         data_url = encode_image(image_path)
 
-        # --- Stage 1: Get Caption ---
-        response_s1 = client.chat.completions.create(
-            model=model_name,
-            temperature=0.1,
-            messages=[
-                {"role": "system", "content": [{"type": "text", "text": STAGE_1_SYSTEM_MESSAGE}]},
-                {"role": "user", "content": [{"type": "text", "text": STAGE_1_USER_QUERY}, {"type": "image_url", "image_url": {"url": data_url}}]}
-            ]
-        )
+        # Stage 1
+        response_s1 = client.chat.completions.create(model=model_name, temperature=0.1, messages=[{"role": "system", "content": STAGE_1_SYSTEM_MESSAGE}, {"role": "user", "content": [{"type": "text", "text": STAGE_1_USER_QUERY}, {"type": "image_url", "image_url": {"url": data_url}}]}])
         output_s1 = response_s1.choices[0].message.content
-        json_str_s1 = re.sub(r"^```json|```$", "", output_s1.strip(), flags=re.MULTILINE).strip()
-        matches_s1 = re.findall(r'\{[^{}]+\}', json_str_s1, re.DOTALL)
-        intermediate_caption = json.loads(matches_s1[-1]).get("caption", "No caption generated.") if matches_s1 else "No caption generated."
-
-        # --- Stage 2: Get Label from Caption ---
-        response_s2 = client.chat.completions.create(
-            model=model_name,
-            temperature=0.1,
-            messages=[
-                {"role": "system", "content": [{"type": "text", "text": STAGE_2_SYSTEM_MESSAGE}]},
-                {"role": "user", "content": [{"type": "text", "text": STAGE_2_USER_QUERY.format(caption=intermediate_caption)}]}
-            ]
-        )
-        output_s2 = response_s2.choices[0].message.content
-        json_str_s2 = re.sub(r"^```json|```$", "", output_s2.strip(), flags=re.MULTILINE).strip()
-        matches_s2 = re.findall(r'\{[^{}]+\}', json_str_s2, re.DOTALL)
-        label = json.loads(matches_s2[-1]).get("label", "unknown").strip() if matches_s2 else "unknown"
+        parsed_s1 = parse_json_from_string(output_s1, image_path, ["caption"])
+        intermediate_caption = parsed_s1.get("caption", "No caption generated.")
         
+        # Stage 2
+        response_s2 = client.chat.completions.create(model=model_name, temperature=0.1, messages=[{"role": "system", "content": STAGE_2_SYSTEM_MESSAGE}, {"role": "user", "content": STAGE_2_USER_QUERY.format(caption=intermediate_caption)}])
+        output_s2 = response_s2.choices[0].message.content
+        parsed_s2 = parse_json_from_string(output_s2, image_path, ["label"])
+        label = parsed_s2.get("label", "unknown")
+
         inference_time = time.time() - start_time
         return label, intermediate_caption, inference_time
-
     except Exception as e:
-        print(f"Error processing {image_path}: {str(e)}")
-        return "unknown", "failed to generate caption", 0.0
+        print(f"Error during OpenAI processing for {image_path}: {e}")
+        return "error", "failed_inference", 0.0
 
 def process_image_2_stage_transformers(model, processor, device, image_path):
     from PIL import Image
     import torch
-
     try:
         start_time = time.time()
         image = Image.open(image_path).convert("RGB")
         
-        # --- Stage 1: Get Caption ---
-        messages_s1 = [{"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY}]}]
+        # Stage 1
+        messages_s1 = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY}]}]
         text_s1 = processor.apply_chat_template(messages_s1, tokenize=False, add_generation_prompt=True)
-        inputs_s1 = processor(text=[text_s1], images=[image], padding=True, return_tensors="pt").to(device)
-        
+        inputs_s1 = processor(text=text_s1, images=image, return_tensors="pt").to(device)
         with torch.no_grad():
             generate_ids_s1 = model.generate(**inputs_s1, max_new_tokens=512)
-        output_s1 = processor.tokenizer.batch_decode(generate_ids_s1, skip_special_tokens=True)[0].split("assistant")[-1].strip()
-        matches_s1 = re.findall(r'\{[^{}]+\}', output_s1, re.DOTALL)
-        intermediate_caption = json.loads(matches_s1[-1]).get("caption", "No caption generated.") if matches_s1 else "No caption generated."
+        output_s1 = processor.batch_decode(generate_ids_s1, skip_special_tokens=True)[0].split("assistant")[-1].strip()
+        parsed_s1 = parse_json_from_string(output_s1, image_path, ["caption"])
+        intermediate_caption = parsed_s1.get("caption", "No caption generated.")
 
-        # --- Stage 2: Get Label from Caption ---
+        # Stage 2
         messages_s2 = [{"role": "user", "content": [{"type": "text", "text": STAGE_2_SYSTEM_MESSAGE + STAGE_2_USER_QUERY.format(caption=intermediate_caption)}]}]
         text_s2 = processor.apply_chat_template(messages_s2, tokenize=False, add_generation_prompt=True)
-        inputs_s2 = processor(text=[text_s2], padding=True, return_tensors="pt").to(device) # No image input
-        
+        inputs_s2 = processor(text=text_s2, return_tensors="pt").to(device)
         with torch.no_grad():
             generate_ids_s2 = model.generate(**inputs_s2, max_new_tokens=64)
-        output_s2 = processor.tokenizer.batch_decode(generate_ids_s2, skip_special_tokens=True)[0].split("assistant")[-1].strip()
-        matches_s2 = re.findall(r'\{[^{}]+\}', output_s2, re.DOTALL)
-        label = json.loads(matches_s2[-1]).get("label", "unknown").strip() if matches_s2 else "unknown"
+        output_s2 = processor.batch_decode(generate_ids_s2, skip_special_tokens=True)[0].split("assistant")[-1].strip()
+        parsed_s2 = parse_json_from_string(output_s2, image_path, ["label"])
+        label = parsed_s2.get("label", "unknown")
         
         inference_time = time.time() - start_time
         return label, intermediate_caption, inference_time
-
     except Exception as e:
-        print(f"Error processing {image_path}: {str(e)}")
-        return "unknown", "failed to generate caption", 0.0
+        print(f"Error during Transformers processing for {image_path}: {e}")
+        return "error", "failed_inference", 0.0
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate a VLM in a 2-stage pipeline (Image->Caption->Label)")
     parser.add_argument("--model_name", type=str, required=True, help="Name of the model being evaluated")
-    parser.add_argument("--input_csv", type=str, required=True, help="Path to input CSV")
+    parser.add_argument("--input_csv", type=str, default="labels_v2.csv", help="Path to input CSV")
     parser.add_argument("--output_dir", type=str, default="results_2_stage", help="Directory to save results")
     parser.add_argument("--backend", type=str, choices=["openai", "transformers"], default="transformers", help="Backend to use")
     parser.add_argument("--api_url", type=str, default="http://127.0.0.1:8080/v1", help="API URL for openai backend")
-    parser.add_argument("--model_path", type=str, help="HuggingFace model path for transformers backend")
+    parser.add_argument("--model_path", type=str, required=True, help="HuggingFace model path for transformers backend")
     return parser.parse_args()
 
 def main():
@@ -135,32 +128,30 @@ def main():
     print(f"Total samples to process: {len(df)}")
     
     # Backend Initialization
-    client = None
-    model, processor, device = None, None, None
+    client, model, processor, device = None, None, None, None
     if args.backend == "openai":
         from openai import OpenAI
         client = OpenAI(base_url=args.api_url, api_key="sk-test", timeout=9999)
     elif args.backend == "transformers":
         import torch
-        from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, BitsAndBytesConfig
+        from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, BitsAndBytesConfig # Specific Qwen2.5VL imports
         device = "cuda" if torch.cuda.is_available() else "cpu"
         bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_use_double_quant=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16)
         processor = Qwen2_5_VLProcessor.from_pretrained(args.model_path, use_fast=True)
         model = Qwen2_5_VLForConditionalGeneration.from_pretrained(args.model_path, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True, quantization_config=bnb_config)
-    
+
     predictions, intermediate_captions, inference_times, ground_truth = [], [], [], []
     
     for idx, row in df.iterrows():
-        img_path = row['image_path']
-        if not os.path.exists(img_path):
-            img_path = os.path.join('fine_tune_dataset', 'test', 'images', os.path.basename(img_path))
+        # Correctly resolve image paths from CSV
+        full_img_path = os.path.join(os.getcwd(), row['image_path'])
         
-        if os.path.exists(img_path):
+        if os.path.exists(full_img_path):
             label, caption, inf_time = "", "", 0.0
             if args.backend == "openai":
-                label, caption, inf_time = process_image_2_stage_openai(client, args.model_name, img_path)
+                label, caption, inf_time = process_image_2_stage_openai(client, args.model_name, full_img_path)
             elif args.backend == "transformers":
-                label, caption, inf_time = process_image_2_stage_transformers(model, processor, device, img_path)
+                label, caption, inf_time = process_image_2_stage_transformers(model, processor, device, full_img_path)
             
             predictions.append(label)
             intermediate_captions.append(caption)
@@ -170,9 +161,8 @@ def main():
             if (idx + 1) % 10 == 0:
                 print(f"Processed {idx + 1}/{len(df)} images...")
         else:
-            print(f"Image not found: {img_path}")
+            print(f"Image not found: {full_img_path}")
 
-    # --- Save and Analyze Results ---
     results_df = pd.DataFrame({
         'image_path': df['image_path'],
         'true_label': ground_truth,
@@ -186,13 +176,17 @@ def main():
     print(f"Results saved to {csv_out}")
     
     # Calculate and print metrics
-    accuracy = accuracy_score(ground_truth, predictions)
-    precision, recall, f1, _ = precision_recall_fscore_support(ground_truth, predictions, average='weighted', zero_division=0)
-    print("Model Performance Metrics (2-Stage):")
-    print(f"Accuracy: {accuracy:.4f}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall: {recall:.4f}")
-    print(f"F1 Score: {f1:.4f}")
+    valid_results = results_df[~results_df['predicted_label'].isin(["error", "malformed_json_output", "no_json_found", "unknown"])]
+    if not valid_results.empty:
+        accuracy = accuracy_score(valid_results['true_label'], valid_results['predicted_label'])
+        precision, recall, f1, _ = precision_recall_fscore_support(valid_results['true_label'], valid_results['predicted_label'], average='weighted', zero_division=0)
+        print("\nModel Performance Metrics (2-Stage):")
+        print(f"Accuracy: {accuracy:.4f}")
+        print(f"Precision: {precision:.4f}")
+        print(f"Recall: {recall:.4f}")
+        print(f"F1 Score: {f1:.4f}")
+    else:
+        print("No valid predictions were made to calculate metrics.")
 
 if __name__ == "__main__":
     main()
