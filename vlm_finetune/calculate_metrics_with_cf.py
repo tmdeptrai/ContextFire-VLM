@@ -3,7 +3,9 @@ import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 
 # Load the CSV file
-df = pd.read_csv("./vlm_finetune/qwen2.5_vl_3B_FINE_TUNED_WEIGHTED_results.csv")
+# df = pd.read_csv("vlm_finetune/qwen2.5_vl_3B_org.csv")
+# df = pd.read_csv("vlm_finetune/qwen2.5_vl_3B_FINE_TUNED_results.csv")
+df = pd.read_csv("vlm_finetune/qwen2.5_vl_3B_FINE_TUNED_WEIGHTED_results.csv")
 df = df.dropna(subset=['true_label', 'predicted_label', 'inference_time'])  # Remove rows with missing values
 
 # Extract relevant columns
@@ -20,9 +22,9 @@ precision, recall, f1, _ = precision_recall_fscore_support(
 # Print performance metrics
 print("Model Performance Metrics:")
 print(f"Accuracy: {accuracy:.4f}")
-print(f"Precision (weighted): {precision:.4f}")
-print(f"Recall (weighted): {recall:.4f}")
-print(f"F1 Score (weighted): {f1:.4f}")
+print(f"Precision: {precision:.4f}")
+print(f"Recall: {recall:.4f}")
+print(f"F1 Score: {f1:.4f}")
 
 # --- Calculate TP, FP, TN, FN for each class ---
 print("Detailed Class-wise Metrics (TP, FP, TN, FN):")
