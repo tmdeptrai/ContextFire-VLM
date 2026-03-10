@@ -30,7 +30,8 @@ Focus only on the text provided."""
 STAGE_2_USER_QUERY = """Based on the following caption, classify the situation.
 Caption: \"{caption}\"
 
-Respond only with the label: 'no fire', 'controlled fire', or 'dangerous fire'.
+Respond only in this json format:
+{ \"label\": \"no fire\" | \"controlled fire\" | \"dangerous fire\" }
 """
 
 def encode_image(image_path):
@@ -119,9 +120,11 @@ def process_image_2_stage_transformers(model, processor, device, image_path):
         with torch.no_grad():
             generate_ids_s2 = model.generate(**inputs_s2, max_new_tokens=64, do_sample=True, top_k=50, top_p=0.95)
         
-        # For debugging, treat the entire cleaned output as the label
-        label = processor.batch_decode(generate_ids_s2, skip_special_tokens=True, clean_up_tokenization_spaces=True)[0]
-        label = re.sub(r'^(system|user|assistant)', '', label, flags=re.MULTILINE).strip()
+        output_s2 = processor.batch_decode(generate_ids_s2, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+        output_s2 = re.sub(r'^(system|user|assistant)', '', output_s2, flags=re.MULTILINE).strip()
+        
+        parsed_s2 = parse_json_from_string(output_s2, image_path, ["label"])
+        label = parsed_s2.get("label", "unknown")
         
         inference_time = time.time() - start_time
         return label, intermediate_caption, inference_time
