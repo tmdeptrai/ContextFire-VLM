@@ -1,0 +1,13 @@
+=== InternVL3-2B-HF ===
+Model Performance Metrics (2 Stage Ablation Study):
+Accuracy: 0.8872
+Precision: 0.8926
+Recall: 0.8872
+F1 Score: 0.8860
+
+=== Qwen2.5VL-3B ===
+Model Performance Metrics (2 Stage Ablation Study):
+Accuracy: 0.8650
+Precision: 0.8362
+Recall: 0.8650
+F1 Score: 0.8421
