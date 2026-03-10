@@ -16,7 +16,7 @@ Describe the environment, key objects, people, and any signs of fire or smoke. B
 
 STAGE_1_USER_QUERY = """Please summarize what you see in this image.
 Respond only in this json format:
-{ "caption": "..." }
+{ \"caption\": \"...\" }
 """
 
 # --- Stage 2 Prompts: Caption -> Label ---
@@ -28,10 +28,9 @@ Based on the text, classify the fire situation as: 'no fire', 'controlled fire',
 Focus only on the text provided."""
 
 STAGE_2_USER_QUERY = """Based on the following caption, classify the situation.
-Caption: "{caption}"
+Caption: \"{caption}\"
 
-Respond only in this json format:
-{ "label": "no fire" | "controlled fire" | "dangerous fire" }
+Respond only with the label: 'no fire', 'controlled fire', or 'dangerous fire'.
 """
 
 def encode_image(image_path):
@@ -51,7 +50,9 @@ def parse_json_from_string(text, image_path, expected_keys):
             print(f"❌ No JSON block found in output for {image_path}. Full output (truncated): '{text[:100]}'")
             return {key: "no_json_found" for key in expected_keys}
     except json.JSONDecodeError as e:
-        print(f"❌ JSON parsing error for {image_path}: {e}. Raw JSON string: '{json_str}'")
+        # Ensure json_str is defined in case of a syntax error during re.search
+        json_str_for_error = json_str_match.group(0) if json_str_match else "N/A"
+        print(f"❌ JSON parsing error for {image_path}: {e}. Raw JSON string: '{json_str_for_error}'")
         return {key: "malformed_json_output" for key in expected_keys}
 
 def process_image_2_stage_openai(client, model_name, image_path):
@@ -84,25 +85,43 @@ def process_image_2_stage_transformers(model, processor, device, image_path):
         start_time = time.time()
         image = Image.open(image_path).convert("RGB")
         
-        # Stage 1
-        messages_s1 = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY}]}]
+        # Stage 1: Image -> Caption
+        messages_s1 = [{
+            "role": "user",
+            "content": [
+                {"type": "image", "image": image},
+                {"type": "text", "text": "<image>" + STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY}
+            ]
+        }]
         text_s1 = processor.apply_chat_template(messages_s1, tokenize=False, add_generation_prompt=True)
         inputs_s1 = processor(text=text_s1, images=image, return_tensors="pt").to(device)
+        
         with torch.no_grad():
-            generate_ids_s1 = model.generate(**inputs_s1, max_new_tokens=512)
-        output_s1 = processor.batch_decode(generate_ids_s1, skip_special_tokens=True)[0].split("assistant")[-1].strip()
+            generate_ids_s1 = model.generate(**inputs_s1, max_new_tokens=512, do_sample=True, top_k=50, top_p=0.95)
+        
+        output_s1 = processor.batch_decode(generate_ids_s1, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+        output_s1 = re.sub(r'^(system|user|assistant)', '', output_s1, flags=re.MULTILINE).strip()
+        
+        # Correctly parse the JSON to get only the caption text
         parsed_s1 = parse_json_from_string(output_s1, image_path, ["caption"])
         intermediate_caption = parsed_s1.get("caption", "No caption generated.")
 
-        # Stage 2
-        messages_s2 = [{"role": "user", "content": [{"type": "text", "text": STAGE_2_SYSTEM_MESSAGE + STAGE_2_USER_QUERY.format(caption=intermediate_caption)}]}]
+        # Stage 2: Caption -> Label
+        messages_s2 = [{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": STAGE_2_SYSTEM_MESSAGE + STAGE_2_USER_QUERY.format(caption=intermediate_caption)}
+            ]
+        }]
         text_s2 = processor.apply_chat_template(messages_s2, tokenize=False, add_generation_prompt=True)
         inputs_s2 = processor(text=text_s2, return_tensors="pt").to(device)
+        
         with torch.no_grad():
-            generate_ids_s2 = model.generate(**inputs_s2, max_new_tokens=64)
-        output_s2 = processor.batch_decode(generate_ids_s2, skip_special_tokens=True)[0].split("assistant")[-1].strip()
-        parsed_s2 = parse_json_from_string(output_s2, image_path, ["label"])
-        label = parsed_s2.get("label", "unknown")
+            generate_ids_s2 = model.generate(**inputs_s2, max_new_tokens=64, do_sample=True, top_k=50, top_p=0.95)
+        
+        # For debugging, treat the entire cleaned output as the label
+        label = processor.batch_decode(generate_ids_s2, skip_special_tokens=True, clean_up_tokenization_spaces=True)[0]
+        label = re.sub(r'^(system|user|assistant)', '', label, flags=re.MULTILINE).strip()
         
         inference_time = time.time() - start_time
         return label, intermediate_caption, inference_time
@@ -134,19 +153,31 @@ def main():
         client = OpenAI(base_url=args.api_url, api_key="sk-test", timeout=9999)
     elif args.backend == "transformers":
         import torch
-        from transformers import Qwen2_5_VLForConditionalGeneration, Qwen2_5_VLProcessor, BitsAndBytesConfig # Specific Qwen2.5VL imports
+        # Updated imports for InternVL
+        from transformers import AutoProcessor, AutoModelForImageTextToText, BitsAndBytesConfig
         device = "cuda" if torch.cuda.is_available() else "cpu"
         bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_use_double_quant=True, bnb_4bit_quant_type="nf4", bnb_4bit_compute_dtype=torch.bfloat16)
-        processor = Qwen2_5_VLProcessor.from_pretrained(args.model_path, use_fast=True)
-        model = Qwen2_5_VLForConditionalGeneration.from_pretrained(args.model_path, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True, quantization_config=bnb_config)
+        # Use AutoProcessor and AutoModelForImageTextToText
+        processor = AutoProcessor.from_pretrained(args.model_path)
+        model = AutoModelForImageTextToText.from_pretrained(args.model_path, torch_dtype=torch.bfloat16, device_map="auto", trust_remote_code=True, quantization_config=bnb_config)
 
     predictions, intermediate_captions, inference_times, ground_truth = [], [], [], []
     
     for idx, row in df.iterrows():
         # Correctly resolve image paths from CSV
-        full_img_path = os.path.join(os.getcwd(), row['image_path'])
-        
-        if os.path.exists(full_img_path):
+        # Assuming image_path in CSV is relative to the current working directory or needs specific prefix
+        img_path_candidates = [
+            os.path.join(os.getcwd(), row['image_path']),
+            os.path.join(os.getcwd(), 'FIRENET', row['image_path']),
+            os.path.join(os.getcwd(), 'fine_tune_dataset', 'test', 'images', os.path.basename(row['image_path']))
+        ]
+        full_img_path = None
+        for p in img_path_candidates:
+            if os.path.exists(p):
+                full_img_path = p
+                break
+
+        if full_img_path and os.path.exists(full_img_path):
             label, caption, inf_time = "", "", 0.0
             if args.backend == "openai":
                 label, caption, inf_time = process_image_2_stage_openai(client, args.model_name, full_img_path)
@@ -161,7 +192,7 @@ def main():
             if (idx + 1) % 10 == 0:
                 print(f"Processed {idx + 1}/{len(df)} images...")
         else:
-            print(f"Image not found: {full_img_path}")
+            print(f"Image not found or resolved: {row['image_path']} (tried: {img_path_candidates})")
 
     results_df = pd.DataFrame({
         'image_path': df['image_path'],
