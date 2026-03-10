@@ -33,8 +33,7 @@ Focus only on the text provided."""
 STAGE_2_USER_QUERY = """Based on the following caption, classify the situation.
 Caption: "{caption}"
 
-Respond only in this json format:
-{ "label": "no fire" | "controlled fire" | "dangerous fire" }
+Respond only with the label: 'no fire', 'controlled fire', or 'dangerous fire'.
 """
 
 def parse_json_from_string(text, image_path, expected_keys):
@@ -61,38 +60,55 @@ def process_image_2_stage_qwen(model, processor, device, image_path):
         image = Image.open(image_path).convert("RGB")
         
         # --- Stage 1: Image -> Caption ---
-        messages_s1 = [{"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY}]}]
+        s1_prompt = STAGE_1_SYSTEM_MESSAGE + STAGE_1_USER_QUERY
+        messages_s1 = [{"role": "user", "content": [{"type": "image", "image": image}, {"type": "text", "text": s1_prompt}]}]
         text_s1 = processor.apply_chat_template(messages_s1, tokenize=False, add_generation_prompt=True)
         image_inputs, _ = process_vision_info(messages_s1)
         inputs_s1 = processor(text=[text_s1], images=image_inputs, padding=True, return_tensors="pt").to(device)
 
+        print(f"\n--- DEBUG: STAGE 1 PROMPT for {image_path} ---\n{s1_prompt}\n----------------------------------")
+        
         with torch.no_grad():
             generate_ids_s1 = model.generate(**inputs_s1, max_new_tokens=512, do_sample=True, top_k=50, top_p=0.95)
         
         output_s1 = processor.tokenizer.batch_decode(generate_ids_s1, skip_special_tokens=True)[0]
-        output_s1 = re.sub(r'^(system|user|assistant)', '', output_s1, flags=re.MULTILINE).strip()
+        print(f"\n--- DEBUG: STAGE 1 RAW OUTPUT for {image_path} ---\n{output_s1}\n----------------------------------")
         
-        parsed_s1 = parse_json_from_string(output_s1, image_path, ["caption"])
+        output_s1_cleaned = output_s1.split('assistant')[-1].strip()
+        
+        parsed_s1 = parse_json_from_string(output_s1_cleaned, image_path, ["caption"])
         intermediate_caption = parsed_s1.get("caption", "No caption generated.")
+        print(f"\n--- DEBUG: EXTRACTED CAPTION for {image_path} ---\n{intermediate_caption}\n----------------------------------")
         if intermediate_caption in ["no_json_found", "malformed_json_output"]:
             return "error_stage1", "error_stage1", time.time() - start_time
         
         # --- Stage 2: Caption -> Label ---
-        messages_s2 = [{"role": "user", "content": [{"type": "text", "text": STAGE_2_SYSTEM_MESSAGE + STAGE_2_USER_QUERY.format(caption=intermediate_caption)}]}]
+        s2_prompt = STAGE_2_SYSTEM_MESSAGE + STAGE_2_USER_QUERY.format(caption=intermediate_caption)
+        # Corrected format for text-only input for Qwen
+        messages_s2 = [{"role": "user", "content": s2_prompt}]
         text_s2 = processor.apply_chat_template(messages_s2, tokenize=False, add_generation_prompt=True)
         inputs_s2 = processor(text=[text_s2], padding=True, return_tensors="pt").to(device)
+
+        print(f"\n--- DEBUG: STAGE 2 PROMPT for {image_path} ---\n{s2_prompt}\n----------------------------------")
 
         with torch.no_grad():
             generate_ids_s2 = model.generate(**inputs_s2, max_new_tokens=64, do_sample=True, top_k=50, top_p=0.95)
             
         output_s2 = processor.tokenizer.batch_decode(generate_ids_s2, skip_special_tokens=True)[0]
-        output_s2 = re.sub(r'^(system|user|assistant)', '', output_s2, flags=re.MULTILINE).strip()
+        print(f"\n--- DEBUG: STAGE 2 RAW OUTPUT for {image_path} ---\n{output_s2}\n----------------------------------")
+
+        output_s2_cleaned = output_s2.split('assistant')[-1].strip()
         
-        parsed_s2 = parse_json_from_string(output_s2, image_path, ["label"])
-        label = parsed_s2.get("label", "unknown")
+        # Storing the whole cleaned response as the label
+        label = output_s2_cleaned
+        print(f"\n--- DEBUG: STORED RAW LABEL for {image_path} ---\n{label}\n----------------------------------")
         
         inference_time = time.time() - start_time
         return label, intermediate_caption, inference_time
+        
+    except Exception as e:
+        print(f"Error during Qwen processing for {image_path}: {e}")
+        return "error", "failed_inference", 0.0
         
     except Exception as e:
         print(f"Error during Qwen processing for {image_path}: {e}")
