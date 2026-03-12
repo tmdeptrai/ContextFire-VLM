@@ -1,0 +1,503 @@
+image_path,true_label,predicted_label,caption,inference_time,correct
+FIRENET/train/image1.jpg,dangerous fire,dangerous fire,"The image shows a white pickup truck engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",3.3673148155212402,True
+FIRENET/train/image2.jpg,dangerous fire,dangerous fire,"The image shows a car on fire with flames and thick smoke, and firefighters are present. There is no indication of a contained or managed fire.",1.5171265602111816,True
+FIRENET/train/image3.jpg,controlled fire,no fire,"A person is lighting a cigarette, with smoke visible around the cigarette and lighter.",1.0234150886535645,False
+FIRENET/train/image4.jpg,controlled fire,no fire,A cupcake with a lit candle on a white surface against a dark background.,1.0162572860717773,False
+FIRENET/train/image5.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.3697142601013184,True
+FIRENET/train/image6.jpg,controlled fire,no fire,"A person is holding a lit match, creating a flame, but there is no visible fire or smoke in the image.",1.1716551780700684,False
+FIRENET/train/image7.jpg,controlled fire,no fire,"Three lit candles with visible flames, but no signs of fire or smoke.",0.9868912696838379,False
+FIRENET/train/image8.jpg,dangerous fire,dangerous fire,"A race car is engulfed in flames with thick black smoke billowing from it, and a person in protective gear is attempting to extinguish the fire.",1.3209943771362305,True
+FIRENET/train/image9.jpg,dangerous fire,dangerous fire,"Two people are standing near a vehicle engulfed in flames, with visible fire and smoke.",1.074981689453125,True
+FIRENET/train/image10.jpg,controlled fire,no fire,"Two individuals are smoking cigarettes, with one holding a pack of cigarettes and the other smoking. There is no visible fire or smoke in the image.",1.4791548252105713,False
+FIRENET/train/image11.jpg,dangerous fire,dangerous fire,"The image shows a Formula 1 car engulfed in flames, with visible fire and smoke emanating from the vehicle. There are individuals in orange safety gear around the car, indicating an emergency response.",1.5682947635650635,True
+FIRENET/train/image12.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.114302635192871,True
+FIRENET/train/image13.jpg,controlled fire,controlled fire,"A firefighter is using a fire extinguisher to put out a small fire on a grill, with visible flames and smoke.",1.0835227966308594,True
+FIRENET/train/image14.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.1609277725219727,True
+FIRENET/train/image15.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.2547502517700195,True
+FIRENET/train/image16.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and people nearby appear to be reacting to the situation.",1.1644806861877441,True
+FIRENET/train/image17.jpg,dangerous fire,dangerous fire,"A large bus is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.2150044441223145,True
+FIRENET/train/image18.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, and a person on a motorcycle is visible in the background. There are signs of fire and smoke, indicating an uncontrolled fire.",1.5662992000579834,True
+FIRENET/train/image19.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with flames and smoke visible, indicating an uncontrolled fire.",0.9522526264190674,True
+FIRENET/train/image20.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.021519422531128,True
+FIRENET/train/image21.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1688556671142578,True
+FIRENET/train/image22.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke billowing from a vehicle on the road, and a person running away from the fire. There is no visible flame or heat source that is clearly contained, and the situation appears dangerous.",1.7251577377319336,True
+FIRENET/train/image23.jpg,dangerous fire,dangerous fire,A car is on fire with visible flames and thick black smoke.,0.866246223449707,True
+FIRENET/train/image24.jpg,controlled fire,no fire,"The image shows a person lighting a cigarette, with a visible flame and smoke, but no actual fire or smoke is present in the surroundings.",1.4589030742645264,False
+FIRENET/train/image25.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1165895462036133,True
+FIRENET/train/image26.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.114445686340332,True
+FIRENET/train/image27.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and smoke emanating from a trailer, indicating an uncontrolled fire.",1.3438870906829834,True
+FIRENET/train/image28.jpg,controlled fire,no fire,"The image shows a lit candle with wax dripping, and there is no visible flame or smoke.",1.0750410556793213,False
+FIRENET/train/image29.jpg,dangerous fire,dangerous fire,"The image shows a visible flame and thick black smoke, indicating an uncontrolled fire.",1.2430500984191895,True
+FIRENET/train/image30.jpg,controlled fire,dangerous fire,"The image shows a large, intense fire with bright flames and smoke, indicating an uncontrolled situation.",1.1133222579956055,False
+FIRENET/train/image31.jpg,controlled fire,no fire,"The image shows a lit white candle, a purple candle, a bowl with white substance, and a red flower. There is no visible flame or smoke, and the objects appear to be contained and not causing any danger.",1.6162703037261963,False
+FIRENET/train/image32.jpg,dangerous fire,dangerous fire,"The image shows a bus on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1562809944152832,True
+FIRENET/train/image33.jpg,dangerous fire,dangerous fire,"The image shows a house fire with visible flames and smoke, and emergency responders present.",0.9454638957977295,True
+FIRENET/train/image34.jpg,controlled fire,dangerous fire,"A fire is burning with thick black smoke rising into the sky, indicating an uncontrolled situation.",1.098372459411621,False
+FIRENET/train/image35.jpg,controlled fire,dangerous fire,"A woman is looking at a pot on the stove with flames coming out of it, indicating a dangerous fire situation.",1.3737456798553467,False
+FIRENET/train/image36.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and people nearby appear to be reacting to the situation.",1.1520464420318604,True
+FIRENET/train/image37.jpg,controlled fire,no fire,"A small flame in a metal container, with no visible signs of fire or smoke, on a wooden surface.",1.3091788291931152,False
+FIRENET/train/image38.jpg,dangerous fire,dangerous fire,"A large truck is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0800728797912598,True
+FIRENET/train/image39.jpg,controlled fire,controlled fire,"A person is lighting a cigarette with a lighter, and there is a visible flame on the cigarette.",0.996192216873169,True
+FIRENET/train/image40.jpg,no fire,dangerous fire,"The image shows a person carrying a box near what appears to be a fire or smoke, with bright lights and flames visible in the background.",1.1759867668151855,False
+FIRENET/train/image41.jpg,controlled fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke, indicating an uncontrolled fire.",0.9277064800262451,False
+FIRENET/train/image42.jpg,dangerous fire,dangerous fire,"The image shows a large truck with a tank on fire, emitting thick black smoke and flames. There is visible danger and damage, indicating an uncontrolled fire.",1.5580103397369385,True
+FIRENET/train/image43.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, indicating an uncontrolled fire.",1.2796032428741455,True
+FIRENET/train/image44.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, but no signs of fire or smoke.",0.976172924041748,False
+FIRENET/train/image45.jpg,controlled fire,no fire,"A person is holding a lit cigarette and a lighter, with no visible flames or smoke.",1.0472190380096436,False
+FIRENET/train/image46.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke billowing from it, indicating an uncontrolled fire.",1.0534822940826416,True
+FIRENET/train/image47.jpg,controlled fire,no fire,"A lit candle in a glass holder, with a visible flame and warm glow, in a dimly lit environment.",1.1609773635864258,False
+FIRENET/train/image48.jpg,controlled fire,dangerous fire,"A firefighter is actively dealing with a fire on a stove, with flames visible and smoke present.",1.088578462600708,False
+FIRENET/train/image49.jpg,controlled fire,no fire,"A single candle with a visible flame on a plate surrounded by small stones, with a faint symbol of flames in the background. The surface appears dark and textured, with some scattered grains.",1.3044018745422363,False
+FIRENET/train/image50.jpg,dangerous fire,dangerous fire,"The image shows a bridge with traffic congestion, a visible flame, and thick smoke, indicating a dangerous (uncontrolled) fire situation.",1.272083044052124,True
+FIRENET/train/image51.jpg,dangerous fire,dangerous fire,"The image shows a house with a large fire engulfing the upper part, with flames and smoke visible. There is no indication of controlled fire or danger signs.",1.5681774616241455,True
+FIRENET/train/image52.jpg,dangerous fire,dangerous fire,A vehicle is on fire with visible flames and thick smoke.,0.8313601016998291,True
+FIRENET/train/image53.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke billowing from it, indicating an uncontrolled fire.",1.2301487922668457,True
+FIRENET/train/image54.jpg,controlled fire,no fire,"A single lit candle on a wooden surface with a visible flame, no signs of fire or smoke.",1.112851858139038,False
+FIRENET/train/image55.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.1319971084594727,True
+FIRENET/train/image56.jpg,controlled fire,dangerous fire,"The image shows a pot with flames inside, indicating an uncontrolled fire.",1.201289415359497,False
+FIRENET/train/image57.jpg,controlled fire,no fire,"The image shows a lit candle on a plate with other smaller candles, creating a warm, decorative setting. There is no visible flame or smoke, and the environment appears calm.",1.6258726119995117,False
+FIRENET/train/image58.jpg,controlled fire,dangerous fire,A pan on a stove is on fire with visible flames and smoke.,1.0060718059539795,False
+FIRENET/train/image59.jpg,controlled fire,no fire,"The image shows lit candles on a wooden surface, with no visible flames or smoke, and no signs of danger or spread.",1.2294409275054932,False
+FIRENET/train/image60.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke billowing from it, indicating an uncontrolled fire.",1.1572389602661133,True
+FIRENET/train/image61.jpg,controlled fire,dangerous fire,"A chef is standing in a kitchen with flames visibly rising from a pan, indicating an uncontrolled fire.",1.0589146614074707,False
+FIRENET/train/image62.jpg,controlled fire,no fire,"The image shows a lit candle on a decorative holder, with a blurred background featuring green and yellow objects. There is no visible flame or smoke, and the candle appears to be contained.",1.6857504844665527,False
+FIRENET/train/image63.jpg,controlled fire,controlled fire,"The image shows a lit matchstick with smoke rising, indicating a controlled fire.",0.8493390083312988,True
+FIRENET/train/image64.jpg,controlled fire,dangerous fire,"A chef is handling a pan with a large flame erupting from it, indicating an uncontrolled fire situation.",1.010383129119873,False
+FIRENET/train/image65.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2471599578857422,True
+FIRENET/train/image66.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette, with a visible flame in their hand. The background is dark, and there is no visible fire or smoke.",1.3777503967285156,False
+FIRENET/train/image67.jpg,controlled fire,dangerous fire,"The image shows a person holding a lit cigarette with a visible flame, indicating the presence of fire.",1.1288328170776367,False
+FIRENET/train/image68.jpg,dangerous fire,dangerous fire,"A vehicle on a road is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.4436089992523193,True
+FIRENET/train/image69.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, indicating an uncontrolled fire.",1.2834687232971191,True
+FIRENET/train/image70.jpg,dangerous fire,dangerous fire,A van is on fire with flames and thick black smoke billowing from it.,1.0434589385986328,True
+FIRENET/train/image71.jpg,dangerous fire,dangerous fire,"The image shows a visible flame and smoke emanating from the ceiling, indicating an uncontrolled fire.",1.0250720977783203,True
+FIRENET/train/image72.jpg,dangerous fire,dangerous fire,"The image shows a large pile of debris with intense flames and thick smoke, indicating an uncontrolled fire.",1.0421617031097412,True
+FIRENET/train/image73.jpg,dangerous fire,dangerous fire,"A red pickup truck is engulfed in flames with thick black smoke billowing from the vehicle, indicating an uncontrolled fire.",1.234961986541748,True
+FIRENET/train/image74.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing into the night sky, indicating an uncontrolled fire.",1.2380740642547607,True
+FIRENET/train/image75.jpg,controlled fire,no fire,"The image shows a lit candle, a feather quill, and other objects on a table, with no visible flames or smoke.",1.2477872371673584,False
+FIRENET/train/image76.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0858912467956543,True
+FIRENET/train/image77.jpg,controlled fire,dangerous fire,"The image shows a pan with flames, indicating an uncontrolled fire.",0.8956267833709717,False
+FIRENET/train/image78.jpg,dangerous fire,dangerous fire,"The image shows a large plume of black smoke and visible flames near a road, indicating an uncontrolled fire.",1.376577615737915,True
+FIRENET/train/image79.jpg,dangerous fire,dangerous fire,"The image shows a truck engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.2246675491333008,True
+FIRENET/train/image80.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke and intense flames, indicating an uncontrolled fire.",1.1274302005767822,True
+FIRENET/train/image81.jpg,controlled fire,no fire,"A cupcake with a lit candle on a wooden surface, with no visible flames or smoke.",1.081362009048462,False
+FIRENET/train/image82.jpg,controlled fire,no fire,"A single lit candle on a table, with a visible flame and no signs of fire or smoke.",1.2931580543518066,False
+FIRENET/train/image83.jpg,dangerous fire,dangerous fire,"The image shows a person cleaning up a large pile of trash with a fire in the background, emitting smoke and flames.",1.4001147747039795,True
+FIRENET/train/image84.jpg,controlled fire,no fire,"The image shows a lit candle and an open book, with a warm glow from the candle. There is no visible flame or smoke, and the surroundings appear calm and undisturbed.",1.486130952835083,False
+FIRENET/train/image85.jpg,controlled fire,no fire,"A child is sitting in front of a fire contained in a metal pot, with visible flames and some dry materials around it. The background appears to be a dimly lit, possibly cold environment.",1.5300028324127197,False
+FIRENET/train/image86.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.4059767723083496,True
+FIRENET/train/image87.jpg,dangerous fire,dangerous fire,"The image shows a visible flame and smoke, indicating an uncontrolled fire.",1.1816034317016602,True
+FIRENET/train/image88.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.05342435836792,True
+FIRENET/train/image89.jpg,controlled fire,dangerous fire,"The image shows a person running towards a vehicle with visible flames and smoke, indicating an uncontrolled fire.",1.0378360748291016,False
+FIRENET/train/image90.jpg,controlled fire,no fire,"The image shows a glass with a lit candle surrounded by red rose petals and small lit candles, creating a romantic and warm atmosphere. There is no visible flame or smoke, and the setup appears to be carefully arranged.",1.7755787372589111,False
+FIRENET/train/image91.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick smoke, indicating an uncontrolled fire.",0.9671568870544434,True
+FIRENET/train/image92.jpg,dangerous fire,dangerous fire,"Two firefighters are attending to a car engulfed in flames and thick smoke, indicating a dangerous fire situation.",1.319047451019287,True
+FIRENET/train/image93.jpg,controlled fire,no fire,"The image shows a lit candle on an ornate metal stand against a wooden wall, with no visible flames or smoke.",1.178577184677124,False
+FIRENET/train/image94.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette, with a visible flame. There is no indication of fire or smoke in the surroundings, and the person appears to be in a dimly lit environment.",1.529345989227295,False
+FIRENET/train/image95.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick smoke billowing around it, indicating an uncontrolled fire.",1.1279611587524414,True
+FIRENET/train/image96.jpg,controlled fire,controlled fire,"The image shows a cooking area with a pan on the stove emitting flames, indicating a controlled fire.",1.2014350891113281,True
+FIRENET/train/image97.jpg,controlled fire,no fire,"The image shows a lit candle with wrapped gifts in the background. The candle is the only visible flame, and there is no sign of fire or smoke.",1.3322272300720215,False
+FIRENET/train/image98.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.1209087371826172,True
+FIRENET/train/image99.jpg,dangerous fire,dangerous fire,"A fire is visible with flames and smoke, and a vehicle is present near the fire, indicating a dangerous (uncontrolled) fire situation.",1.394603967666626,True
+FIRENET/train/image100.jpg,controlled fire,dangerous fire,"The image shows a person holding a lit cigarette, with a visible flame and smoke.",1.228273868560791,False
+FIRENET/train/image101.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames and thick smoke, indicating an uncontrolled fire.",1.284001111984253,True
+FIRENET/train/image102.jpg,dangerous fire,dangerous fire,"The image shows a street with visible flames and thick smoke, indicating an uncontrolled fire.",1.0949022769927979,True
+FIRENET/train/image103.jpg,dangerous fire,dangerous fire,"A truck is on fire with flames and thick black smoke billowing from it, indicating an uncontrolled fire.",1.262216567993164,True
+FIRENET/train/image104.jpg,dangerous fire,dangerous fire,"The image shows a building with flames and thick black smoke, indicating an uncontrolled fire.",1.5231800079345703,True
+FIRENET/train/image105.jpg,dangerous fire,dangerous fire,"A house is on fire with flames and thick smoke visible, and a firefighter is directing a water hose towards the fire.",1.052659034729004,True
+FIRENET/train/image106.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on fire with visible flames and thick smoke, indicating an uncontrolled fire.",1.1346745491027832,True
+FIRENET/train/image107.jpg,controlled fire,dangerous fire,"The image shows a person holding a lit cigarette, with a visible flame and smoke near their mouth. The background is dark, suggesting it might be nighttime or in a dimly lit area.",1.7167494297027588,False
+FIRENET/train/image108.jpg,dangerous fire,dangerous fire,"The image shows a bus on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2974522113800049,True
+FIRENET/train/image109.jpg,dangerous fire,dangerous fire,"A bus is on fire with flames and smoke visible, and a firefighter is present.",1.2492263317108154,True
+FIRENET/train/image110.jpg,dangerous fire,dangerous fire,"A person is holding a pan with flames inside, and there is smoke around them. The situation appears to be dangerous due to the presence of fire and smoke.",1.4023137092590332,True
+FIRENET/train/image111.jpg,dangerous fire,dangerous fire,"A cat is in the foreground with a car on fire in the background, producing flames and smoke.",1.3224477767944336,True
+FIRENET/train/image112.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with visible smoke, indicating a dangerous (uncontrolled) fire.",1.076833724975586,True
+FIRENET/train/image113.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing from it, and people are gathered around, indicating a dangerous (uncontrolled) fire situation.",1.5392529964447021,True
+FIRENET/train/image114.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette with a visible flame and smoke, but there is no actual fire or smoke present in the surroundings.",1.3178749084472656,False
+FIRENET/train/image115.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames and thick smoke, indicating an uncontrolled fire.",1.0126328468322754,True
+FIRENET/train/image116.jpg,dangerous fire,dangerous fire,"A bus is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0709774494171143,True
+FIRENET/train/image117.jpg,dangerous fire,dangerous fire,"A car is on fire with visible flames and thick black smoke, indicating an uncontrolled fire.",1.0043220520019531,True
+FIRENET/train/image118.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick black smoke, indicating an uncontrolled fire.",0.9447243213653564,True
+FIRENET/train/image119.jpg,dangerous fire,dangerous fire,"The image shows a building with flames and smoke visible on the roof, indicating an uncontrolled fire.",1.036346197128296,True
+FIRENET/train/image120.jpg,dangerous fire,dangerous fire,"The image shows a house with a large fire and thick black smoke, indicating an uncontrolled fire.",1.0352039337158203,True
+FIRENET/train/image121.jpg,dangerous fire,dangerous fire,"A bus is on fire with visible flames and smoke, indicating an uncontrolled fire.",1.0686702728271484,True
+FIRENET/train/image122.jpg,controlled fire,dangerous fire,"The image shows flames and smoke near a road, indicating an uncontrolled fire.",0.9424915313720703,False
+FIRENET/train/image123.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and smoke, indicating an uncontrolled fire.",0.9593946933746338,True
+FIRENET/train/image124.jpg,dangerous fire,dangerous fire,"The image shows a large plume of black smoke, indicating a fire or controlled fire situation.",1.1118929386138916,True
+FIRENET/train/image125.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.180983304977417,True
+FIRENET/train/image126.jpg,controlled fire,no fire,"A couple is sitting at a table with lit candles, smiling and laughing. There are no visible flames or smoke in the image.",1.2441980838775635,False
+FIRENET/train/image127.jpg,dangerous fire,dangerous fire,"The image shows a car on fire with thick black smoke rising, and another car and building with visible flames and damage.",1.1222007274627686,True
+FIRENET/train/image128.jpg,dangerous fire,dangerous fire,"A house is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.252638578414917,True
+FIRENET/train/image129.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke billowing from it, indicating an uncontrolled fire.",1.0732684135437012,True
+FIRENET/train/image130.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick smoke, indicating an uncontrolled fire.",1.2652256488800049,True
+FIRENET/train/image131.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette, with a small flame visible. The background is dimly lit with multiple lights, creating a warm ambiance. There is no visible fire or smoke, and the surroundings appear calm and controlled.",1.7017560005187988,False
+FIRENET/train/image132.jpg,controlled fire,controlled fire,"The image shows a firefighter standing next to a container with a visible flame, indicating a controlled fire situation.",1.0271570682525635,True
+FIRENET/train/image133.jpg,dangerous fire,dangerous fire,"The image shows a Formula 1 car engulfed in flames, with visible fire and smoke emanating from the vehicle. There are individuals in orange safety gear around the car, indicating an emergency response.",1.5639963150024414,True
+FIRENET/train/image134.jpg,controlled fire,no fire,"A white candle with a visible flame on a wooden surface, with no signs of fire or smoke.",1.1041388511657715,False
+FIRENET/train/image135.jpg,controlled fire,no fire,"The image shows a lit candle, an open book, and some chocolate pieces. There is no visible flame or smoke, and the surroundings appear calm.",1.325310230255127,False
+FIRENET/train/image136.jpg,dangerous fire,dangerous fire,"A red pickup truck is engulfed in flames with thick smoke billowing from it, indicating an uncontrolled fire.",1.0753018856048584,True
+FIRENET/train/image137.jpg,controlled fire,no fire,"The image shows lit candles on a decorative wreath, with no visible flames or smoke.",1.2306485176086426,False
+FIRENET/train/image138.jpg,controlled fire,controlled fire,"Two chefs in a kitchen with a visible flame on a pan, indicating a controlled fire situation.",1.2518236637115479,True
+FIRENET/train/image139.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke rising, indicating an uncontrolled fire.",1.133486270904541,True
+FIRENET/train/image140.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0679314136505127,True
+FIRENET/train/image141.jpg,controlled fire,no fire,"The image shows a lit candle, rose petals, and a bowl of grapes, with no visible flames or smoke.",1.0544109344482422,False
+FIRENET/train/image142.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, surrounded by colorful lights. There is no visible fire or smoke, and the candle appears to be contained and safe.",1.3965144157409668,False
+FIRENET/train/image143.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.239816427230835,True
+FIRENET/train/image144.jpg,dangerous fire,dangerous fire,"A person is sitting near a large fire with smoke in the background, wearing a mask and heavy clothing.",1.1438684463500977,True
+FIRENET/train/image145.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2358710765838623,True
+FIRENET/train/image146.jpg,controlled fire,no fire,"A person is smoking a cigarette inside a car, with a lit cigarette visible. The interior lighting suggests a controlled environment, but there is no visible fire or smoke.",1.3915073871612549,False
+FIRENET/train/image147.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",0.9505710601806641,True
+FIRENET/train/image148.jpg,controlled fire,no fire,"The image shows people holding sparklers, which are not actual flames or smoke, and appear to be enjoying a festive occasion. There are no signs of fire or smoke, and the environment looks safe and controlled.",1.5887763500213623,False
+FIRENET/train/image149.jpg,controlled fire,controlled fire,"A man is holding a lit cigarette, and there is a visible flame near his hand, indicating a controlled fire.",1.1633327007293701,True
+FIRENET/train/image150.jpg,controlled fire,no fire,"A single candle in a cup on a table, with a visible flame and warm lighting, but no signs of fire or smoke.",1.2228562831878662,False
+FIRENET/train/image151.jpg,controlled fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.3355920314788818,False
+FIRENET/train/image152.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.1094615459442139,True
+FIRENET/train/image153.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.1247267723083496,True
+FIRENET/train/image154.jpg,dangerous fire,dangerous fire,"A race car is engulfed in flames with thick black smoke billowing from it, and a person in protective gear is attempting to extinguish the fire.",1.248042106628418,True
+FIRENET/train/image155.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3888485431671143,True
+FIRENET/train/image156.jpg,dangerous fire,dangerous fire,"The image shows a visible flame and smoke emanating from a structure, indicating an uncontrolled fire.",1.302626371383667,True
+FIRENET/train/image157.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0927760601043701,True
+FIRENET/train/image158.jpg,dangerous fire,dangerous fire,"A bus is on fire with visible flames and smoke, with people nearby.",0.8994457721710205,True
+FIRENET/train/image159.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke rising, and a fire truck is present in the background. There are signs of fire and smoke, indicating an uncontrolled fire.",1.4249305725097656,True
+FIRENET/train/image160.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke in the background, indicating an uncontrolled fire.",1.0167396068572998,True
+FIRENET/train/image161.jpg,controlled fire,no fire,"The image shows a lit candle, a quill pen, and some parchment, with a visible flame and a small glass holder. There is no indication of fire spreading or danger.",1.2805187702178955,False
+FIRENET/train/image162.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick smoke billowing around it, indicating an uncontrolled fire.",1.0329740047454834,True
+FIRENET/train/image163.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.2888262271881104,True
+FIRENET/train/image164.jpg,dangerous fire,dangerous fire,"The image shows a vehicle with flames and smoke, indicating a dangerous fire situation.",0.9127874374389648,True
+FIRENET/train/image165.jpg,controlled fire,no fire,"A child appears to be asleep next to a lit candle, with a metal bowl and a teal background. There is no visible flame or smoke.",1.45760178565979,False
+FIRENET/train/image166.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, indicating an uncontrolled fire.",0.9886305332183838,True
+FIRENET/train/image167.jpg,dangerous fire,no fire,"The image shows a vehicle on fire with thick black smoke rising into the sky, and emergency vehicles are present. There is no visible flame or heat source contained by people or objects.",1.6189501285552979,False
+FIRENET/train/image168.jpg,controlled fire,no fire,"The image shows a person near a fire, with flames visible on the ground. There is no indication of danger or spread of fire, and the surroundings appear to be a crowd of people.",1.5026450157165527,False
+FIRENET/train/image169.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.2241957187652588,True
+FIRENET/train/image170.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",0.969092845916748,True
+FIRENET/train/image171.jpg,controlled fire,no fire,"A woman is smoking a cigarette, and there is a visible flame from the cigarette. The background includes a piano, and the lighting suggests a dimly lit room. There is no visible fire or smoke elsewhere in the image.",1.632664442062378,False
+FIRENET/train/image172.jpg,controlled fire,no fire,"The image shows a person holding a cigarette near their fingers, with a small flame visible. There is no visible fire or smoke, and the surroundings appear dark.",1.3864431381225586,False
+FIRENET/train/image173.jpg,controlled fire,no fire,"The image shows a person holding a lit object near their mouth, with a visible flame. There is no indication of fire or smoke in the surroundings.",1.3323116302490234,False
+FIRENET/train/image174.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0159306526184082,True
+FIRENET/train/image175.jpg,controlled fire,no fire,"The image shows lit candles with dripping wax, but there is no visible flame or smoke, and the environment appears calm.",1.3854475021362305,False
+FIRENET/train/image176.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.134021520614624,True
+FIRENET/train/image177.jpg,controlled fire,no fire,"Two candles with flames, melting wax, and dripping wax on a blue surface, with no visible flames or smoke.",1.1716535091400146,False
+FIRENET/train/image178.jpg,controlled fire,no fire,"A young child is leaning over a birthday cake with lit candles, and the scene appears to be indoors with a closed door in the background. There are no visible flames or smoke.",1.664064884185791,False
+FIRENET/train/image179.jpg,dangerous fire,dangerous fire,"A large fire is burning with thick smoke and flames visible, indicating an uncontrolled fire.",1.2752621173858643,True
+FIRENET/train/image180.jpg,dangerous fire,dangerous fire,"The image shows two cars engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.182964563369751,True
+FIRENET/train/image181.jpg,dangerous fire,dangerous fire,"A large truck is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.3832485675811768,True
+FIRENET/train/image182.jpg,dangerous fire,dangerous fire,"A garbage truck is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.247361183166504,True
+FIRENET/train/image183.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising from it, indicating an uncontrolled fire.",1.0091135501861572,True
+FIRENET/train/image184.jpg,controlled fire,dangerous fire,"The image shows a pan with flames, indicating an uncontrolled fire.",0.9898664951324463,False
+FIRENET/train/image185.jpg,controlled fire,no fire,"The image shows numerous lit candles, which are clearly contained and not causing any visible signs of danger or spread.",1.0346217155456543,False
+FIRENET/train/image186.jpg,dangerous fire,dangerous fire,A car is on fire with visible flames and thick black smoke.,0.8006715774536133,True
+FIRENET/train/image187.jpg,controlled fire,no fire,"The image shows a candelabrum with lit candles, which are the only visible fire source. There is no visible flame spreading or smoke, and the environment appears calm.",1.6084704399108887,False
+FIRENET/train/image188.jpg,dangerous fire,dangerous fire,"The image shows a car on fire with visible flames and smoke emanating from it, under an overpass. There is no indication of controlled fire or danger signs.",1.3006365299224854,True
+FIRENET/train/image189.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0736455917358398,True
+FIRENET/train/image190.jpg,controlled fire,controlled fire,"A pan with a large flame, indicating a controlled fire situation.",1.1201236248016357,True
+FIRENET/train/image191.jpg,dangerous fire,dangerous fire,A car is on fire with flames and thick smoke rising into the air.,1.0044476985931396,True
+FIRENET/train/image192.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a city street, with thick smoke billowing out.",0.9899210929870605,True
+FIRENET/train/image193.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0103745460510254,True
+FIRENET/train/image194.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.1595180034637451,True
+FIRENET/train/image195.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3990635871887207,True
+FIRENET/train/image196.jpg,dangerous fire,dangerous fire,"A red bus is engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.0441780090332031,True
+FIRENET/train/image197.jpg,controlled fire,controlled fire,"The image shows a cooking scene with flames visible in a pan, indicating a controlled fire.",1.2425379753112793,True
+FIRENET/train/image198.jpg,controlled fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing into the night sky, indicating an uncontrolled fire.",1.2353899478912354,False
+FIRENET/train/image199.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.0702528953552246,True
+FIRENET/train/image200.jpg,dangerous fire,dangerous fire,"A fire truck is actively spraying water on a burning vehicle on a highway, with visible flames and thick smoke.",1.0666370391845703,True
+FIRENET/train/image201.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1702661514282227,True
+FIRENET/train/image202.jpg,controlled fire,controlled fire,"The image shows several lit candles with visible flames, but there is no smoke or signs of fire spread. The candles are contained and appear to be in a controlled environment.",1.4111695289611816,True
+FIRENET/train/image203.jpg,controlled fire,dangerous fire,"A frying pan on a stove with flames visible, accompanied by decorative sun-shaped objects on the counter.",1.0238978862762451,False
+FIRENET/train/image204.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.0764508247375488,True
+FIRENET/train/image205.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette near a body of water with lights in the background. There is no visible flame or smoke, and the setting appears calm.",1.4048798084259033,False
+FIRENET/train/image206.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.3624579906463623,True
+FIRENET/train/image207.jpg,dangerous fire,dangerous fire,"A red sports car is engulfed in flames with thick black smoke billowing from the vehicle, indicating an uncontrolled fire.",1.2193293571472168,True
+FIRENET/train/image208.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing into the air, and a person is standing nearby.",1.1595025062561035,True
+FIRENET/train/image209.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.1203327178955078,True
+FIRENET/train/image210.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, but there is no sign of fire or smoke.",1.2995460033416748,False
+FIRENET/train/image211.jpg,controlled fire,no fire,"A lit candle on a table with scattered autumn leaves, with a visible flame and no signs of fire or smoke.",1.1623706817626953,False
+FIRENET/train/image212.jpg,dangerous fire,dangerous fire,"A bus is engulfed in flames with thick black smoke rising, indicating an uncontrolled fire.",1.2797884941101074,True
+FIRENET/train/image213.jpg,controlled fire,no fire,"Three lit candles with visible flames, no signs of fire or smoke.",1.149918794631958,False
+FIRENET/train/image214.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick black smoke, indicating an uncontrolled fire.",1.278566837310791,True
+FIRENET/train/image215.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke and flames, indicating an uncontrolled fire.",1.0975728034973145,True
+FIRENET/train/image216.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on a road with a large fire and smoke visible in the distance, indicating an uncontrolled fire.",1.0594487190246582,True
+FIRENET/train/image217.jpg,controlled fire,no fire,"A single candle on a plate with a visible flame, creating a small amount of light in a dark environment.",1.3336536884307861,False
+FIRENET/train/image218.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and thick smoke, indicating an uncontrolled fire.",1.0718867778778076,True
+FIRENET/train/image219.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0725140571594238,True
+FIRENET/train/image220.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a road, with thick black smoke rising into the air. There are multiple vehicles on the road, and the scene appears to be dangerous due to the fire.",1.5527143478393555,True
+FIRENET/train/image221.jpg,controlled fire,no fire,"The image shows an open book with two lit candles, creating a warm, dimly lit atmosphere. There is no visible flame or smoke, and the setting appears to be calm and controlled.",1.493361234664917,False
+FIRENET/train/image222.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke billowing from it, and there is visible flames at the bottom. A person is using a fire extinguisher nearby.",1.2480249404907227,True
+FIRENET/train/image223.jpg,controlled fire,dangerous fire,"The image shows a fire with visible flames and smoke, with firefighters actively working to control it.",1.2766029834747314,False
+FIRENET/train/image224.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0520100593566895,True
+FIRENET/train/image225.jpg,dangerous fire,dangerous fire,"A house is on fire with visible flames and thick smoke, indicating an uncontrolled fire.",1.262251853942871,True
+FIRENET/train/image226.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke rising, indicating an uncontrolled fire.",1.145139455795288,True
+FIRENET/train/image227.jpg,controlled fire,no fire,"A woman is holding a lighter and a small object near her mouth, suggesting she might be lighting something. There is no visible flame or smoke in the image.",1.3683061599731445,False
+FIRENET/train/image228.jpg,controlled fire,controlled fire,"A person is lighting a cigarette with a lighter, and there is a visible flame.",1.0351319313049316,True
+FIRENET/train/image229.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames on a road, with bright orange flames and thick smoke billowing into the night sky.",1.1339168548583984,True
+FIRENET/train/image230.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick smoke billowing around it, indicating an uncontrolled fire.",1.1424415111541748,True
+FIRENET/train/image231.jpg,dangerous fire,dangerous fire,"The image shows a house with a bright, intense flame on the roof, indicating an uncontrolled fire.",1.0442562103271484,True
+FIRENET/train/image232.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.2276332378387451,True
+FIRENET/train/image233.jpg,dangerous fire,dangerous fire,"The image shows a vehicle with flames and smoke, indicating a dangerous fire situation.",0.9231727123260498,True
+FIRENET/train/image234.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3885514736175537,True
+FIRENET/train/image235.jpg,controlled fire,controlled fire,"A person is using a fire extinguisher to put out a small fire in a pan on the stove, with flames visible.",1.3829219341278076,True
+FIRENET/train/image236.jpg,dangerous fire,dangerous fire,"The image shows a truck on a highway with a large fire and thick black smoke, indicating an uncontrolled fire.",1.075467824935913,True
+FIRENET/train/image237.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.056736946105957,True
+FIRENET/train/image238.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke and flames, indicating an uncontrolled fire.",0.9888210296630859,True
+FIRENET/train/image239.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.045830488204956,True
+FIRENET/train/image240.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2314558029174805,True
+FIRENET/train/image241.jpg,controlled fire,no fire,A red candle with a visible flame on a Christmas tree with pine needles and a small red ornament.,1.0941481590270996,False
+FIRENET/train/image242.jpg,controlled fire,no fire,"The image shows lit candles on a table, with no visible flames or smoke, and a warm, dim ambiance.",1.1627838611602783,False
+FIRENET/train/image243.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke rising from it, indicating an uncontrolled fire.",1.1872546672821045,True
+FIRENET/train/image244.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.0146405696868896,True
+FIRENET/train/image245.jpg,controlled fire,dangerous fire,"The image shows a large flame, indicating the presence of fire, with smoke rising from it. The surroundings appear to be an open area with no signs of danger or spread, but there is a visible flame.",1.5931365489959717,False
+FIRENET/train/image246.jpg,controlled fire,no fire,"A young child is looking at lit candles on a table, with a decorated Christmas tree in the background. The scene appears to be indoors, and there are no visible flames or smoke.",1.46531081199646,False
+FIRENET/train/image247.jpg,controlled fire,controlled fire,"The image shows a fireplace with a visible flame, and there are wrapped gifts nearby, indicating a festive setting. The fire is contained and appears to be in use, but there are no signs of danger or spread.",1.7714545726776123,True
+FIRENET/train/image248.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing into the air, and firefighters are actively using a hose to extinguish the fire. There is visible damage to the car and surrounding area, indicating an uncontrolled fire.",1.6448662281036377,True
+FIRENET/train/image249.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke visible, and a firefighter is present near the vehicle.",1.3292219638824463,True
+FIRENET/train/image250.jpg,dangerous fire,dangerous fire,"The image shows a visible flame with bright, intense light, indicating the presence of fire.",0.956413984298706,True
+FIRENET/train/image251.jpg,controlled fire,no fire,"The image shows a lit candle, a bottle, and some papers on a table. There is a visible flame from the candle, but no signs of fire or smoke. The setting appears calm and controlled.",1.5414237976074219,False
+FIRENET/train/image252.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1745703220367432,True
+FIRENET/train/image253.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on a road with a large fire and thick black smoke in the background, indicating an uncontrolled fire.",1.0723118782043457,True
+FIRENET/train/image254.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.114428997039795,True
+FIRENET/train/image255.jpg,controlled fire,dangerous fire,"The image shows a person holding a lit cigarette, with a visible flame and smoke.",1.045654296875,False
+FIRENET/train/image256.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2338802814483643,True
+FIRENET/train/image257.jpg,controlled fire,no fire,"A single red rose and a lit candle on a dark surface, with no visible flames or smoke.",1.2726361751556396,False
+FIRENET/train/image258.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.3691191673278809,True
+FIRENET/train/image259.jpg,dangerous fire,dangerous fire,"The image shows a bus on fire with flames and smoke visible, indicating an uncontrolled fire.",0.9851539134979248,True
+FIRENET/train/image260.jpg,controlled fire,no fire,"A woman is smoking a cigarette near lit candles, and a man is looking at her. There are no visible flames or smoke in the image.",1.307859182357788,False
+FIRENET/train/image261.jpg,controlled fire,no fire,"The image shows a decorative lantern with a lit candle, surrounded by pink roses. There is no visible flame or smoke, and the setting appears calm and controlled.",1.189530611038208,False
+FIRENET/train/image262.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and firefighters are present near the vehicle.",0.9850597381591797,True
+FIRENET/train/image263.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and a firefighter is present.",1.2347214221954346,True
+FIRENET/train/image264.jpg,controlled fire,controlled fire,"The image shows a person lighting a cigarette, with a visible flame and smoke near the cigarette.",1.2502870559692383,True
+FIRENET/train/image265.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with visible fire and smoke, indicating an uncontrolled fire.",1.1392271518707275,True
+FIRENET/train/image266.jpg,controlled fire,no fire,"The image shows a lit candle, a feather quill, and a rolled scroll, with no visible flames or smoke.",1.1819934844970703,False
+FIRENET/train/image267.jpg,dangerous fire,dangerous fire,"A vehicle on the road is on fire, with visible flames and smoke.",0.8997149467468262,True
+FIRENET/train/image268.jpg,controlled fire,no fire,"The image shows a table with lit candles, rose petals, and decorative crystals, but no visible flames or smoke.",1.077449083328247,False
+FIRENET/train/image269.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.0308561325073242,True
+FIRENET/train/image270.jpg,controlled fire,no fire,"A person is lighting a cigarette with a lighter, and smoke is visible rising from the cigarette.",1.0831947326660156,False
+FIRENET/train/image271.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1263206005096436,True
+FIRENET/train/image272.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3516082763671875,True
+FIRENET/train/image273.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames with thick smoke billowing into the night sky, indicating an uncontrolled fire.",1.370790958404541,True
+FIRENET/train/image274.jpg,controlled fire,no fire,"A single lit candle on a table with a blurred background, indicating no actual fire or smoke is present.",1.120774745941162,False
+FIRENET/train/image275.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.0841546058654785,True
+FIRENET/train/image276.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2526319026947021,True
+FIRENET/train/image277.jpg,controlled fire,no fire,"The image shows lit candles on a decorative tray, with no visible flames or smoke, and no signs of danger or spread.",1.4025187492370605,False
+FIRENET/train/image278.jpg,dangerous fire,dangerous fire,"The image shows a vehicle with flames and smoke emanating from its side, indicating an uncontrolled fire.",1.3401050567626953,True
+FIRENET/train/image279.jpg,dangerous fire,dangerous fire,"The image shows a car on fire with flames and thick smoke, and a person lying on the ground near the fire. There are people nearby, and the situation appears to be dangerous due to the fire and smoke.",1.838118553161621,True
+FIRENET/train/image280.jpg,dangerous fire,dangerous fire,"A bus is on fire with flames and smoke visible, and people are trying to control the situation.",1.0292484760284424,True
+FIRENET/train/image281.jpg,controlled fire,controlled fire,"The image shows a lit candle, which is a controlled fire, with no signs of danger, spread, panic, or damage.",1.2538650035858154,True
+FIRENET/train/image282.jpg,controlled fire,dangerous fire,"A fire is visible with flames and thick smoke, and firefighters are present, indicating an ongoing dangerous fire situation.",1.1835901737213135,False
+FIRENET/train/image283.jpg,dangerous fire,dangerous fire,"A yellow school bus is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.2272732257843018,True
+FIRENET/train/image284.jpg,controlled fire,no fire,"The image shows a man sitting at a table with a lit candle, and there is no visible fire or smoke.",1.329712152481079,False
+FIRENET/train/image285.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke rising from a pile of debris, indicating an uncontrolled fire.",1.352358102798462,True
+FIRENET/train/image286.jpg,dangerous fire,dangerous fire,"A bus is on fire with thick black smoke billowing out, indicating an uncontrolled fire.",0.9815869331359863,True
+FIRENET/train/image287.jpg,dangerous fire,dangerous fire,"The image shows a person sitting on the side of a road with a large fire burning in the background, producing flames and smoke.",1.4182336330413818,True
+FIRENET/train/image288.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and thick black smoke, indicating an uncontrolled fire.",1.2647793292999268,True
+FIRENET/train/image289.jpg,dangerous fire,dangerous fire,"A vehicle on a road is engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.4205067157745361,True
+FIRENET/train/image290.jpg,controlled fire,no fire,"A person is lighting a cigarette, and there is a visible flame, but no actual fire or smoke is present.",1.045938491821289,False
+FIRENET/train/image291.jpg,controlled fire,no fire,"The image shows a dining area with lit candles, decorative flowers, and a glass candle holder. There is no visible flame or smoke, and the setting appears calm and controlled.",1.5902438163757324,False
+FIRENET/train/image292.jpg,dangerous fire,dangerous fire,"The image shows a person playing a drum with a large fire and thick black smoke in the background, indicating an uncontrolled fire.",1.2351477146148682,True
+FIRENET/train/image293.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with visible flames and smoke, and a fire truck is nearby.",1.0599074363708496,True
+FIRENET/train/image294.jpg,dangerous fire,dangerous fire,"Three firefighters are actively working to extinguish a vehicle fire, with visible flames and thick smoke.",1.0825223922729492,True
+FIRENET/train/image295.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air. There is visible fire and smoke, indicating an uncontrolled fire.",1.2627816200256348,True
+FIRENET/train/image296.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with smoke rising, and a person appears to be working near the fire. There is no visible containment or management of the fire, and the surrounding area shows signs of damage.",1.6252031326293945,True
+FIRENET/train/image297.jpg,dangerous fire,dangerous fire,"A white pickup truck is engulfed in flames with thick black smoke billowing from it, and a person is seen near the vehicle.",1.088515281677246,True
+FIRENET/train/image298.jpg,dangerous fire,dangerous fire,"A blue car is on fire with flames and thick black smoke billowing from it, indicating an uncontrolled fire.",1.0676352977752686,True
+FIRENET/train/image299.jpg,controlled fire,no fire,"The image shows lit candles and decorative items, but no visible flames or smoke.",0.9951009750366211,False
+FIRENET/train/image300.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke rising from it, indicating an uncontrolled fire.",1.081789255142212,True
+FIRENET/train/image301.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke billowing around it, indicating an uncontrolled fire.",1.1786892414093018,True
+FIRENET/train/image302.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick smoke and flames, and firefighters are actively fighting the blaze. People are observing the situation, and there is visible danger and urgency.",1.4061009883880615,True
+FIRENET/train/image303.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1199052333831787,True
+FIRENET/train/image304.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.2874701023101807,True
+FIRENET/train/image305.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing into the air, and emergency vehicles are present, indicating a dangerous (uncontrolled) fire situation.",1.3080546855926514,True
+FIRENET/train/image306.jpg,dangerous fire,dangerous fire,"The image shows a bicycle on the ground with a visible flame and smoke, indicating an uncontrolled fire.",1.025177001953125,True
+FIRENET/train/image307.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1120593547821045,True
+FIRENET/train/image308.jpg,dangerous fire,dangerous fire,"A large fire is burning on the side of a building, with flames and thick smoke visible.",0.9230356216430664,True
+FIRENET/train/image309.jpg,dangerous fire,dangerous fire,"The image shows a large plume of black smoke rising from a fire, with a police vehicle and a stop sign visible. There is no visible flame or heat source, but the smoke indicates an ongoing fire.",1.7887425422668457,True
+FIRENET/train/image310.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on fire with thick black smoke rising from it, indicating an uncontrolled fire.",1.1427767276763916,True
+FIRENET/train/image311.jpg,dangerous fire,dangerous fire,"The image shows a person raising their arm in front of a large fire with thick smoke and flames visible. There is no indication of a contained or managed fire, and the surroundings appear damaged.",1.5144357681274414,True
+FIRENET/train/image312.jpg,dangerous fire,dangerous fire,"A green bus is on fire with thick black smoke rising from it, indicating an uncontrolled fire.",1.1162159442901611,True
+FIRENET/train/image313.jpg,dangerous fire,dangerous fire,"A woman is holding a piece of fabric near a pan with flames, indicating a potential fire hazard.",1.1454341411590576,True
+FIRENET/train/image314.jpg,controlled fire,no fire,"Two glass jars with lit candles on a wooden surface, with light coming through a window in the background.",1.1315925121307373,False
+FIRENET/train/image315.jpg,dangerous fire,dangerous fire,"The image shows a vehicle with visible flames and smoke, indicating an uncontrolled fire.",0.9657838344573975,True
+FIRENET/train/image316.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0663421154022217,True
+FIRENET/train/image317.jpg,dangerous fire,no fire,"The image shows a building with a visible flame and bright light, indicating a fire. There is no smoke or signs of danger, and the surroundings appear wet, suggesting recent rain. The situation is not dangerous or uncontrolled.",1.670558214187622,False
+FIRENET/train/image318.jpg,dangerous fire,dangerous fire,"A firefighter is standing near a fire, with visible flames and smoke in the background.",1.2463655471801758,True
+FIRENET/train/image319.jpg,dangerous fire,dangerous fire,"The image shows a visible flame and thick smoke, indicating an uncontrolled fire.",0.9341135025024414,True
+FIRENET/train/image320.jpg,controlled fire,no fire,"An open book with a lit candle on a wooden table, with a rosary lying next to it. The candle is the only visible flame, and there is no smoke or signs of fire spread.",1.55653715133667,False
+FIRENET/train/image321.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, next to a pickup truck.",1.0666561126708984,True
+FIRENET/train/image322.jpg,controlled fire,no fire,"The image shows a person holding a lighter with a small flame, but there is no visible fire or smoke.",0.9890708923339844,False
+FIRENET/train/image323.jpg,dangerous fire,dangerous fire,"A truck is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0657970905303955,True
+FIRENET/train/image324.jpg,dangerous fire,dangerous fire,"A postal vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1108648777008057,True
+FIRENET/train/image325.jpg,controlled fire,controlled fire,A close-up of a lit lighter with a visible flame against a dark background.,0.9308116436004639,True
+FIRENET/train/image326.jpg,dangerous fire,dangerous fire,"The image shows a house with flames and thick smoke, indicating an uncontrolled fire.",1.069462537765503,True
+FIRENET/train/image327.jpg,controlled fire,dangerous fire,"The image shows a pile of vegetation or forest fire with visible flames and smoke, indicating an active fire situation.",1.36049485206604,False
+FIRENET/train/image328.jpg,dangerous fire,dangerous fire,"A double-decker bus is engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.1571006774902344,True
+FIRENET/train/image329.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.2710285186767578,True
+FIRENET/train/image330.jpg,controlled fire,no fire,"A person is holding a torch with a visible flame directed towards their face, in an industrial setting with equipment and cables in the background. There is no visible fire or smoke.",1.2754499912261963,False
+FIRENET/train/image331.jpg,controlled fire,no fire,A single yellow candle with a lit flame on a wooden surface.,0.9580910205841064,False
+FIRENET/train/image332.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.252166986465454,True
+FIRENET/train/image333.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, surrounded by flowers. There is no visible fire or smoke, and the candle appears to be contained and safe.",1.2374298572540283,False
+FIRENET/train/image334.jpg,controlled fire,no fire,"The image shows a lit candle on a wooden surface with a cross nearby. There is no visible flame or smoke, and the setting appears calm.",1.4946296215057373,False
+FIRENET/train/image335.jpg,controlled fire,dangerous fire,"A pan on a stove is engulfed in flames, with bright orange and yellow flames visible. There is no smoke or signs of danger, and the surroundings appear to be a kitchen.",1.3356239795684814,False
+FIRENET/train/image336.jpg,controlled fire,no fire,"The image shows a table with a lit lantern and a glass lantern, but there is no visible fire or smoke.",1.1711084842681885,False
+FIRENET/train/image337.jpg,controlled fire,no fire,"The image shows two lit candles on a table with a piece of bread in front of them. There are no visible flames or smoke, and the candles appear to be contained and managed.",1.4743731021881104,False
+FIRENET/train/image338.jpg,controlled fire,no fire,"The image shows lit candles with visible flames, but there is no indication of fire spreading or danger. The candles are contained and appear to be in a controlled environment.",1.573176383972168,False
+FIRENET/train/image339.jpg,controlled fire,dangerous fire,"The image shows a large, intense fire with bright flames and smoke, indicating an uncontrolled situation.",1.1209611892700195,False
+FIRENET/train/image340.jpg,controlled fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke rising into the air, indicating an uncontrolled fire.",1.0830469131469727,False
+FIRENET/train/image341.jpg,dangerous fire,dangerous fire,"The image shows two cars engulfed in flames with thick smoke, indicating an uncontrolled fire.",1.0989232063293457,True
+FIRENET/train/image342.jpg,controlled fire,no fire,"The image shows a person lighting a cigarette with a lighter, and another person smoking a cigarette. There is a visible flame and smoke, but no actual fire or danger signs.",1.3405709266662598,False
+FIRENET/train/image343.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",0.9522898197174072,True
+FIRENET/train/image344.jpg,dangerous fire,dangerous fire,"The image shows a red pickup truck engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1474089622497559,True
+FIRENET/train/image345.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and smoke emanating from a building, indicating an uncontrolled fire.",1.0582244396209717,True
+FIRENET/train/image346.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.391021490097046,True
+FIRENET/train/image347.jpg,controlled fire,no fire,"The image shows lit candles with visible flames, but no signs of fire or smoke. There are no flames spreading or people reacting with fear or urgency.",1.3161890506744385,False
+FIRENET/train/image348.jpg,controlled fire,no fire,"The image shows a person lighting a cigarette, with visible smoke and a flame, but no signs of fire or smoke indicating a dangerous situation.",1.4542865753173828,False
+FIRENET/train/image349.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke visible, indicating an uncontrolled fire.",0.9936203956604004,True
+FIRENET/train/image350.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with visible fire and smoke, indicating an uncontrolled fire.",1.1389245986938477,True
+FIRENET/train/image351.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0540285110473633,True
+FIRENET/train/image352.jpg,controlled fire,no fire,"The image shows a person holding a cigarette, and there are no visible flames or smoke.",1.0516400337219238,False
+FIRENET/train/image353.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.1642529964447021,True
+FIRENET/train/image354.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with bright orange and yellow flames, and thick smoke rising into the air. There are no visible signs of controlled fire management or containment.",1.4732353687286377,True
+FIRENET/train/image355.jpg,controlled fire,controlled fire,"The image shows lit candles and various crystals, with visible flames and smoke, indicating a controlled fire.",1.2995929718017578,True
+FIRENET/train/image356.jpg,dangerous fire,dangerous fire,"The image shows a building with a large fire burning, with flames and smoke visible. There are people observing the situation, and the fire appears to be uncontrolled.",1.4169163703918457,True
+FIRENET/train/image357.jpg,dangerous fire,dangerous fire,A vehicle is on a highway with a large fire and thick black smoke visible in the distance.,0.932314395904541,True
+FIRENET/train/image358.jpg,controlled fire,no fire,"The image shows two lit candles and a mirror on a dark surface, with no visible flames or smoke.",1.3003714084625244,False
+FIRENET/train/image359.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with visible smoke, and two individuals standing nearby, suggesting a dangerous (uncontrolled) fire situation.",1.3000102043151855,True
+FIRENET/train/image360.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke billowing from it, and a firefighter is actively working to control the fire.",1.1543066501617432,True
+FIRENET/train/image361.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and emergency lights are present.",1.0507793426513672,True
+FIRENET/train/image362.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on fire with thick smoke rising into the sky, indicating an uncontrolled fire.",1.3213715553283691,True
+FIRENET/train/image363.jpg,controlled fire,no fire,"The image shows two lit candles, with one in a glass holder and the other in a metal holder. The scene is dimly lit, and there is no visible flame or smoke.",1.3665857315063477,False
+FIRENET/train/image364.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with firefighters and emergency vehicles nearby, indicating a dangerous (uncontrolled) fire situation.",1.1436772346496582,True
+FIRENET/train/image365.jpg,controlled fire,controlled fire,"A firefighter is actively dealing with a fire, with flames visible near the oven.",0.8453340530395508,True
+FIRENET/train/image366.jpg,dangerous fire,dangerous fire,"A window is engulfed in flames with thick smoke rising from it, indicating an uncontrolled fire.",1.2955322265625,True
+FIRENET/train/image367.jpg,dangerous fire,dangerous fire,"The image shows a house with flames and thick smoke, indicating an active fire situation.",1.0741877555847168,True
+FIRENET/train/image368.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, indicating an uncontrolled fire.",1.2923774719238281,True
+FIRENET/train/image369.jpg,dangerous fire,dangerous fire,"A truck is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0768203735351562,True
+FIRENET/train/image370.jpg,dangerous fire,dangerous fire,"The image shows a fire with visible flames and smoke, indicating an uncontrolled fire.",1.0651836395263672,True
+FIRENET/train/image371.jpg,dangerous fire,dangerous fire,"A house is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.2492623329162598,True
+FIRENET/train/image372.jpg,dangerous fire,dangerous fire,"The image shows a red bus engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.4351625442504883,True
+FIRENET/train/image373.jpg,controlled fire,no fire,"A person is smoking a cigarette, and the background shows a cityscape during sunset. There are no visible flames or smoke in the image.",1.2722728252410889,False
+FIRENET/train/image374.jpg,dangerous fire,dangerous fire,"The image shows firefighters actively working to extinguish a vehicle engulfed in flames and thick smoke, indicating an ongoing dangerous fire situation.",1.2510206699371338,True
+FIRENET/train/image375.jpg,dangerous fire,dangerous fire,"A FedEx truck is engulfed in flames with thick black smoke billowing from the vehicle, indicating an uncontrolled fire.",1.3904595375061035,True
+FIRENET/train/image376.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick smoke, indicating an uncontrolled fire.",1.0752003192901611,True
+FIRENET/train/image377.jpg,controlled fire,dangerous fire,"A pan on a stove is engulfed in flames, with smoke rising, indicating an uncontrolled fire.",0.973299503326416,False
+FIRENET/train/image378.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, but there is no sign of fire or smoke.",1.3005344867706299,False
+FIRENET/train/image379.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.060774803161621,True
+FIRENET/train/image380.jpg,controlled fire,controlled fire,"An open book with a visible flame behind it, suggesting a controlled fire.",0.9849529266357422,True
+FIRENET/train/image381.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1592628955841064,True
+FIRENET/train/image382.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with visible smoke, indicating an uncontrolled fire.",0.9955184459686279,True
+FIRENET/train/image383.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames at night, with bright flames and smoke visible.",1.0946478843688965,True
+FIRENET/train/image384.jpg,controlled fire,no fire,"The image shows an older man holding a lit cigarette, with a blurred background featuring lights. There is no visible flame or smoke, and the setting appears calm.",1.260047197341919,False
+FIRENET/train/image385.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",0.9519233703613281,True
+FIRENET/train/image386.jpg,dangerous fire,dangerous fire,"A truck is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0742433071136475,True
+FIRENET/train/image387.jpg,controlled fire,dangerous fire,"The image shows a bus on fire with visible flames and smoke, and a police car is present, indicating a dangerous (uncontrolled) fire situation.",1.5257785320281982,False
+FIRENET/train/image388.jpg,controlled fire,controlled fire,"A small glass candle with a visible flame on a table, with blurred background lights, indicating a controlled fire.",1.0405609607696533,True
+FIRENET/train/image389.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke rising, and a person in uniform is observing the scene.",1.1407301425933838,True
+FIRENET/train/image390.jpg,controlled fire,no fire,"A small candle with a visible flame on a cloth surface, with no signs of fire or smoke.",1.0994529724121094,False
+FIRENET/train/image391.jpg,dangerous fire,dangerous fire,"A fire is visible with flames and smoke coming from a dumpster, and a firefighter is present near the truck.",1.063847303390503,True
+FIRENET/train/image392.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on fire with flames and thick smoke, indicating an uncontrolled fire.",1.0980429649353027,True
+FIRENET/train/image393.jpg,controlled fire,no fire,"The image shows several lit candles on a dark surface, with visible flames and warm lighting. There is no indication of fire spreading or danger.",1.4572134017944336,False
+FIRENET/train/image394.jpg,controlled fire,no fire,"The image shows lit candles and decorative elements, but no actual fire or smoke is present.",1.2375421524047852,False
+FIRENET/train/image395.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.1636977195739746,True
+FIRENET/train/image396.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising, and there are cars stopped on the road.",1.0181050300598145,True
+FIRENET/train/image397.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, indicating an uncontrolled fire.",1.0975093841552734,True
+FIRENET/train/image398.jpg,dangerous fire,dangerous fire,"A truck on a highway is engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.3700485229492188,True
+FIRENET/train/image399.jpg,dangerous fire,dangerous fire,"A pot on the stove is on fire, with flames visibly rising from it.",1.216334581375122,True
+FIRENET/train/image400.jpg,dangerous fire,dangerous fire,"The image shows a truck with visible flames and thick smoke, indicating an uncontrolled fire.",1.26151704788208,True
+FIRENET/train/image401.jpg,dangerous fire,dangerous fire,"A car is on fire with thick smoke billowing out, indicating an uncontrolled fire.",1.2580225467681885,True
+FIRENET/train/image402.jpg,dangerous fire,dangerous fire,"A red car is on fire with flames and smoke visible, and a person is kneeling near the fire. A crowd is watching from behind barriers.",1.2173564434051514,True
+FIRENET/train/image403.jpg,dangerous fire,dangerous fire,"The image shows a large truck with a visible flame and thick smoke, indicating an uncontrolled fire.",1.3015697002410889,True
+FIRENET/train/image404.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and smoke, indicating an active fire situation.",1.0515191555023193,True
+FIRENET/train/image405.jpg,dangerous fire,dangerous fire,"The image shows a large fire with thick black smoke and flames, indicating an uncontrolled fire.",1.0964546203613281,True
+FIRENET/train/image406.jpg,dangerous fire,dangerous fire,"The image shows a person holding a flaming object near a burning bus, with smoke rising in the background. Emergency vehicles are present, indicating a situation that could involve fire or smoke.",1.37184739112854,True
+FIRENET/train/image407.jpg,dangerous fire,dangerous fire,"A fire is visibly burning on the side of a fire truck, with flames and smoke emanating from the vehicle, and a firefighter nearby.",1.2928152084350586,True
+FIRENET/train/image408.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick black smoke visible, indicating an uncontrolled fire.",0.9965939521789551,True
+FIRENET/train/image409.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick black smoke, indicating an uncontrolled fire.",1.2870173454284668,True
+FIRENET/train/image410.jpg,controlled fire,no fire,"A person is holding a lit cigarette, creating a small flame, with smoke visible. The background is dark, suggesting it might be nighttime.",1.1711392402648926,False
+FIRENET/train/image411.jpg,controlled fire,controlled fire,"Three chefs in a kitchen with a visible flame on a cooking appliance, indicating a controlled fire situation.",1.2769196033477783,True
+FIRENET/train/image412.jpg,dangerous fire,dangerous fire,"A white pickup truck is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.3022382259368896,True
+FIRENET/validation/image1.jpg,controlled fire,controlled fire,"The image shows a brick oven with a visible fire inside, characterized by bright flames and intense heat.",0.9946391582489014,True
+FIRENET/validation/image2.jpg,dangerous fire,dangerous fire,"A truck is on fire with thick black smoke billowing from the back, indicating an uncontrolled fire.",1.0404186248779297,True
+FIRENET/validation/image3.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with visible smoke, and emergency lights from a police vehicle are visible in the background. There is no indication of danger or spread of fire, and the situation appears to be an uncontrolled fire.",1.736781358718872,True
+FIRENET/validation/image4.jpg,dangerous fire,dangerous fire,"The image shows a vehicle on fire with visible flames and smoke, indicating an uncontrolled fire.",1.096787691116333,True
+FIRENET/validation/image5.jpg,controlled fire,no fire,"The image shows a lit candle inside a glass container, with a visible flame and no signs of smoke or danger.",1.1612727642059326,False
+FIRENET/validation/image6.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with visible fire and smoke, indicating an uncontrolled fire.",0.9979488849639893,True
+FIRENET/validation/image7.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0518152713775635,True
+FIRENET/validation/image8.jpg,controlled fire,no fire,"The image shows three lit candles on a dark background with green pears and a plant nearby. There are no visible flames or smoke, and the candles appear to be contained.",1.2636942863464355,False
+FIRENET/validation/image9.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0557234287261963,True
+FIRENET/validation/image10.jpg,dangerous fire,dangerous fire,"The image shows a truck engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.1190457344055176,True
+FIRENET/validation/image11.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with bright orange and yellow flames, thick smoke, and emergency lights visible in the background. There is no indication of danger or spread of fire, and the situation appears to be an uncontrolled fire.",1.9431555271148682,True
+FIRENET/validation/image12.jpg,controlled fire,no fire,"The image shows a person lighting a cigarette, with a visible flame and a small flame near the cigarette. The background is dark, and there are no signs of fire or smoke.",1.349571704864502,False
+FIRENET/validation/image13.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke billowing from the back, indicating an uncontrolled fire.",1.321174144744873,True
+FIRENET/validation/image14.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke billowing into the air, indicating an uncontrolled fire.",1.1070823669433594,True
+FIRENET/validation/image15.jpg,controlled fire,no fire,"The image shows lit candles on a table, with no visible flames or smoke, and no signs of danger or spread.",1.1824452877044678,False
+FIRENET/validation/image16.jpg,dangerous fire,dangerous fire,"The image shows a bus engulfed in flames with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.2278103828430176,True
+FIRENET/validation/image17.jpg,no fire,dangerous fire,"The image shows a scene with smoke and a fire in the distance, with people sitting on the ground observing the situation.",1.3897266387939453,False
+FIRENET/validation/image18.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing into the sky, indicating an uncontrolled fire.",1.0386927127838135,True
+FIRENET/validation/image19.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames at night, with bright orange and yellow flames visible, indicating an uncontrolled fire.",1.104567050933838,True
+FIRENET/validation/image20.jpg,controlled fire,no fire,"The image shows an open book on a table with lit candles, creating a warm, cozy atmosphere. There are no visible flames or smoke, and the setting appears to be controlled and serene.",1.673356294631958,False
+FIRENET/validation/image21.jpg,dangerous fire,dangerous fire,"A bus is on fire with flames visible, indicating an uncontrolled fire.",0.9063680171966553,True
+FIRENET/validation/image22.jpg,controlled fire,dangerous fire,"A person is holding a lit match, with a visible flame and smoke.",1.0130014419555664,False
+FIRENET/validation/image23.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.0105969905853271,True
+FIRENET/validation/image24.jpg,dangerous fire,dangerous fire,"A car is on fire at a gas station, with flames and smoke visible.",1.0309953689575195,True
+FIRENET/validation/image25.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke rising, indicating an uncontrolled fire.",1.2559785842895508,True
+FIRENET/validation/image26.jpg,controlled fire,no fire,"A single lit candle with a visible flame, with a blurred background that does not show any signs of fire or smoke.",1.1849279403686523,False
+FIRENET/validation/image27.jpg,dangerous fire,dangerous fire,"The image shows a large, bright fire with thick smoke, indicating an uncontrolled fire.",1.07423734664917,True
+FIRENET/validation/image28.jpg,controlled fire,no fire,"A single candle with a visible flame against a dark background, with no signs of fire or smoke.",1.2802844047546387,False
+FIRENET/validation/image29.jpg,dangerous fire,dangerous fire,"The image shows a car on fire with flames and smoke visible, and a person lying on the ground near the burning motorcycle.",1.4136173725128174,True
+FIRENET/validation/image30.jpg,dangerous fire,dangerous fire,"The image shows a truck with flames coming out of its cargo area, indicating an active fire. There is visible smoke and emergency response vehicles present, suggesting a dangerous (uncontrolled) fire situation.",1.5381038188934326,True
+FIRENET/validation/image31.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with significant smoke, indicating an uncontrolled fire.",1.2784223556518555,True
+FIRENET/validation/image32.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0613799095153809,True
+FIRENET/validation/image33.jpg,controlled fire,no fire,"A single candle on a piece of paper with a pentagram drawn on it, with no visible flames or smoke.",0.990581750869751,False
+FIRENET/validation/image34.jpg,dangerous fire,dangerous fire,"A large truck is engulfed in flames with thick smoke billowing from the scene, indicating an uncontrolled fire.",1.3653295040130615,True
+FIRENET/validation/image35.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and thick smoke, indicating an uncontrolled fire.",0.9713475704193115,True
+FIRENET/validation/image36.jpg,dangerous fire,dangerous fire,"A red vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3653442859649658,True
+FIRENET/validation/image37.jpg,dangerous fire,dangerous fire,"A red sports car is engulfed in flames with thick black smoke billowing from the vehicle, indicating an uncontrolled fire.",1.2293248176574707,True
+FIRENET/validation/image38.jpg,controlled fire,no fire,"Three lit candles on a table with a blurred green background, accompanied by a glass of water and a napkin.",0.9937734603881836,False
+FIRENET/validation/image39.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, indicating an uncontrolled fire.",1.0511157512664795,True
+FIRENET/validation/image40.jpg,dangerous fire,dangerous fire,"A school bus is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3652331829071045,True
+FIRENET/validation/image41.jpg,controlled fire,no fire,"A chocolate cake with a lit candle on a white cake stand, with no visible flames or smoke.",1.0942003726959229,False
+FIRENET/validation/image42.jpg,dangerous fire,dangerous fire,"The image shows a building with visible flames and smoke, indicating an uncontrolled fire.",0.9502830505371094,True
+FIRENET/validation/image43.jpg,controlled fire,no fire,"A person is holding a lighter with a visible flame, but there is no indication of fire or smoke in the surroundings.",1.0835494995117188,False
+FIRENET/validation/image44.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",0.9723572731018066,True
+FIRENET/validation/image45.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with firefighters nearby, indicating an uncontrolled fire.",0.9510128498077393,True
+FIRENET/validation/image46.jpg,controlled fire,no fire,"The image shows a lit candle, an inkwell, and some paper, with a visible flame and a lit candle. There is no indication of fire spreading or danger.",1.4118988513946533,False
+FIRENET/validation/image47.jpg,controlled fire,no fire,"A single lit candle on a table with a visible flame, no signs of fire or smoke.",0.972102165222168,False
+FIRENET/validation/image48.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing out, indicating an uncontrolled fire.",1.0836148262023926,True
+FIRENET/validation/image49.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, and a person appears to be running away from the fire. There is no visible containment or management of the fire, and the surroundings suggest danger and potential damage.",1.6710002422332764,True
+FIRENET/validation/image50.jpg,controlled fire,no fire,"The image shows a red candle with a lit flame, surrounded by a green wreath. There are no signs of fire or smoke, and the candle is contained within the wreath.",1.4702129364013672,False
+FIRENET/validation/image51.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and smoke visible, and people are gathered nearby.",0.9508464336395264,True
+FIRENET/validation/image52.jpg,controlled fire,no fire,"A person is holding a flaming object, creating a large flame, but there is no visible fire or smoke in the surroundings.",1.3877546787261963,False
+FIRENET/validation/image53.jpg,dangerous fire,dangerous fire,"A fire is visible with flames and smoke emanating from a blue pickup truck, and a firefighter is present near the vehicle.",1.4121098518371582,True
+FIRENET/validation/image54.jpg,dangerous fire,dangerous fire,"A car is engulfed in flames with thick smoke billowing around it, indicating an uncontrolled fire.",1.0398125648498535,True
+FIRENET/validation/image55.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air, and there is visible damage to the surrounding area. The presence of fire and smoke indicates a dangerous (uncontrolled) fire situation.",1.5707061290740967,True
+FIRENET/validation/image56.jpg,controlled fire,no fire,"The image shows a candelabrum with lit candles, and an open book on a table. There is no visible flame or smoke, and the setting appears to be calm and controlled.",1.4952223300933838,False
+FIRENET/validation/image57.jpg,controlled fire,no fire,"The image shows a hand lighting a candle, with a lit candle and various autumnal decorations on a table. There is no visible flame or smoke, and the scene appears calm and controlled.",1.4945671558380127,False
+FIRENET/validation/image58.jpg,dangerous fire,dangerous fire,"A pickup truck is engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.3246450424194336,True
+FIRENET/validation/image59.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air, indicating an uncontrolled fire.",1.4084339141845703,True
+FIRENET/validation/image60.jpg,controlled fire,no fire,"The image shows a table with a plate of bread, a book, a candle, and a small cup, with string lights in the background. There are no visible flames or smoke.",1.4706668853759766,False
+FIRENET/validation/image61.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick smoke billowing from it, indicating an uncontrolled fire.",1.0379247665405273,True
+FIRENET/validation/image62.jpg,dangerous fire,dangerous fire,"A firefighter is actively battling a large fire engulfing a house, with flames and thick smoke visible.",1.2993769645690918,True
+FIRENET/validation/image63.jpg,dangerous fire,dangerous fire,"The image shows a visible fire with flames and smoke, indicating an uncontrolled fire.",0.9509766101837158,True
+FIRENET/validation/image64.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick smoke, indicating an uncontrolled fire.",1.0764899253845215,True
+FIRENET/validation/image65.jpg,controlled fire,no fire,"The image shows lit candles on a table, with a vase of flowers and wine glasses, indicating a decorative setting without any visible flames or smoke.",1.2962226867675781,False
+FIRENET/validation/image66.jpg,controlled fire,no fire,"The image shows a person holding a lit cigarette, with a visible flame and smoke. The surroundings are dark, and there are no signs of fire or danger.",1.54026198387146,False
+FIRENET/validation/image67.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.1058776378631592,True
+FIRENET/validation/image68.jpg,dangerous fire,dangerous fire,"A vehicle is engulfed in flames with thick black smoke billowing from it, indicating an uncontrolled fire.",1.0600194931030273,True
+FIRENET/validation/image69.jpg,controlled fire,no fire,"A person is lighting a cigarette, with no visible flames or smoke.",0.9619283676147461,False
+FIRENET/validation/image70.jpg,controlled fire,no fire,"The image shows a lit candle on a tray with decorative items, including a small succulent plant and a box. There is no visible flame or smoke, and the surroundings appear calm.",1.472414493560791,False
+FIRENET/validation/image71.jpg,controlled fire,no fire,"The image shows a lit candle with a visible flame, but there is no indication of fire or smoke.",1.1165828704833984,False
+FIRENET/validation/image72.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke rising, indicating an uncontrolled fire.",1.0512137413024902,True
+FIRENET/validation/image73.jpg,dangerous fire,dangerous fire,"The image shows a house engulfed in flames with thick smoke billowing from the roof, indicating an uncontrolled fire.",1.1057405471801758,True
+FIRENET/validation/image74.jpg,dangerous fire,dangerous fire,"A car is on fire with flames and thick smoke visible, indicating an uncontrolled fire.",1.2536594867706299,True
+FIRENET/validation/image75.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with visible smoke, and emergency lights from a police vehicle are visible in the background. There is no indication of danger or spread of fire, and the situation appears to be an uncontrolled fire.",1.731121301651001,True
+FIRENET/validation/image76.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with smoke billowing around it, indicating an uncontrolled fire.",1.1600844860076904,True
+FIRENET/validation/image77.jpg,dangerous fire,dangerous fire,"The image shows a car engulfed in flames with thick smoke, and a person appears to be running away from the fire. There is no visible containment or management of the fire, and the surroundings suggest danger and potential damage.",1.6674017906188965,True
+FIRENET/validation/image78.jpg,dangerous fire,dangerous fire,"The image shows a vehicle engulfed in flames with thick black smoke billowing into the air. A police car is nearby, and a person is standing close to the fire, indicating a dangerous situation.",1.456540822982788,True
+FIRENET/validation/image79.jpg,controlled fire,dangerous fire,"The image shows a person holding a lit cigarette, with a visible flame and smoke.",1.0506560802459717,False
+FIRENET/validation/image80.jpg,controlled fire,no fire,"The image shows a person holding a lit matchstick, creating a flame, but there is no visible fire or smoke in the surroundings.",1.4303295612335205,False
+FIRENET/validation/image81.jpg,controlled fire,dangerous fire,"The image shows a kitchen with a visible flame and smoke, indicating an uncontrolled fire.",1.2541794776916504,False
+FIRENET/validation/image82.jpg,dangerous fire,dangerous fire,"The image shows a house engulfed in flames with thick smoke billowing out, indicating an uncontrolled fire.",1.059450626373291,True
+FIRENET/validation/image83.jpg,dangerous fire,dangerous fire,"A car is on fire with thick black smoke billowing from it, indicating an uncontrolled fire.",1.3009490966796875,True
+FIRENET/validation/image84.jpg,controlled fire,no fire,"A red candle with a lit flame is placed on a surface with decorative sprigs, and there is no visible fire or smoke.",1.0580475330352783,False
+FIRENET/validation/image85.jpg,controlled fire,no fire,"The image shows a person lighting candles on a dining table, with lit candles and a decorative arrangement. There is no visible fire or smoke, and the setting appears calm and controlled.",1.4492213726043701,False
+FIRENET/validation/image86.jpg,controlled fire,no fire,"A young boy is blowing out a candle on a birthday cake, with a lit candle visible. The room appears to be well-lit, and there are no signs of fire or smoke.",1.5105078220367432,False
+FIRENET/validation/image87.jpg,dangerous fire,dangerous fire,"A vehicle is on fire with thick black smoke rising into the sky, and emergency vehicles are present.",1.0268218517303467,True
+FIRENET/validation/image88.jpg,controlled fire,no fire,"The image shows three lit candles on a decorative tray with Christmas ornaments, with a Christmas tree in the background. There are no visible flames or smoke, and the setting appears to be indoors.",1.4081289768218994,False
+FIRENET/validation/image89.jpg,dangerous fire,dangerous fire,"The image shows a large fire with flames and thick black smoke emanating from a vehicle, indicating an uncontrolled fire.",1.1058332920074463,True
+FIRENET/validation/image90.jpg,controlled fire,no fire,"The image shows five lit candles with visible flames, but there is no smoke or signs of danger. The candles are placed on a wooden surface with cushions in the background.",1.2346820831298828,False
