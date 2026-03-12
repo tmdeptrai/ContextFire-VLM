@@ -5,7 +5,8 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support, con
 # Load the CSV file
 # df = pd.read_csv("vlm_finetune/qwen2.5_vl_3B_org.csv")
 # df = pd.read_csv("vlm_finetune/qwen2.5_vl_3B_FINE_TUNED_results.csv")
-df = pd.read_csv("results_2_stage/internvl3-2B_2_stage_results.csv")
+df = pd.read_csv("vlm_finetune_results/internvl3_2B_FINE_TUNED_WEIGHTED_results.csv")
+# df = pd.read_csv("vlm_finetune_results/internvl3_2B_FINE_TUNED_results.csv")
 df = df.dropna(subset=['true_label', 'predicted_label', 'inference_time'])  # Remove rows with missing values
 
 # Extract relevant columns
