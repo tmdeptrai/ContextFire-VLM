@@ -72,7 +72,7 @@ def process_sample(sample):
         return "error", "", 0.0
 
 # 4. Load Data and Run Inference
-df = pd.read_csv('labels_v2.csv')
+df = pd.read_csv('FIRENET.csv')
 predictions, captions, inference_times, ground_truth = [], [], [], []
 
 for idx, row in df.iterrows():
@@ -82,6 +82,9 @@ for idx, row in df.iterrows():
     captions.append(caption)
     inference_times.append(inf_time)
     ground_truth.append(row['label'])
+    
+    if idx%10==0:
+        print(f"Progress: {idx}")
 
 # 5. Save and Analyze Results
 results_df = pd.DataFrame({

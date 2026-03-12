@@ -6,5 +6,4 @@ model_weights
 qwen2-7b-instruct-trl-sft-NEW
 qwen2-7b-instruct-trl-sft-VISION-ENCODER
 SYN_FIRE
-FIRENET
 internvl3-2B-finetune
