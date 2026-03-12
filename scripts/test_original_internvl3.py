@@ -30,8 +30,6 @@ user_query = """Summarize this situation in the image, look for signs of fire an
 
 - **Dangerous (uncontrolled) fire**: The fire appears out of control or harmful to the environment or people. Signs include flames spreading to flammable materials (e.g., curtains, furniture, bedding), thick smoke near the ceiling, charring, visible structural damage, or people reacting with fear or urgency. The context suggests potential or ongoing property damage or bodily harm.
 
-Add a brief explanation for your choice of label in the caption if necessary.
-
 Respond only this json format:
 
 { "caption": "...", "label": "no fire"|"controlled fire"|"dangerous fire" }
