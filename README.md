@@ -98,3 +98,17 @@ This project integrates and utilizes datasets from the following sources, strict
 *   **`main.py`**: The primary script for loading and merging fine-tuned model weights.
 *   **`requirements.txt`**: Lists all project dependencies.
 *   **`.csv` files**: Various label files such as `FIRENET.csv`, `SYN_FIRE.csv`, and `labels_v2.csv`, which are critical for model training and evaluation.
+
+
+## Citation
+
+If you need to use this, please cite the paper: https://doi.org/10.1038/s41598-026-48743-5
+
+```
+GIANG, A.T., DOAN, N.Q., TRAN, M.D. et al. Towards efficient context-aware classification with compact VLM architectures: indoor fire case study. 
+Sci Rep (2026). https://doi.org/10.1038/s41598-026-48743-5
+```
+
+Licence Applicable to the Article:
+Creative Commons licence CC BY: This licence permits use, duplication, adaptation, distribution and reproduction in any medium or
+format, as long as appropriate credit is given to the original author(s) and the source.
